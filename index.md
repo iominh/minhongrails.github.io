@@ -9,6 +9,7 @@ Read my [resume](https://www.linkedin.com/in/minhnguyen9).
 
 Follow me on [Twitter](https://twitter.com/MinhOnGrails).
 
+See my [code](https://github.com/minhongrails).
 
 Send me an email [minhongrails@gmail.com](minhongrails@gmail.com) 
 
