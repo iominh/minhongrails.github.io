@@ -3,13 +3,13 @@ layout: page
 title: Welcome to minh.io
 ---
 
-Hey there! I'm <b>Minh Nguyen</b> and this is my blog. 
+Hey there! I'm <b>Minh Nguyen</b> and this is my blog.
 
-Read my [resume](https://www.linkedin.com/in/minhnguyen9).
+Read my <a href="https://www.linkedin.com/in/minhnguyen9" target="_blank">resume</a>
 
-Follow me on [Twitter](https://twitter.com/MinhOnGrails).
+Follow me on <a href="https://twitter.com/MinhOnGrails" target="_blank">Twitter</a>
 
-See my [code](https://github.com/minhongrails).
+See my <a href="https://github.com/minhongrails" target="_blank">code</a>
 
 Send me an email [minhongrails@gmail.com](minhongrails@gmail.com) 
 
