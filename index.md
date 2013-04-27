@@ -11,7 +11,7 @@ Follow me on <a href="https://twitter.com/MinhOnGrails" target="_blank">Twitter<
 
 See my <a href="https://github.com/minhongrails" target="_blank">code</a>
 
-Send me an email [minhongrails@gmail.com](minhongrails@gmail.com) 
+Send me an email <a href="mailto:minhongrails@gmail.com" target="_blank">minhongrails@gmail.com</a>
 
 ### Posts
 
