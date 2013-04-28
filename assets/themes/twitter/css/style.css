@@ -74,7 +74,51 @@
 }
 
 .topnavbar {
-    margin-top: 1%;
-    margin-bottom: 1%;
     text-align: right;
+    margin-top: 1em;
+    margin-bottom: 1.5em; 
+}
+
+.rightnav {
+    float: right;
+    margin-bottom: 1.5em;
+}
+
+.form {
+    margin: 0;
+}
+
+.navbar-search {
+    position: relative;
+}
+
+.navbar-search .search-query {
+    padding-left: 29px;
+}
+
+.navbar-search .icon-search {
+    position: absolute;
+    top: 7px;
+    left: 11px;
+    background-image: url("http://twitter.github.com/bootstrap/assets/img/glyphicons-halflings.png");
+}
+
+.search-query-sharp {
+    padding-right: 14px;
+    padding-right: 4px 9;
+    padding-left: 14px;
+    padding-left: 4px 9;
+    margin-bottom: 0;
+    /*    -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;*/
+}
+
+.clickable {
+    cursor: hand; 
+    cursor: pointer;
+}
+
+.hiddenDiv {
+    display : none;
 }

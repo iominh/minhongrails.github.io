@@ -35,8 +35,12 @@
     </head>
 
     <body>
-        <div class="container-narrow topnavbar">
-            Search
+        <div id="searchDiv" class="container-narrow topnavbar hiddenDiv">
+            <div class="container-narrow topnavbar ">
+                <input id="searchBox" type="text" class="search-query span3" placeholder="">
+                <div id="searchButton" class="btn">Search</div>
+                <div id="cancelSearchLink" class="btn btn-small">x</div>
+            </div>
         </div>
 
         <div class="navbar">
@@ -49,7 +53,7 @@
                             <a href="/archive.html">Archive</a>
                         </li>
                         <li>
-                            <a href="/search.html">
+                            <a id="searchLink" class="clickable">
                                 <i class="icon-search"></i>
                             </a>
                         </li>
