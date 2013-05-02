@@ -11,6 +11,13 @@ $(document).ready(function() {
         }
     }
     
+    function performSearch() {
+        var query = $('#searchBox').val();
+        if (query !== "") {
+            window.location.replace("/search.html?tags=" + query);
+        }
+    }
+    
     $("#searchLink").click(function() {
         flipSearch();
     });
@@ -18,5 +25,22 @@ $(document).ready(function() {
     $("#cancelSearchLink").click(function() {
         flipSearch();
     });
+    
+    $("#searchButton").click(function() {
+        performSearch();
+    });
+    
+    $('#searchBox').keypress(function (e) {
+        if (e.which == 13) {
+            performSearch();
+        }
+    });
+    
+    $.get('/autocomplete.json', function(data) {
+        $('#searchBox').typeahead({
+            source: data
+        })  
+    });
+
         
 });

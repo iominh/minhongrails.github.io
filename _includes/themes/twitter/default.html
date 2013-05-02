@@ -15,7 +15,7 @@
         <![endif]-->
 
         <!-- Le styles -->
-        <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+        <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.3.1.min.css" rel="stylesheet">
         <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
         <link rel="icon" type="image/ico" href="{{ BASE_PATH }}/robot.ico">
@@ -37,7 +37,7 @@
     <body>
         <div id="searchDiv" class="container-narrow topnavbar hiddenDiv">
             <div class="container-narrow topnavbar ">
-                <input id="searchBox" type="text" class="search-query span3" placeholder="">
+                <input id="searchBox" type="text" data-provide="typeahead" class="search-query span3" data-items="4" placeholder="">
                 <div id="searchButton" class="btn">Search</div>
                 <div id="cancelSearchLink" class="btn btn-small">x</div>
             </div>
@@ -62,6 +62,8 @@
             </div>
         </div>
 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+
         <div class="container-narrow">
 
             <div class="content">
@@ -75,7 +77,6 @@
         </div>
 
         {% include JB/analytics %}
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
         {% include JB/javascript %}
     </body>
 </html>

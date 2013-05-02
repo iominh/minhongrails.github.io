@@ -1,1 +1,4 @@
-<script type="text/javascript">{% include js/main.js %}</script>
+<script type="text/javascript">
+{% include js/bootstrap.min.js %}
+{% include js/main.js %}
+</script>
