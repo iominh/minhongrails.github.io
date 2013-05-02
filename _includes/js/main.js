@@ -36,11 +36,9 @@ $(document).ready(function() {
         }
     });
     
-    $.get('/autocomplete.json', function(data) {
-        var dataObject = JSON.parse(data);
-        
+    $.get('/autocomplete.json', function(data) {        
         $('#searchBox').typeahead({
-            source: dataObject
+            source: data
         })  
     });
 
