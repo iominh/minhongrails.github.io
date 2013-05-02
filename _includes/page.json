@@ -1,0 +1,11 @@
+{
+  "title"    : "{{ page.title }}",
+  "category" : "{{ page.category }}",
+  "tags"     : [{% for tag in page.tags %}"{{ tag }}",{% endfor %} null],
+  "href"     : "{{ page.url }}",
+  "date"     : {
+    "day"   : "{{ page.date | date: "%d" }}",
+    "month" : "{{ page.date | date: "%B" }}",
+    "year"  : "{{ page.date | date: "%Y" }}"
+  }
+}
