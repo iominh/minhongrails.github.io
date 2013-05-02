@@ -2,7 +2,7 @@
 ---
 [
   {% for post in site.posts %}
-    {% include ac_post.json %},
+    {% include ac_post.json %}
   {% endfor %}
-  null
+  ""
 ]

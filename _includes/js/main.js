@@ -37,8 +37,10 @@ $(document).ready(function() {
     });
     
     $.get('/autocomplete.json', function(data) {
+        var dataObject = JSON.parse(data);
+        
         $('#searchBox').typeahead({
-            source: data
+            source: dataObject
         })  
     });
 
