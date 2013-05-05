@@ -1,9 +1,9 @@
 blog
 ======
 
-Source code for my blog www.minh.io. Feel free to use it however you like
-but please update the google analytics and disqus settings in _config.yml as well
-as the google webmaster verification googlebb049deae73e476f.html.
+Source code for my blog www.minh.io. Feel free to use it however you like per
+the MIT license below but pplease update the google analytics and disqus settings in 
+_config.yml as well as the google webmaster verification googlebb049deae73e476f.html.
 
 To deploy this website, simply run "jekyll --server" from the root of this 
 directory and navigate to localhost:4000. Otherwise, deploy the static contents 
