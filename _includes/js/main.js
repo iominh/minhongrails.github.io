@@ -35,12 +35,21 @@ $(document).ready(function() {
             performSearch();
         }
     });
-
+    
+    // local
+//    $.get('/autocomplete.json', function(data) {
+//        var dataObject = JSON.parse(data);
+//        
+//        $('#searchBox').autocomplete({
+//            lookup : dataObject
+//        });
+//    });
+    
+    // production
     $.get('/autocomplete.json', function(data) {
-        var dataObject = JSON.parse(data);
         
         $('#searchBox').autocomplete({
-            lookup : dataObject
+            lookup : data
         });
     });
         
