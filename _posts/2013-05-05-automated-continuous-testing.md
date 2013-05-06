@@ -18,4 +18,6 @@ allows me to run tests immediately after I commit my code to github, which is
 brilliant. I was able to get it up and running after 10-15 minutes by following
 their getting-started guide: http://about.travis-ci.org/docs/user/getting-started/
 
+You can check out my current repo here: https://travis-ci.org/minhongrails/DataStructures
+
 I'll update this post again once I've tried them out for a while. 
