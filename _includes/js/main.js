@@ -35,12 +35,13 @@ $(document).ready(function() {
             performSearch();
         }
     });
-    
-    $.get('/autocomplete.json', function(data) {        
-        $('#searchBox').typeahead({
-            source: data
-        })  
-    });
 
+    $.get('/autocomplete.json', function(data) {
+        var dataObject = JSON.parse(data);
+        
+        $('#searchBox').autocomplete({
+            lookup : dataObject
+        });
+    });
         
 });

@@ -1,4 +1,5 @@
 <script type="text/javascript">
 {% include js/bootstrap.min.js %}
+{% include js/jquery.autocomplete.js %}
 {% include js/main.js %}
 </script>
