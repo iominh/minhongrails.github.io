@@ -7,14 +7,14 @@ _config.yml as well as the google webmaster verification googlebb049deae73e476f.
 
 To deploy this website, simply run "jekyll --server" from the root of this 
 directory and navigate to localhost:4000. Otherwise, deploy the static contents 
-from the generated _site directory.
+from the generated _site directory by running "jekyll"
 
 This site was built on the work of many open source projects, which I'm
 very thankful for:
 
 * Twitter bootstrap
 * Jekyll
-* Jekyll Bootstrap
+* Jekyll Bootstrap (http://jekyllbootstrap.com/)
 * Robot icon (http://findicons.com/icon/40514/robot?id=415175), Tets (Rodrigo Tejero)
 * Jekyll search (http://alexpearce.me/2012/04/simple-jekyll-searching/), http://alexpearce.me/
 
