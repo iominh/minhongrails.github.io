@@ -7,7 +7,7 @@ _config.yml as well as the google webmaster verification googlebb049deae73e476f.
 
 This site was built using Jekyll Bootstrap, so in order to compile the static generated
 site, simply run "jekyll serve" from the root of this directory and navigate
-the localhost:4000. Alternatively, deploy the generated _site directory that
+to localhost:4000. Alternatively, deploy the _site directory that
 is created after running "jekyll"
 
 Common jekyll commands include:

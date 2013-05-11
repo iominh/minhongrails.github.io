@@ -3,15 +3,15 @@ layout: post
 title: "Automated continuous testing"
 description: ""
 category: 
-tags: [continuous integration, testing, travis CI, github, selenium, TDD, test driven development, jenkins, cruisecontrol]
+tags: [continuous integration, testing, travis CI, github, selenium, TDD, test driven development, jenkins]
 ---
 {% include JB/setup %}
 
-As a web developer, it's always been tedious having to test my websites after
-every change. In fact, it becomes impossible without a dedicated testing team
-once you have many features since there's a billion different browsers
-and devices to test. Luckily in the Java world there's free tools like 
-Jenkins, Selenium, and CruiseControl.
+Testing across many different platforms and browsers has always been a challenge.
+It actually becomes impossible without some form of automated testing since there's
+so many different browsers and devices to test. Luckily, in the Java world there's
+free tools like Jenkins and Selenium which allow for automated GUI testing after
+code changes are committed.
 
 Recently I looked into a free continuous integration host called Travis CI that
 allows me to run tests immediately after I commit my code to github, which is 
