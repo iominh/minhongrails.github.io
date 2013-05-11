@@ -9,6 +9,12 @@ To deploy this website, simply run "jekyll --server" from the root of this
 directory and navigate to localhost:4000. Otherwise, deploy the static contents 
 from the generated _site directory by running "jekyll"
 
+Common jekyll commands include:
+
+* Create a post: rake post title="Hello World"
+* Create a page: rake page name="about.md"
+* Create a nested page: rake page name="pages/about.md"
+
 This site was built on the work of many open source projects, which I'm
 very thankful for:
 
