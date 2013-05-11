@@ -22,8 +22,8 @@ experiences with various source control systems I've used:
         <td>My current favorite SCM. I love its speed, simplicity, and distributed
 nature (you can work offline and any local repo can take over a remote repo). 
 Currently I use <a href="http://www.bitbucket.org" target="_blank">www.bitbucket.org</a> 
-for private repo  hosting and <a href="http://www.github.com" target="_blank">www.github.com</a>
- for shared repo hosting.</td>
+for private repo hosting and <a href="http://www.github.com" target="_blank">www.github.com</a>
+ for public repo hosting.</td>
     </tr>
 
     <tr>
