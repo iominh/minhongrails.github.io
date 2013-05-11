@@ -2,12 +2,13 @@ blog
 ======
 
 Source code for my blog www.minh.io. Feel free to use it however you like per
-the MIT license below but pplease update the google analytics and disqus settings in 
+the license requirements below but please update the google analytics and disqus settings in 
 _config.yml as well as the google webmaster verification googlebb049deae73e476f.html.
 
-To deploy this website, simply run "jekyll serve" from the root of this 
-directory and navigate to localhost:4000. Otherwise, deploy the static contents 
-from the generated _site directory by running "jekyll"
+This site was built using Jekyll Bootstrap, so in order to compile the static generated
+site, simply run "jekyll serve" from the root of this directory and navigate
+the localhost:4000. Alternatively, deploy the generated _site directory that
+is created after running "jekyll"
 
 Common jekyll commands include:
 
@@ -18,14 +19,12 @@ Common jekyll commands include:
 This site was built on the work of many open source projects, which I'm
 very thankful for:
 
-* Twitter bootstrap
-* Jekyll
-* Jekyll Bootstrap (http://jekyllbootstrap.com/)
-* Robot icon (http://findicons.com/icon/40514/robot?id=415175), Tets (Rodrigo Tejero)
-* Jekyll search (http://alexpearce.me/2012/04/simple-jekyll-searching/), http://alexpearce.me/
+* [Twitter bootstrap 2.3.1](http://twitter.github.io/bootstrap) - Apache V2 License
+* [Jekyll](https://github.com/mojombo/jekyll) - MIT License
+* [Jekyll Bootstrap](http://jekyllbootstrap.com/) - MIT License
+* [Robot favicon](http://findicons.com/icon/40514/robot?id=415175) by Rodrgo Tejero, Freeware Non-commercial
+* Jekyll search (http://alexpearce.me/2012/04/simple-jekyll-searching, http://alexpearce.me)
 
-Since all of the above products are open sourced and MIT as far as I know,
-you are free to use and modify my code according to the MIT license below.
 If you do end up using any of the code please let me know though since I'll
 be interested to see what others create (minhongrails@gmail.com).
 
