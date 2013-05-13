@@ -13,7 +13,7 @@ Nonetheless, below are my findings:
 
 <h2>Benefits</h2>
 
-So first off, why even create a company? Ideally it would be to create 
+First off, why even create a company? Ideally it would be to create 
 great products and services to create happy customers and users. However,
 there are operating costs and risks, so other reasons to formally incorporate
 a company include:
