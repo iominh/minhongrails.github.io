@@ -36,15 +36,6 @@ $(document).ready(function() {
         }
     });
     
-    // local
-//    $.get('/autocomplete.json', function(data) {
-//        var dataObject = JSON.parse(data);
-//        
-//        $('#searchBox').autocomplete({
-//            lookup : dataObject
-//        });
-//    });
-    
     // production
     $.get('/autocomplete.json', function(data) {
         
@@ -53,4 +44,7 @@ $(document).ready(function() {
         });
     });
         
+        
+    // highlight code
+    hljs.initHighlightingOnLoad();
 });
