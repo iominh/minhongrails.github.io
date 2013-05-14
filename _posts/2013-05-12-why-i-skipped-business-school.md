@@ -29,13 +29,13 @@ what you like on your own and spend that $80k towards an actual business?
 Anyway, I have nothing against MBAs and those who choose to attend business 
 school since everyone's situation is different. For instance, if my MBA
 was all paid for and from a top 5 business school then my decision might've
-changed. Nonetheless, I found some amusing MBA jokes over the years:
+changed. Nonetheless, I found one amusing MBA video:
 <br>
 <center>
 <object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/F5VzTVD2dS8&amp;hl=en_US&amp;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/F5VzTVD2dS8&amp;hl=en_US&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
 </center>
 <br>
-Some other amusing quotes (again I have nothing against MBAs):
+Another amusing quote (again I have nothing against MBAs):
 
 <ul>
 <li>"When valuing a startup, add $500k for every engineer, and subtract $250k for every MBA." (Aaron Patzer, Founder of Mint)</li>
