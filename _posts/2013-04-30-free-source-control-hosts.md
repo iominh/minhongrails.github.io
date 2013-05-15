@@ -36,4 +36,12 @@ great as an SVN host.
         </td>
     </tr>
 
+    <tr>
+        <td>Rational Clearcase</td>
+        <td>My least favorite source control system. I found it to be very slow
+compared to Git but I believe it works great for integration with other Rational
+tools like ClearQuest for change control management.
+        </td>
+    </tr>
+
 </table>

@@ -27,9 +27,9 @@ topics that interest you. Furthermore, instead of spending $80k, why not learn
 what you like on your own and spend that $80k towards an actual business?
 
 Anyway, I have nothing against MBAs and those who choose to attend business 
-school since everyone's situation is different. For instance, if my MBA
-was all paid for and from a top 5 business school then my decision might've
-changed. Nonetheless, I found one amusing MBA video:
+school since everyone's situation is different. For instance, if my MBA was
+all paid for or from a top 10 business school then it would've been a harder
+decision, although the time cost still would've been expensive. Nonetheless, I found one amusing MBA video:
 <br>
 <center>
 <object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/F5VzTVD2dS8&amp;hl=en_US&amp;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/F5VzTVD2dS8&amp;hl=en_US&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
