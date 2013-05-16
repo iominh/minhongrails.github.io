@@ -9,7 +9,7 @@ tags: [careers, MBA, business school]
 
 In this post I wanted to describe why I skipped business school and an MBA.
 Several years ago I had an opportunity to attend business school.
-I prepared for months, took the GMAT and asked for recommendations.
+I prepared for months, took the GMAT and asked for letters of recommendation.
 It was a great feeling to receive the acceptance letter. However, in all my
 enthusiasm, I didn't carefully consider the two great costs of going to
 business school: time and money.
@@ -22,7 +22,7 @@ against attending.
 
 I believe school teaches you skills far more valuable than the actual subject
 material: the ability to learn and the discipline to meet your goals. While
-attending graduate school I also learned that you learn much better studying
+attending graduate school I also discovered that you learn much better studying
 topics that interest you. Furthermore, instead of spending $80k, why not learn
 what you like on your own and spend that $80k towards an actual business?
 
