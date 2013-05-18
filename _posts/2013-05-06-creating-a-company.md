@@ -111,5 +111,6 @@ Nonetheless, here are some general highlights from my research:
 
 <ul>
     <li>When you don't spend at least $750 on expenses on your business. ($750 * 40% taxes = $300, which
-is the annual tax for operating an LLC)</li>
+is the annual tax for operating an LLC in Delaware)</li>
+    <li>If your company is a conflict of interest with your daytime job</li>
 </ul>

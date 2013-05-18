@@ -9,7 +9,7 @@ tags: [careers, MBA, business school]
 
 In this post I wanted to describe why I skipped business school and an MBA.
 Several years ago I had an opportunity to attend business school.
-I prepared for months, took the GMAT and asked for letters of recommendation.
+I prepared for months, took the GMAT and asked for recommendations.
 It was a great feeling to receive the acceptance letter. However, in all my
 enthusiasm, I didn't carefully consider the two great costs of going to
 business school: time and money.

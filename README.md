@@ -5,8 +5,8 @@ Source code for my blog www.minh.io. Feel free to use it however you like per
 the license requirements below but please update the google analytics and disqus settings in 
 _config.yml as well as the google webmaster verification googlebb049deae73e476f.html.
 
-This site was built using Jekyll Bootstrap, so in order to compile the static generated
-site, simply run "jekyll serve" from the root of this directory and navigate
+This site was built using Jekyll Bootstrap, so in order to generate this site
+for deployment you need to install Jekyll. Then,  simply run "jekyll serve" from the root of this directory and navigate
 to localhost:4000. Alternatively, deploy the _site directory that
 is created after running "jekyll"
 
