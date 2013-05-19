@@ -11,7 +11,7 @@ performance, which is often cited as a top feature. There's so many
 examples that prove this point but here are a few <a href="http://www.strangeloopnetworks.com/assets/images/infographic2.jpg" target="_blank">examples</a>
 :
 
-<table class="table table-bordered table-stripped">
+<table class="table table-bordered table-striped">
     <tr>
         <td>Amazon</td>
         <td>Increased revenue by 1% for every 100milliseconds of improvement</td>
@@ -37,10 +37,10 @@ examples that prove this point but here are a few <a href="http://www.strangeloo
 So, now that we know that speed is important, how do we measure and improve it?
 Well, I've listed the tools I've used with my favorites at the top:
 
-<table class="table table-bordered table-stripped">
+<table class="table table-bordered table-striped">
     <tr>
         <td><a href="http://tools.pingdom.com/fpt/" target="_blank">Pingdom Tools</a></td>
-        <td>Great tool that calculates load times with 3 different locations (2 U.S. and 1 Europe. It also
+        <td>Great tool that calculates load times with 3 different locations (2 U.S. and 1 Europe). It also
             archives historical results and offers tips for improving performance</td>
     </tr>
     <tr>
@@ -74,8 +74,9 @@ Well, I've listed the tools I've used with my favorites at the top:
 </table>
 
 While these tools are great, I would prefer to have a single tool that aggregates
-my results and shows my performance across the world and with different browsers.
-Depending on my availability, this may become a future side project for me.
+my results and shows my performance across the world and with different browsers
+and not just through a single page but a queue of pages. Depending on my availability, 
+this may become a future side project for me.
 
 Anyway, one of the reasons I switched away from Wordpress to Jekyll was because
 Jekyll was really fast given that it's all static content with no database 
