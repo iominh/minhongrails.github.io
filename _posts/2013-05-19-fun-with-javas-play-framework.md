@@ -28,14 +28,12 @@ the UI.
 Anyway, so far I've really liked the Play Framework and got some basic 
 samples running:
 
-<table>
-    <tr>
-        <td><a href="http://www.minh.io:8081" target="_blank">Sample database example</a></td>
-        <td><a href="http://www.minh.io:8082" target="_blank">Websockets chat and robot</a></td>
-        <td><a href="http://www.minh.io:8083" target="_blank">Hello world app</a></td>
-        <td><a href="http://www.minh.io:8084" target="_blank">Zentasks with registration</a></td>
-    </tr>
-</table>
+<ul>
+    <li><a href="http://www.minh.io:8081" target="_blank">Sample database example</a></li>
+    <li><a href="http://www.minh.io:8082" target="_blank">Websockets chat and robot</a></li>
+    <li><a href="http://www.minh.io:8083" target="_blank">Hello world app</a></li>
+    <li><a href="http://www.minh.io:8084" target="_blank">Zentasks with registration</a></li>
+</ul>
 
 **Screenshots**
 
