@@ -8,8 +8,7 @@ tags: [speed, performance, features, jekyll, wordpress]
 {% include JB/setup %}
 Lately I've been focused on improving my application
 performance, which is often cited as a top feature. There's so many
-examples that prove this point but here are a few <a href="http://www.strangeloopnetworks.com/assets/images/infographic2.jpg" target="_blank">examples</a>
-:
+examples that prove this point but here are a few <a href="http://www.strangeloopnetworks.com/assets/images/infographic2.jpg" target="_blank">examples</a>:
 
 <table class="table table-bordered table-striped">
     <tr>
@@ -18,7 +17,8 @@ examples that prove this point but here are a few <a href="http://www.strangeloo
     </tr>
     <tr>
         <td>Shopzilla</td>
-        <td>Sped up average page load time from 6 seconds to 1.2 seconds. Results: Increased revenue by 12% and page views by 25%</td>
+        <td>Sped up average page load time from 6 seconds to 1.2 seconds. 
+        <p>Results: increased revenue by 12% and page views by 25%</p></td>
     </tr>
     <tr>
         <td>AOL</td>
@@ -74,7 +74,7 @@ Well, I've listed the tools I've used with my favorites at the top:
 </table>
 
 While these tools are great, I would prefer to have a single tool that aggregates
-my results and shows my performance across the world and with different browsers
+my results and shows my performance across the world with different browsers
 and not just through a single page but a queue of pages. Depending on my availability, 
 this may become a future side project for me.
 
