@@ -28,21 +28,60 @@ the UI.
 Anyway, so far I've really liked the Play Framework and got some basic 
 samples running:
 
-<ul>
-    <li><a href="http://www.minh.io:8081" target="_blank">Sample database example</a></li>
-    <li><a href="http://www.minh.io:8082" target="_blank">Websockets chat and robot</a></li>
-    <li><a href="http://www.minh.io:8083" target="_blank">Hello world app</a></li>
-    <li><a href="http://www.minh.io:8084" target="_blank">Zentasks with registration</a></li>
-</ul>
-
-**Screenshots**
-
-<img src="/assets/img/play/play_chat1.jpg" alt="play_chat1.jpg" title="Play chat"/>
-
-<img src="/assets/img/play/play_db1.jpg" alt="play_db1.jpg" title="Play Database"/>
-
-<img src="/assets/img/play/play_helloworld.jpg" alt="play_helloworld.jpg" title="Play Database"/>
-
-<img src="/assets/img/play/play_zentasks1.jpg" alt="play_zentasks1.jpg" title="Play Zentasks1"/>
-
-<img src="/assets/img/play/play_zentasks2.jpg" alt="play_zentasks2.jpg" title="Play Zentasks2"/>
+<hr>
+<div class="row-fluid">
+    <div class="span3">
+        <h4>Ajax Database</h4>
+        <br>
+        <p>Sample from Play Framework showing database access through AJAX</p>
+        <a href="http://www.minh.io:8081" target="_blank">Launch Site</a>
+        <br>
+    </div>  
+    <br>
+    <div class="span9">
+        <img src="/assets/img/play/play_db1.jpg" alt="play_db1.jpg"/>
+    </div>
+</div>
+<hr>
+<div class="row-fluid">
+    <div class="span3">
+        <h4>Chat and Robot</h4>
+        <br>
+        <p>Websocket chatroom and server-side robot pushing messages</p>
+        <br>
+        <a href="http://www.minh.io:8082" target="_blank">Launch Site</a>
+    </div>
+    <br>
+    <div class="span9">
+        <img src="/assets/img/play/play_chat1.jpg" alt="play_chat1.jpg"/>
+    </div>
+</div>
+<hr>
+<div class="row-fluid">
+    <div class="span3">
+        <h4>Play Hello World</h4>
+        <br>
+        <p>Play Framework hello world</p>
+        <br>
+        <a href="http://www.minh.io:8083" target="_blank">Launch Site</a>
+    </div>
+    <br>
+    <div class="span9">
+        <img src="/assets/img/play/play_helloworld.jpg" alt="play_helloworld.jpg"/>
+    </div>
+</div>
+<hr>
+<div class="row-fluid">
+    <div class="span3">
+        <h4>Zentasks</h4>
+        <br>
+        <p>Play Framework ZenTasks sample</p>
+        <br>
+        <a href="http://www.minh.io:8084" target="_blank">Launch Site</a>
+    </div>
+    <br>
+    <div class="span9">
+        <img src="/assets/img/play/play_zentasks1.jpg" alt="play_zentasks1.jpg"/>
+        <img src="/assets/img/play/play_zentasks2.jpg" alt="play_zentasks2.jpg" title="Play Zentasks2"/>
+    </div>
+</div>
