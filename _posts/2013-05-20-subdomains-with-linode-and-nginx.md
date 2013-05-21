@@ -8,11 +8,12 @@ tags: [subdomains, linode, nginx]
 {% include JB/setup %}
 
 This post will show how I created subdomains on my Linode box with Nginx. Overall it was
-very easy and although I'm using Linode and nginx as a reference, I assume this should work
+very easy and although I'm using Linode and nginx as a reference, I assume this could be generalized
 with other types of domains and web servers. Take a look at my subdomain @ [dev.minh.io](http://dev.minh.io "dev.minh.io").
 Anyway, listed below are the steps I took to get that to work:
 
 **Log into Linode and add an A/AAAA record**
+(DNS Manager -> Edit -> Add a new A record)
 <table class="table">
     <tr>
         <td>Hostname</td>
