@@ -60,7 +60,7 @@ off-shore tax havens).</li>
 <h2>How to create a company</h2>
 
 Surprisingly, it seems that it's very easy to create a company. From my research,
-it can cost around $300 for initial registration costs and $300 a year for
+it can cost around $400 for initial registration costs and $250 a year for
 taxes (at least for a Delaware LLC). 
 
 There are plenty of sites that provide more detailed and official guidance,
@@ -90,17 +90,17 @@ Nonetheless, here are some general highlights from my research:
     </tr>
     <tr>
         <td>LLC</td>
-        <td>For a Delaware LLC, $300 yearly tax.</td>
+        <td>For a Delaware LLC, $250 yearly tax.</td>
         <td>No formalities required</td>
     </tr>
     <tr>
         <td>S corp</td>
-        <td>For a Delaware S corp, $300 yearly tax? (needs verification)</td>
+        <td>For a Delaware S corp, $250 yearly tax? (needs verification)</td>
         <td>Shareholder meetings, documenting company decisions, etc </td>
     </tr>
     <tr>
         <td>C corp</td>
-        <td>For a Delaware C corp, $300 yearly tax? (needs verification)</td>
+        <td>For a Delaware C corp, $250 yearly tax? (needs verification)</td>
         <td>Shareholder meetings, documenting company decisions, etc </td>
     </tr>
 </table>
@@ -110,7 +110,7 @@ Nonetheless, here are some general highlights from my research:
 <h2>When not to create a company</h2>
 
 <ul>
-    <li>When you don't spend at least $750 on expenses on your business. ($750 * 40% taxes = $300, which
-is the annual tax for operating an LLC in Delaware)</li>
-    <li>If your company is a conflict of interest with your daytime job</li>
+    <li>When you don't spend at least $1190 on expenses on your business. ($1190 * 40% taxes = $476, which
+is roughly the cost of of Delaware LLC taxes and the cost of a registered agent)</li>
+    <li>If your company's business conflicts with your day job or previous contracts</li>
 </ul>
