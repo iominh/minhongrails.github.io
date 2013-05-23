@@ -119,13 +119,13 @@ in some cases)
 <br>
 <b>Conclusion</b>
 
-Overall, it seems that for my setup I was getting mixed results. My Google PageSpeed
-scores obviously improved but it seems sometimes latencies actually increased. I
-imagine this might because the tool takes some time to perform its optimizations
-or maybe that the Pingdom machine caches files. 
+Overall, there were mixed results. My Google PageSpeed
+scores improved but sometimes latencies actually increased. I
+imagine this is because the tool takes time to perform its 
+optimizations or maybe that the Pingdom tool caches results.
 
 For the effort taken and results shown I can't confidently recommend the tool
-at this time but it also could be because my Linux box is mostly optimized already.
+at this time but it also could be because my server is mostly optimized already.
 In fact the greatest performance boost I noticed was gzip, which off the top of
 my head yielded 30-50% latency improvements.
 
