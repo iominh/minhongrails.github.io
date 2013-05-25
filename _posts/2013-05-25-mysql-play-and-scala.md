@@ -24,9 +24,9 @@ Luckily, before doing any significant work I did a Google search and came
 across an <a href="https://github.com/opensas/openshift-play2-computerdb" target="_blank">Openshift github repo</a>
 that solved this issue.
 
-It was slightly out of date and missing some instructions for MySQL setup, so
+It was slightly out of date and missing some instructions for MySQL, so
 I forked the repo and added instructions + configuration for setting up
 the sample with MySQL <a href="https://github.com/minhongrails/play2-computerdb-mysql-scala" target="_blank">here</a>.
-I also created up a demo application <a href="https://www.minh.io" target="_blank">here</a>, 
+I also created up a demo application <a href="http://dev1.minh.io" target="_blank">here</a>, 
 which I will probably migrate to Heroku or some other source.
 
