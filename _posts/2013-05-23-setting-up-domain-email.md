@@ -7,9 +7,12 @@ tags: [email, gandi.net, linode, google]
 ---
 {% include JB/setup %}
 
-I changed my site's email from minhongrails@gmail.com to hello@minh.io. 
-This took more effort than it should've. Initially I considered
-Google Apps as an email host but then discovered it cost $5 a month. Next I
+In this post I wanted to share how  I changed my site's email from minhongrails@gmail.com to hello@minh.io. 
+First, why create a domain email? Well, it lets you create any number of handles
+such as "bah@minh.io" and provides spam control for whenever you sign up at 
+stores or other spammy places by hiding your actual email. 
+
+Initially I considered Google Apps as an email host but then discovered it cost $5 a month. Next I
 looked at self-hosted mailing servers for my Linode but I decided against it
 due to server resource, security, and reliability concerns.
 
@@ -18,10 +21,6 @@ for my registered domain, so I just added "hello@minh.io" as a mail service
 and forwarded my emails to my gmail account. I also added spool.mail.gandi.net
 and fb.mail.gandi.net to my Linode's MX records.
 
-The great thing about this is that I can create any sort of handle such as 
-"bah@minh.io". This is great for spam control like when signing up at stores or
-other spammy places.
-
-Anyway, I tried out some test emails and it seemed to work fine with emails
-being received within minutes. I'll see how this goes and update this post
-if I discover any issues.
+Anyway, I tried out some test emails that were delivered nearly instantaneously
+so things look good so far but I'll update this post if I discover any issues
+down the road.
