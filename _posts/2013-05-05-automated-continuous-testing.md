@@ -3,7 +3,7 @@ layout: post
 title: "Automated continuous testing"
 description: ""
 category: 
-tags: [continuous integration, testing, travis CI, github, selenium, TDD, test driven development, jenkins]
+tags: [continuous integration, testing, travis CI, github, selenium, tdd, test driven development, jenkins]
 ---
 {% include JB/setup %}
 
