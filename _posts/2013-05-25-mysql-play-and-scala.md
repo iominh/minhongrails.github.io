@@ -17,8 +17,8 @@ such as MySQL, Postgres, or anything else, since H2 does not persist data
 in between reloads of the server (imagine a server crash or simply updating your
 application -- you'll lose all your data!). 
 
-Unfortunately, switching from H2 to MySQL actually was not a trivial task. The
-Play database evolution initialization scripts and models for the Computer Database sample 
+Unfortunately, switching from H2 to MySQL was not a trivial task. The
+Play evolution scripts and models for the Computer Database sample 
 actually do not work for MySQL, so there's some effort required in migrating databases.
 Luckily, before doing any significant work I did a Google search and came
 across an <a href="https://github.com/opensas/openshift-play2-computerdb" target="_blank">Openshift github repo</a>
