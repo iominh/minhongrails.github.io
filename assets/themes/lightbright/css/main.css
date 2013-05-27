@@ -89,3 +89,21 @@ pre {
     -moz-border-radius: 0px;
     border-radius:0 px;
 }
+
+.left-brand {
+    color: green;
+}
+
+.right-brand {
+    color: blue;
+}
+
+/*.left-brand:hover {
+    color: #00FF00;
+    background-color: transparent;
+}
+
+.right-brand:hover {
+    color: #00FFFF;
+    background-color: transparent;
+}*/

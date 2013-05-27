@@ -12,7 +12,7 @@ which shows database access, CRUD forms, and integration with a CSS framework.
 Out of the box it comes initialized with an H2 in-memory database, which is
 great for starting out because it requires no setup.
 
-However, for production, most users will want to move towards an actual database
+However, for production, most users will want to use an actual database
 such as MySQL, Postgres, or anything else, since H2 does not persist data
 in between reloads of the server (imagine a server crash or simply updating your
 application -- you'll lose all your data!). 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Speeding up Nginx with Google PageSpeed"
+title: "Speeding up Nginx with PageSpeed"
 description: ""
 category: 
 tags: [nginx, pagespeed, ngx_pagespeed, google]

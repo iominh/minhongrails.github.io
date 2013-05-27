@@ -43,6 +43,16 @@ $(document).ready(function() {
             lookup : data
         });
     });
+    
+    $("#brand").mouseenter(function() {
+        $("#left-brand").css("color", "#00FF00");
+        $("#right-brand").css("color", "#00FFFF");
+    })
+    
+    $("#brand").mouseleave(function() {
+        $("#left-brand").css("color", "green");
+        $("#right-brand").css("color", "blue");
+    })
         
         
     // highlight code
