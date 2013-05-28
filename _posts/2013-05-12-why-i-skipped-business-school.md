@@ -10,12 +10,9 @@ tags: [careers, mba, business school]
 In this post I wanted to describe why I skipped business school and an MBA.
 Several years ago I had an opportunity to attend business school.
 I prepared for months, took the GMAT and asked for recommendations.
-It was a great feeling to receive the acceptance letter. All my life I wasn't
-very studious but suddenly towards the end of my undergrad studies it suddenly
-clicked that I really liked learning, which triggered a burst of enthusiasm 
-that led to my immediate enrollment in grad school and subsequently my desire 
-to learn business. However, in all my enthusiasm, I didn't carefully consider 
-the two great costs of going to business school: time and money.
+It was a great feeling to receive the acceptance letter. However, in all my
+enthusiasm, I didn't carefully consider the two great costs of going to
+business school: time and money.
 
 Business school is expensive. Since I was going to enroll part-time, there
 wasn't really any financial aid and I was looking at loans of $80k+ just
