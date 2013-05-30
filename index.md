@@ -13,28 +13,13 @@ title: Welcome to minh.io
 
 
         <h3>Blog</h3>
-        <ul class="posts">
-          {% for post in site.posts %}
-            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>    
-    </div>
-    <div class="span6 spotlight">
-        <!-- TODO: photo or something? -->
-    </div>
-  </div>
 
-
-
-
-  <section id="content">
-  
   <section id="options" class="clearfix">
     
       <ul id="filters" class="nav nav-tabs option-set clearfix" data-option-key="filter">
-        <li><a href="#filter" data-option-value="*" class="selected">show all</a></li>
-        <li><a href="#filter" data-option-value=".metal">metal</a></li>
-        <li><a href="#filter" data-option-value=".transition">transition</a></li>
+        <li><a href="#filter" data-option-value="*" class="selected">All</a></li>
+        <li><a href="#filter" data-option-value=".metal">Tech</a></li>
+        <li><a href="#filter" data-option-value=".transition">Business</a></li>
         <li><a href="#filter" data-option-value=".post-transition">post-transition</a></li>
         <li><a href="#filter" data-option-value=".nonmetal">nonmetal</a></li>
         <li><a href="#filter" data-option-value=".inner-transition">inner-transition</a></li>
@@ -44,6 +29,23 @@ title: Welcome to minh.io
       </ul>
 
   </section> <!-- #options -->
+
+  <div id="container" class="clearfix">
+
+        <ul class="posts">
+          {% for post in site.posts %}
+            <div class="metal" data-symbol="{{post.date}}" data-category="metal"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
+          {% endfor %}
+        </ul>  
+</div>
+  
+    </div>
+    <div class="span6 spotlight">
+        <!-- TODO: photo or something? -->
+    </div>
+  </div>
+
+  <section id="content">
   
   <div id="container" class="clearfix">
           

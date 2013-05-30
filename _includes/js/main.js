@@ -62,7 +62,7 @@ $(document).ready(function() {
     var $container = $('#container');
 
     $container.isotope({
-        itemSelector : '.element'
+//        itemSelector : '.element'
     });
       
     var $optionSets = $('#options .option-set'),
