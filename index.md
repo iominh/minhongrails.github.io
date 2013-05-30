@@ -13,34 +13,15 @@ title: Welcome to minh.io
 
 
         <h3>Blog</h3>
-
-  <section id="options" class="clearfix">
-    
-      <ul id="filters" class="nav nav-tabs option-set clearfix" data-option-key="filter">
-        <li><a href="#filter" data-option-value="*" class="selected">All</a></li>
-        <li><a href="#filter" data-option-value=".tech">Tech</a></li>
-        <li><a href="#filter" data-option-value=".business">Business</a></li>
-      </ul>
-
-  </section> <!-- #options -->
-
-  <section id="content">
-  
-  <div id="container" class="clearfix">
-
+        <ul class="posts">
           {% for post in site.posts %}
-            <div class="element {{ post.category }}" data-symbol="{{ post.date }}" data-category="{{ post.category }}"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
+            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
-
-  </div> <!-- #container -->
-    
-  </section> <!-- #content -->
-  
+        </ul>    
     </div>
     <div class="span6 spotlight">
         <!-- TODO: photo or something? -->
     </div>
   </div>
-
 
 
