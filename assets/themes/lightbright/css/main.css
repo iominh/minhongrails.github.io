@@ -109,15 +109,6 @@ pre {
 }*/
 
 /**** Isotope filtering ****/
-.isotope-item {
-    z-index: 2;
-}
-
-.isotope-hidden.isotope-item {
-    pointer-events: none;
-    z-index: 1;
-}
-
 #filters li a {
     border: 0;
     margin: 0 10px 10px 0;

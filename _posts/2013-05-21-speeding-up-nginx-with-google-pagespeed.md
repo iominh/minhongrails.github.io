@@ -2,7 +2,7 @@
 layout: post
 title: "Speeding up Nginx with PageSpeed"
 description: ""
-category: 
+category: tech
 tags: [nginx, pagespeed, ngx_pagespeed, google]
 ---
 {% include JB/setup %}

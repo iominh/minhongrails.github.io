@@ -2,7 +2,7 @@
 layout: post
 title: "Why I skipped business school and an MBA"
 description: ""
-category: 
+category: business
 tags: [careers, mba, business school]
 ---
 {% include JB/setup %}

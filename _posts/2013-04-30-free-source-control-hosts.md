@@ -2,7 +2,7 @@
 layout: post
 title: "Best source control options"
 description: ""
-category: 
+category: tech
 tags: [git, bitbucket, github, scm, svn]
 ---
 {% include JB/setup %}

@@ -2,7 +2,7 @@
 layout: post
 title: "Setting up domain email"
 description: ""
-category: 
+category: tech
 tags: [email, gandi.net, linode, google]
 ---
 {% include JB/setup %}

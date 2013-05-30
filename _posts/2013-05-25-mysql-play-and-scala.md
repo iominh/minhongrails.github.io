@@ -2,7 +2,7 @@
 layout: post
 title: "MySQL, Play, and Scala"
 description: ""
-category: 
+category: tech
 tags: [scala, mysql, play]
 ---
 {% include JB/setup %}

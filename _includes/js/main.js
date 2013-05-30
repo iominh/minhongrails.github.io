@@ -62,8 +62,8 @@ $(document).ready(function() {
     var $container = $('#container');
 
     $container.isotope({
-//        itemSelector : '.element'
-    });
+        //        itemSelector : '.element'
+        });
       
     var $optionSets = $('#options .option-set'),
     $optionLinks = $optionSets.find('a');
@@ -92,7 +92,6 @@ $(document).ready(function() {
             // otherwise, apply new options
             $container.isotope( options );
         }
-        
         return false;
     });
 });

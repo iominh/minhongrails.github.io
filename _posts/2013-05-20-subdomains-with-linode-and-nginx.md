@@ -2,7 +2,7 @@
 layout: post
 title: "Subdomains with Linode and Nginx"
 description: ""
-category: 
+category: tech
 tags: [subdomains, linode, nginx]
 ---
 {% include JB/setup %}

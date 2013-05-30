@@ -2,7 +2,7 @@
 layout: post
 title: "Creating a company"
 description: ""
-category: 
+category: business
 tags: [business, company, startups]
 ---
 {% include JB/setup %}
@@ -60,8 +60,8 @@ off-shore tax havens).</li>
 <h2>How to create a company</h2>
 
 Surprisingly, it seems that it's very easy to create a company. From my research,
-it can cost around $400 for initial registration costs and $250 a year for
-taxes (at least for a Delaware LLC). 
+it costs $591 to register an LLC in Maryland and $300 a year thereafter for
+franchise fees. There's additional costs of $
 
 There are plenty of sites that provide more detailed and official guidance,
 so I won't go over the exact details:

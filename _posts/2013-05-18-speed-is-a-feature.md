@@ -2,7 +2,7 @@
 layout: post
 title: "Speed is a feature"
 description: ""
-category: 
+category: tech
 tags: [speed, performance, features, jekyll, wordpress]
 ---
 {% include JB/setup %}

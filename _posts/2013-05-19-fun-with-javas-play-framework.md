@@ -2,7 +2,7 @@
 layout: post
 title: "Fun with Java's Play Framework"
 description: ""
-category: 
+category: tech
 tags: [play, java, foodwall]
 ---
 {% include JB/setup %}
