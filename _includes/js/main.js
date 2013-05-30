@@ -60,10 +60,10 @@ $(document).ready(function() {
     
     // isotope
     var $container = $('#container');
-
     $container.isotope({
-        //        itemSelector : '.element'
-        });
+        layoutMode : 'straightDown', 
+        columnWidth: 220
+    });
       
     var $optionSets = $('#options .option-set'),
     $optionLinks = $optionSets.find('a');
@@ -79,7 +79,8 @@ $(document).ready(function() {
         $this.addClass('selected');
   
         // make option object dynamically, i.e. { filter: '.my-filter-class' }
-        var options = {},
+        var options = {
+        },
         key = $optionSet.attr('data-option-key'),
         value = $this.attr('data-option-value');
         // parse 'false' as false boolean
