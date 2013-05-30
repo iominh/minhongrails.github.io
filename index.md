@@ -20,21 +20,41 @@ title: Welcome to minh.io
         <li><a href="#filter" data-option-value="*" class="selected">All</a></li>
         <li><a href="#filter" data-option-value=".tech">Tech</a></li>
         <li><a href="#filter" data-option-value=".business">Business</a></li>
+        <li><a href="#filter" data-option-value=".metal">Tech</a></li>
+        <li><a href="#filter" data-option-value=".transition">Business</a></li>
+        <li><a href="#filter" data-option-value=".post-transition">post-transition</a></li>
+        <li><a href="#filter" data-option-value=".nonmetal">nonmetal</a></li>
+        <li><a href="#filter" data-option-value=".inner-transition">inner-transition</a></li>
+        <li><a href="#filter" data-option-value=".alkali, .alkaline-earth">alkali and alkaline-earth</a></li>
+        <li><a href="#filter" data-option-value=":not(.transition)">not transition</a></li>
+        <li><a href="#filter" data-option-value=".metal:not(.transition)">metal but not transition</a></li>
+
       </ul>
 
   </section> <!-- #options -->
 
-  <div id="container" class="clearfix">
 
         <ul class="posts">
           {% for post in site.posts %}
             <div class="element {{ post.category }} business" data-symbol="{{ post.date }}" data-category="{{ post.category }}"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
           {% endfor %}
         </ul>  
-</div>
   
     </div>
     <div class="span6 spotlight">
         <!-- TODO: photo or something? -->
     </div>
   </div>
+
+  <section id="content">
+  
+  <div id="container" class="clearfix">
+          
+          {% for post in site.posts %}
+            <div class="element {{ post.category }} business" data-symbol="{{ post.date }}" data-category="{{ post.category }}"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
+          {% endfor %}
+
+  </div> <!-- #container -->
+    
+  </section> <!-- #content -->
+
