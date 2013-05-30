@@ -31,9 +31,7 @@ title: Welcome to minh.io
   
   <section id="options" class="clearfix">
     
-      <h3>Filters</h3>
-
-      <ul id="filters" class="option-set clearfix" data-option-key="filter">
+      <ul id="filters" class="nav nav-tabs option-set clearfix" data-option-key="filter">
         <li><a href="#filter" data-option-value="*" class="selected">show all</a></li>
         <li><a href="#filter" data-option-value=".metal">metal</a></li>
         <li><a href="#filter" data-option-value=".transition">transition</a></li>
@@ -45,12 +43,9 @@ title: Welcome to minh.io
         <li><a href="#filter" data-option-value=".metal:not(.transition)">metal but not transition</a></li>
       </ul>
 
-
   </section> <!-- #options -->
   
   <div id="container" class="clearfix">
-    
-      
           
     <div class="element transition metal   " data-symbol="Hg" data-category="transition">
       <p class="number">80</p>
