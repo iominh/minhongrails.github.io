@@ -23,7 +23,8 @@ So, if I decide to put this into production, I'll make sure to thank Amoveo for 
 idea.
 
 Update 5/30/12: After testing Isotope for a day, I decided to put it into production
-even though I don't particularly like its performance especially for Safari on 
-iOS and Firefox (it's faster on Chrome but it seems everything is)
-. However, I think the ability to filter posts outweights the slow performance. 
-Eventually I may switch it with something faster.
+even though its animations appear slightly choppy for certain browers like 
+Safari on iOS and Firefox. I was able to speed up the animation through
+transition-duration so it's slightly less noticeable but it still is missing
+that polish I'm looking for, so I may need to tweak this down the road or
+find an alternative.

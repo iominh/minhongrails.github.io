@@ -98,16 +98,15 @@ pre {
     color: blue;
 }
 
-/*.left-brand:hover {
-    color: #00FF00;
-    background-color: transparent;
-}
-
-.right-brand:hover {
-    color: #00FFFF;
-    background-color: transparent;
-}*/
 #container {
     padding: 0;
     margin: 0 0 10px 25px;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid black;
 }
