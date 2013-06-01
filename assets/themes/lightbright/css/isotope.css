@@ -54,13 +54,15 @@
 
 /**** Isotope filtering ****/
 #filters li a {
-    border: 0;
-    margin: 0 10px 10px 0;
+    border: 0px none;
+    margin: 0px 10px 10px 0px;
     padding: 6px 12px;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     color: #000;
+    text-decoration: none;
+    outline: 0px;
 }
 
 #filters a.selected {
