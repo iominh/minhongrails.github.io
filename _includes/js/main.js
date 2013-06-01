@@ -63,7 +63,7 @@ $(document).ready(function() {
     $container.isotope({
         layoutMode : 'straightDown', 
         columnWidth: 220,
-        animationEngine : 'best-availble'
+        animationEngine : 'css'
     });
       
     var $optionSets = $('#options .option-set'),

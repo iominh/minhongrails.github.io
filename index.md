@@ -29,7 +29,7 @@ title: Welcome to minh.io
   <div id="container" class="clearfix">
 
           {% for post in site.posts %}
-            <div class="element {{ post.category }}" data-symbol="{{ post.date }}" data-category="{{ post.category }}"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
+            <div class="element {{ post.category }}"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
           {% endfor %}
 
   </div> <!-- #container -->
