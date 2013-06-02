@@ -7,7 +7,7 @@ tags: [speed, performance, features, jekyll, wordpress]
 ---
 {% include JB/setup %}
 Lately I've been focused on improving application
-performance, which is often cited as a top feature. There's so many
+performance, which is often considered a top feature. There's so many
 examples that prove this point but here are a few <a href="http://www.strangeloopnetworks.com/assets/images/infographic2.jpg" target="_blank">examples</a>:
 
 <table class="table table-bordered table-striped">

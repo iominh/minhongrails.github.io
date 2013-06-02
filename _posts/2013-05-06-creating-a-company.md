@@ -14,16 +14,15 @@ Nonetheless, below are my findings:
 <h2>Benefits</h2>
 
 First off, why even create a company? Ideally it would be to create 
-great products and services to create happy customers and users. However,
-there are operating costs and risks, so other reasons to formally incorporate
-a company include:
+great products and services. However, this often costs money and takes risk
+so generally it's worthwhile to find assistance. With that said, here are
+some reasons to formally incorporate a company:
 
 <b>Separate and protect personal assets from company assets</b>
 
 If a company is created and operated correctly then in the event of a 
 bankruptcy or other unfortunate event, creditors can only claim company
 assets rather than the personal assets of founders like cars, houses, etc.
-
 
 <b>Save money in taxes</b>
 
