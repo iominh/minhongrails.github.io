@@ -1,0 +1,75 @@
+---
+layout: post
+title: "Color"
+description: ""
+category: tech 
+tags: [color, raphaelJS, SVG]
+---
+{% include JB/setup %}
+Recently I came across <a href="http://www.ianli.com/isee/make.php" target="_blank">Ian Li's "I See"</a>
+project which visualizes text through different colors. It looked awesome and I
+found myself fascinated trying to associate colors with text. Naturally, I had to 
+create my own version of it, so here's my attempt:
+<br>
+<br>
+<center><a href="http://color.minh.io"><img src="/assets/img/color_large.jpg" alt="color_large.jpg" title="Launch Color"></a></center>
+<br>
+
+It actually took quite a bit of effort to build this but overall it
+turned out decently. I got a chance to play with Raphael JS and perform
+hue transforms on RGB colors (yay matrix math). There's still some things I want
+to do so that I'm not totally just copying Ian's project:
+
+* Add NLP to translate text to different colors showing sentiment/emotion. I did a little
+research and apparently there's a lot of <a href="http://www.color-wheel-pro.com/color-meaning.html" target="_blank">meaning</a> behind colors:
+<br>
+<table class="table table-bordered colorTable">
+    <tr bgcolor="#f9f9f9">
+        <td>Color</td>
+        <td>Name</td>
+        <td>Meaning</td>
+    </tr>
+    <tr>
+        <td bgcolor="#FF0000"></td>
+        <td>Red</td>
+        <td>energy, war, danger, strength, power, determination</td>
+    </tr>
+    <tr>
+        <td bgcolor="#8B0000"></td>
+        <td>DarkRed</td>
+        <td>vigor, willpower, rage, anger, leadership, courage, longing, malice, and wrath</td>
+    </tr>
+    <tr>
+        <td bgcolor="#FFB6C1"></td>
+        <td>LightPink</td>
+        <td>joy, sexuality, passion, sensitivity, and love</td>
+    </tr>
+    <tr>
+        <td bgcolor="#FFA500"></td>
+        <td>Orange</td>
+        <td>enthusiasm, fascination, happiness, creativity, determination, attraction, success, encouragement, and stimulation</td>
+    </tr>   
+    <tr>
+        <td bgcolor="#FF4500"></td>
+        <td>OrangeRed</td>
+        <td>desire, sexual passion, pleasure, domination, aggression, and thirst for action</td>
+    </tr>
+    <tr>
+        <td bgcolor="#FF8C00"></td>
+        <td>Darkorange</td>
+        <td>deceit and distrust</td>
+    </tr>
+</table>
+
+
+Another area I'm very interested in exploring is image processing and in particular
+the ability to create filters to add different color tones to images.
+
+Anyway, give Color a try <a href="http://color.minh.io">here</a>.
+
+<style>
+
+    .colorTable td {
+        text-align:center;
+    }
+</style>
