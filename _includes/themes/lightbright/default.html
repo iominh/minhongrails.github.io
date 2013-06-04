@@ -43,22 +43,27 @@
                     </div>
                 </div>-->
         <div class="boxNav" id="boxNav">M</div>
-
-        <div class="container">
-
-            <div class="content">
-                {{ content }}
-            </div>
-            <br>
-            <footer>
-                <p>&copy; {{ site.time | date: '%Y' }} 
-                    <a href="https://github.com/minhongrails/blog" target="_blank" title="Open Source Theme">{{ site.author.name }}</a>. Works best in Chrome.
-                </p>
-            </footer>
-
+        <div class="boxNav boxNavLarge" id="boxNavLarge">
+            <p id="homeLink"><i class="icon-home icon-white"></i> Home</p>
+            <p id="projectsLink"><i class="icon-list-alt icon-white"></i> Projects</p>
         </div>
+    </div>
 
-        {% include JB/javascript %}
-        {% include JB/analytics %}
-    </body>
+    <div class="container">
+
+        <div class="content">
+            {{ content }}
+        </div>
+        <br>
+        <footer>
+            <p>&copy; {{ site.time | date: '%Y' }} 
+                <a href="https://github.com/minhongrails/blog" target="_blank" title="Open Source Theme">{{ site.author.name }}</a>. Works best in Chrome.
+            </p>
+        </footer>
+
+    </div>
+
+    {% include JB/javascript %}
+    {% include JB/analytics %}
+</body>
 </html>

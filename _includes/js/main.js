@@ -1,4 +1,22 @@
 $(document).ready(function() {
+    
+    // set up navigation
+    $('#boxNav').click(function(){
+        window.location = "/";
+    });
+    $('#homeLink').click(function(){
+        window.location = "/";
+    });
+    $('#projectsLink').click(function(){
+        window.location = "/projects.html";
+    });
+    $('#boxNav').mouseover(function(){
+        $('#boxNavLarge').show();
+    });
+    $('#boxNavLarge').mouseout(function(){
+        $('#boxNavLarge').hide();
+    });
+    
     var searching = false;
     function flipSearch() {
         if (searching === true) {
@@ -18,9 +36,7 @@ $(document).ready(function() {
         }
     }
     
-    $('#boxNav').click(function(){
-        window.location = "/";
-    });
+
     
     $("#searchLink").click(function() {
         flipSearch();
