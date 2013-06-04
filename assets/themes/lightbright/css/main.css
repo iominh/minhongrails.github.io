@@ -109,3 +109,52 @@ pre {
     border-bottom: 5px solid transparent;
     border-left: 5px solid black;
 }
+
+body {
+    font-size: 1.15em;
+    font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+@media (min-width: 1200px)
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 700px;
+}
+
+body a {
+    font-color: #000;
+}
+
+body a:hover {
+    font-color: #08c;;
+    text-decoration:underline;
+}
+
+.boxNav {
+    position: absolute;
+    -webkit-transition: top .2s linear,opacity .2s linear;
+    -moz-transition: top .2s linear,opacity .2s linear;
+    -ms-transition: top .2s linear,opacity .2s linear;
+    -o-transition: top .2s linear,opacity .2s linear;
+    transition: top .2s linear,opacity .2s linear;
+    top: 10px;
+    left: 10px;
+
+    background: #333332;
+    text-align: center;
+    width: 2.5em;
+    height: 2.5em;
+
+    font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1em;
+
+    cursor: pointer;
+
+    /* align text in center of div */
+    line-height: 2.5em;
+    text-align: center;
+    vertical-align: middle;
+}

@@ -18,6 +18,10 @@ $(document).ready(function() {
         }
     }
     
+    $('#boxNav').click(function(){
+        window.location = "/";
+    });
+    
     $("#searchLink").click(function() {
         flipSearch();
     });
