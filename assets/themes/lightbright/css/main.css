@@ -307,4 +307,8 @@ body {
     .navigation ul {
         margin: 0;
     }
+
+    .navigation li a{
+        padding: 0.5em;
+    }
 }
