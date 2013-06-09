@@ -246,6 +246,10 @@ body a:hover {
     border-bottom: 1px solid #e6e6e6;
 }
 
+.navigation ul {
+    margin: 0 0 1em 1.5em;
+}
+
 .navigation li a{
     float: left;
     font-family: "Bebas Neue";
@@ -253,7 +257,7 @@ body a:hover {
     color: #2a2a2a;
     line-height: 1;
     border-right: 1px solid #e6e6e6;
-    padding: 15px 18px 10px;
+    padding: 1em 1em 1em 1em;
     text-decoration: none;
     text-transform:uppercase;
 }
