@@ -24,3 +24,5 @@ was heavily influenced by Apple.com and a Tumblr blog called <a href="http://all
 I'm still not entirely satisfied with my design so of course I'll be updating it
 again in the future. In particular, I want to make it less boring and add images
 or color. 
+
+For reference, I backed up my old design <a href="http://design2.minh.io" target="_blank">here.</a>
