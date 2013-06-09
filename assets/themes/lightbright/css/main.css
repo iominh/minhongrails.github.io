@@ -235,12 +235,6 @@ body a:hover {
     cursor: hand; cursor: pointer;
 }
 
-@media (min-width: 1200px) {
-    .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
-        width: 940px;
-    }
-}
-
 .paraHighlight {
     border-left: 7px solid #eee;
 }
@@ -292,4 +286,17 @@ body {
     -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 4px rgba(0,0,0,0.11);
     -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 4px rgba(0,0,0,0.11);
     box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 4px rgba(0,0,0,0.11);
+}
+
+@media (min-width: 1200px) {
+    .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+        width: 940px;
+    }
+}
+
+/* iphone */
+@media (max-width: 767px) {
+    body {
+        padding: 0 0 0 0;
+    }
 }
