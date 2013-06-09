@@ -21,7 +21,7 @@ title: Minh Nguyen
                     {% for post in site.posts %}
                     <tr class="cursorHand" onclick='document.location = "{{ BASE_PATH }}{{ post.url }}";'>
                         <td><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></td>
-                        <td class="text-right quiet">{{ post.date | date_to_string }}</td>
+                        <td class="text-right quiet">{{ post.date | date: "%B %d %Y" }}</td>
                     </tr>
                     {% endfor %}
                 </table>
