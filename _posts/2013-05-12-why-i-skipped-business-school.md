@@ -26,8 +26,7 @@ attending graduate school I also discovered that you learn much better studying
 topics that interest you. Furthermore, instead of spending $80k, why not learn
 what you like on your own and spend that $80k towards an actual business?
 
-Anyway, I have nothing against MBAs and those who choose to attend business 
-school since everyone's situation is different. For instance, if my MBA was
+Anyway, I have nothing against MBAs since everyone's situation is different. For instance, if my MBA was
 all paid for or from a top 10 business school then it would've been a harder
 decision, although the time cost still would've been expensive. Nonetheless, I found one amusing MBA video:
 <br>

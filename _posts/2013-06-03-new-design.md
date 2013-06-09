@@ -7,10 +7,19 @@ tags: [medium, typography]
 ---
 {% include JB/setup %}
 
-I'm never really happy with my designs, which is why I'm constantly trying to
-improve them. My latest efforts have focused on improving readability through
-better typography and fonts. I found lots of inspiration in <a href="http://www.medium.com" target="_blank">Medium</a>,
-which has beautiful, large fonts with a simplistic yet responsive look. So, today
-I began working on a new design, which can be seen <a href="http://test3.minh.io" target="_blank">here</a>.
-It's still rough around the edges but practice makes perfect so hopefully I'll
-eventually make it appear the way I want.
+I'm never happy with my designs, which is why I'm constantly trying to
+improve them. My latest efforts have focused on improving usability and readability through
+better typography and responsive design. As a user with a high resolution screen,
+I often increase the font size of my browser to view websites with small fonts. 
+Sometimes when using a mobile device a website doesn't even have a mobile view, which makes viewing quite difficult.
+
+Therefore, I greatly simplified my design and increased the default
+font size so that users shouldn't need to zoom in and should have an optimal
+view in their mobile device. I found inspiration in <a href="http://www.medium.com" target="_blank">Medium</a>,
+which has beautiful typography for optimal readability on all sorts of screens.
+I also came across Zach Holman's <a href="http://zachholman.com" target="_blank">web site</a> and
+so I "borrowed" some of his design elements.
+
+I'm still not entirely satisfied with my design so of course I'll be updating it
+again in the future. In particular, I want to make it less boring and add images
+or color. 
