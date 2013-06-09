@@ -9,10 +9,15 @@
 
 .navbar {
     /*margin-top: 3em;*/
+    margin-bottom: 0px;
 }
 
 .navbar .nav {
     float: right; 
+}
+
+.navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+    color: #307EA9;
 }
 
 /* posts index */
@@ -71,19 +76,21 @@
     color: #FFF; }
 
 body {
-    background-color: #eee;
+    background-color: #f7f7f7;
 }
 
 .content {
     background-color: #fff;
     padding: 20px;
-    margin: 0 -20px;
-    -webkit-border-radius: 6px 6px 6px 6px;
-    -moz-border-radius: 6px 6px 6px 6px;
-    border-radius: 6px 6px 6px 6px;
-    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-    box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    /*margin: 0 -20px;*/
+    /* rounded edges */
+    /*    -webkit-border-radius: 6px 6px 6px 6px;
+        -moz-border-radius: 6px 6px 6px 6px;
+        border-radius: 6px 6px 6px 6px;*/
+    /* shadows */
+    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 4px rgba(0,0,0,0.11);
+    -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 4px rgba(0,0,0,0.11);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 4px rgba(0,0,0,0.11);
 }
 
 
@@ -107,6 +114,7 @@ pre {
 
 .brand {
     text-rendering: optimizelegibility;
+    text-decoration:none;
 }
 
 .brand:hover{
@@ -202,16 +210,8 @@ body a:hover {
     /*font-size: 1em;*/
 }
 
-a {
-    color : #307EA9;
-}
-
-.color { 
-    color : #307EA9;
-}
 
 .listing {
-    margin: 0.5em;
     width: 100%;
 }
 
@@ -244,4 +244,51 @@ a {
     .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
         width: 940px;
     }
+}
+
+.paraHighlight {
+    border-left: 7px solid #eee;
+}
+
+.navigation {
+    background-color: #fff;
+    padding: 1em 0 0 0;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.navigation li a{
+    float: left;
+    font-family: "Bebas Neue";
+    font-size: 1em;
+    color: #2a2a2a;
+    line-height: 1;
+    border-right: 1px solid #e6e6e6;
+    padding: 15px 18px 10px;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+.navigation li a:hover {
+    background:#f2f2f2;
+}
+
+.no-bullet {
+    list-style: none;
+}
+
+p {
+    line-height: 160%;
+    margin: 0 0 1em;
+    /*-webkit-font-smoothing: subpixel-antialiased;*/
+}
+li {
+    line-height: 160%;
+}
+a {
+    color : #307EA9;
+}
+
+body {
+    /*-webkit-font-smoothing: antialiased;*/
 }
