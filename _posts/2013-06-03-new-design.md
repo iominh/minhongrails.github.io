@@ -10,8 +10,8 @@ tags: [medium, typography]
 I'm never happy with my designs, which is why I'm constantly trying to
 improve them. My latest efforts have focused on improving usability and readability through
 better typography and responsive design. As a user with a high resolution screen,
-I often increase the font size of my browser to view websites with small fonts. 
-Sometimes when using a mobile device a website doesn't even have a mobile view, which makes viewing quite difficult.
+I often increase the font size of my browser to view sites with small fonts. 
+On mobile, some sites don't even have mobile views, which hurts
 
 Therefore, I greatly simplified my design and increased the default
 font size so that users shouldn't need to zoom in and should have an optimal

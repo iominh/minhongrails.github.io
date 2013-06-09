@@ -19,4 +19,4 @@ and show my projects.
 <p>See my <a href="https://github.com/minhongrails" target="_blank">code</a></p>
 <p>Send me an email <a href="mailto:hello@minh.io" target="_blank">minh@minh.io</a></p>
 
-By the way, this entire site is open sourced <a href="https://github.com/minhongrails/blog" target="_blank">here</a></p>.
+By the way, this entire site is open sourced <a href="https://github.com/minhongrails/blog" target="_blank">here</a>.
