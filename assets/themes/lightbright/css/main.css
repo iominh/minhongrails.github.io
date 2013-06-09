@@ -1,8 +1,8 @@
 /* Custom container */
-/*.container-narrow {
+.container-narrow {
     margin: 0 auto;
     max-width: 700px; 
-}*/
+}
 
 .container-narrow > hr {
     margin: 30px 0; }
@@ -100,7 +100,7 @@ pre {
 
 #container {
     padding: 0;
-    margin: 0 0 10px 25px;
+    /*margin: 0 0 10px 25px;*/
 }
 
 .arrow-right {
@@ -116,11 +116,6 @@ body {
     font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
     font-weight: 400;
     line-height: 140%;
-}
-
-@media (min-width: 1200px)
-.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
-    width: 700px;
 }
 
 body a {
@@ -189,4 +184,29 @@ body a:hover {
 
 #content {
     /*font-size: 1em;*/
+}
+
+a {
+    color : #307EA9;
+}
+
+.listing {
+    margin: 0.5em;
+    width: 100%;
+}
+
+.listing td {
+    border-bottom: 1px solid #eee;
+}
+
+.quiet {
+    color: #999;
+    font-size: 0.8em;
+}
+
+
+@media (min-width: 1200px) {
+    .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+        width: 940px;
+    }
 }
