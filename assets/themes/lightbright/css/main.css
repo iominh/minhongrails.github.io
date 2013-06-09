@@ -79,21 +79,6 @@ body {
     background-color: #f7f7f7;
 }
 
-.content {
-    background-color: #fff;
-    padding: 20px;
-    /*margin: 0 -20px;*/
-    /* rounded edges */
-    /*    -webkit-border-radius: 6px 6px 6px 6px;
-        -moz-border-radius: 6px 6px 6px 6px;
-        border-radius: 6px 6px 6px 6px;*/
-    /* shadows */
-    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 4px rgba(0,0,0,0.11);
-    -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 4px rgba(0,0,0,0.11);
-    box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 4px rgba(0,0,0,0.11);
-}
-
-
 pre {
     background-color: #fff;
     border: 0px;
@@ -210,6 +195,16 @@ body a:hover {
     /*font-size: 1em;*/
 }
 
+.content {
+    background-color: #fff;
+    padding: 20px;
+    /*margin: 0 -20px;*/
+    /* rounded edges */
+    /*    -webkit-border-radius: 6px 6px 6px 6px;
+        -moz-border-radius: 6px 6px 6px 6px;
+        border-radius: 6px 6px 6px 6px;*/
+    /* shadows */
+}
 
 .listing {
     width: 100%;
@@ -291,4 +286,10 @@ a {
 
 body {
     /*-webkit-font-smoothing: antialiased;*/
+}
+
+.sideShadows {
+    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 4px rgba(0,0,0,0.11);
+    -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 4px rgba(0,0,0,0.11);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 4px rgba(0,0,0,0.11);
 }
