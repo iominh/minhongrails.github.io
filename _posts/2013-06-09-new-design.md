@@ -7,15 +7,10 @@ tags: [medium, typography]
 ---
 {% include JB/setup %}
 
-I'm never happy with my designs, which is why I'm constantly trying to
-improve them. My latest efforts have focused on improving usability and readability through
-better typography and responsive design. As a user with a high resolution screen,
-I often increase the font size of my browser to view sites with small fonts. 
-On mobile, some sites don't even have mobile views, which hurts
+Recently I decided to change my design, so I greatly simplified everything
+(removed Isotope, distracting colors) and focused on large, readable fonts.
 
-Therefore, I greatly simplified my design and increased the default
-font size so that users shouldn't need to zoom in and should have an optimal
-view in their mobile device. I found inspiration in <a href="http://www.medium.com" target="_blank">Medium</a>,
+I found inspiration from <a href="http://www.medium.com" target="_blank">Medium</a>,
 which has beautiful typography for optimal readability on all sorts of screens.
 I also came across Zach Holman's <a href="http://zachholman.com" target="_blank">web site</a> and
 so I "borrowed" some of his design elements. Lastly, the new design also
