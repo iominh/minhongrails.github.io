@@ -7,9 +7,8 @@ tags: [github ssh]
 ---
 {% include JB/setup %}
 
-This post is more for myself since I always run into an issue after rebooting
-where I forget that I need to ssh-add my github ssh key so that I can commit
-to Github using SourceTree.
+This post is more for myself since I always get SSH authentication errors
+when using SourceTree and GitHub after rebooting since I forget to ssh-add my github ssh key.
 
 Anyway, if anyone out there encounters ssh auth errors, the command to add
 your key is:
