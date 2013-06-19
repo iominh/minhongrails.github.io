@@ -7,9 +7,8 @@ tags: [java, java7, career]
 ---
 {% include JB/setup %}
 
-In this post I wanted to share my experiences with the [Java 7 1Z0-803 certification](http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=458&get_params=p_track_id:JSE7Prog). There are probably naysayers out there who will say that certifications are worthless
-but actually in my experience I've found that I learn best when I combine
-both formal education and practical experience. It also doesn't hurt to have an extra credential to show that 
+In this post I wanted to share my experiences with the [Java 7 1Z0-803 certification](http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=458&get_params=p_track_id:JSE7Prog). There are probably naysayers who will say that certifications are worthless but actually I've found that combining formal experience with practical 
+applications leads to the best results. It also doesn't hurt to have an extra credential to show that 
 you aren't some newb.
 
 So far, my plan of attack is to basically do the practice exams since I 
