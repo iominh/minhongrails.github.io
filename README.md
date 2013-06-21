@@ -8,7 +8,8 @@ _config.yml as well as the google webmaster verification googlebb049deae73e476f.
 This site was built using Jekyll Bootstrap, so in order to generate this site
 for deployment you need to install Jekyll. Then,  simply run "jekyll serve" from the root of this directory and navigate
 to localhost:4000. Alternatively, deploy the _site directory that
-is created after running "jekyll"
+is created after running "jekyll." One tip: run it with "jekyll serve -w" so 
+that it automatically redeploys whenever you make a change!
 
 Common jekyll commands include:
 

@@ -45,17 +45,18 @@
         <!--</div>-->
         <!--</div>-->
 
-        <div class="container">
+        <div class="container sideShadows">
 
-            <div class="content sideShadows">
+            <div class="content">
                 {{ content }}
+                <hr>
+                <footer>
+                    <p>&copy; {{ site.time | date: '%Y' }} 
+                        <a href="https://github.com/minhongrails/blog" target="_blank" title="Open Source Theme">{{ site.author.name }}</a>
+                    </p>
+                </footer>
             </div>
-            <br>
-            <footer>
-                <p>&copy; {{ site.time | date: '%Y' }} 
-                    <a href="https://github.com/minhongrails/blog" target="_blank" title="Open Source Theme">{{ site.author.name }}</a>
-                </p>
-            </footer>
+
         </div>
 
         {% include JB/javascript %}
