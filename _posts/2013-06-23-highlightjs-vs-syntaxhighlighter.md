@@ -18,7 +18,7 @@ the default highlight.js theme to its Solarized theme.
 
 Nonetheless, I switched from HighlightJS to SyntaxHighlighter <a href="http://design3.minh.io/tech/2013/05/13/maven3-on-ubuntu-1304/" target="_blank">briefly</a> but decided to switch back because:
 
-<div class="spotlight">Syntax Highlighter requires more imports</div>
+<div class="mSpotlight">Syntax Highlighter requires more imports</div>
 
 You need to import lots of different brushes for different languages. Highlight.js only has 2 imports and you can even use a CDN like Yandex so it's really only 
 a couple lines to start using it.
