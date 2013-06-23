@@ -15,8 +15,8 @@ computing, artificial intelligence, web development, and UI/UX.
 This site was created to share my knowledge, explore different technologies,
 and show my projects.
 
-<p>I'm on twitter at <a href="https://twitter.com/MinhOnGrails" target="_blank">Twitter</a></p>
-<p>See my <a href="https://github.com/minhongrails" target="_blank">code</a></p>
+<p>I'm on Twitter <a href="https://twitter.com/MinhOnGrails" target="_blank">here</a></p>
+<p>See my <a href="https://github.com/minhongrails" target="_blank">code on Github</a></p>
 <p>Send me an email <a href="mailto:minhongrails@gmail.com" target="_blank">minhongrails@gmail.com</a></p>
 
 By the way, this entire site is open sourced <a href="https://github.com/minhongrails/blog" target="_blank">here</a>.
