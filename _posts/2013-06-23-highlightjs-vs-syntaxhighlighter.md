@@ -11,9 +11,9 @@ In this post I want to compare two syntax highlighters: <a href="http://software
 
 For whatever reason I cannot understand at the moment, even though I already had Highlight.js in
 my blog I decided to try out <a href="http://alexgorbatchev.com/SyntaxHighlighter/" target="_blank">Syntax Highlighter</a>,
-which is another nice looking code highlighter. Maybe it was because I stumbled across
-the builtin syntax highlighting in <a href="http://octopress.org/docs/blogging/code/" target="_blank">Octopress's</a> 
-or another great application of the <a href="http://ethanschoonover.com/solarized" target="_blank">Solarized</a> syntax highlighter at <a href="http://thanpol.as/jekyll/jekyll-code-highlight-and-line-numbers-problem-solved/" target="_blank">Thanpol.as</a> and wanted to change things. Perhaps it was because it was late at night and I didn't realize I could change from
+which is another nice looking code highlighter. Maybe it was because I wanted to change
+things after I stumbled across the builtin syntax highlighting in <a href="http://octopress.org/docs/blogging/code/" target="_blank">Octopress</a> 
+or another great application of the <a href="http://ethanschoonover.com/solarized" target="_blank">Solarized</a> syntax highlighter at <a href="http://thanpol.as/jekyll/jekyll-code-highlight-and-line-numbers-problem-solved/" target="_blank">Thanpol.as</a>. Perhaps it was because it was late at night and I didn't realize I could change from
 the default highlight.js theme to its Solarized theme.
 
 Nonetheless, I switched from HighlightJS to SyntaxHighlighter <a href="http://design3.minh.io/tech/2013/05/13/maven3-on-ubuntu-1304/" target="_blank">briefly</a> but decided to switch back because:
