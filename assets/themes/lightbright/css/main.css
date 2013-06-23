@@ -263,7 +263,14 @@ body a:hover {
 }
 
 .navigation li a:hover {
-    background:#f2f2f2;
+    background: #cbe2ff;
+    /*background:#f2f2f2;*/
+}
+
+.table-hover tbody tr:hover>td, .table-hover tbody tr:hover>td {
+    background: #cbe2ff;
+    /*background:#f2f2f2;*/
+
 }
 
 .no-bullet {
@@ -314,10 +321,6 @@ body {
     text-decoration: none;
     line-height: inherit;
     font-size: 2em;
-}
-
-.table-hover tbody tr:hover>td, .table-hover tbody tr:hover>td {
-    background: #cbe2ff;;
 }
 
 @media (min-width: 1200px) {
