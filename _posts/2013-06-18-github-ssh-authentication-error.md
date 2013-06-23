@@ -10,11 +10,11 @@ tags: [github ssh]
 This post is more for myself since I always get SSH authentication errors
 when using SourceTree and GitHub after rebooting since I forget to ssh-add my github ssh key.
 
-Anyway, if anyone out there encounters ssh auth errors, the command to add
+If anyone out there encounters ssh auth errors, the command to add
 your key is:
 
-<pre class="brush: bash;">
-ssh-add ~/.ssh/id_rsa
+<pre>
+<code class="bash">ssh-add ~/.ssh/id_rsa</code>
 </pre>
 
 Where id_rsa is typically the name of your private ssh key. Ideally it would've

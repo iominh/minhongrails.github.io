@@ -263,13 +263,13 @@ body a:hover {
 }
 
 .navigation li a:hover {
-    background: #cbe2ff;
-    /*background:#f2f2f2;*/
+    /*background: #cbe2ff;*/
+    background:#f2f2f2;
 }
 
 .table-hover tbody tr:hover>td, .table-hover tbody tr:hover>td {
-    background: #cbe2ff;
-    /*background:#f2f2f2;*/
+    /*background: #cbe2ff;*/
+    background:#f2f2f2;
 
 }
 
@@ -322,6 +322,21 @@ body {
     line-height: inherit;
     font-size: 2em;
 }
+
+.mSpotlight {
+    margin: 0px 0em 1.5em 0em;
+    padding: 0px 0px 0px 0.5em;
+    border-left: 7px solid #eee;
+    color: #444;
+    font-weight:bold;
+    /*font-size: 0.8em;*/
+}
+
+/*::selection {
+    background: #0054E6;
+    color: #fff;
+    text-shadow: none;
+}*/
 
 @media (min-width: 1200px) {
     .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {

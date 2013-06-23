@@ -1,12 +1,6 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-
+<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
 <script type="text/javascript">
-{% include js/sh/shCore.js %}
-{% include js/sh/shBrushJScript.js %}
-{% include js/sh/shBrushJava.js %}
-{% include js/sh/shBrushBash.js %}
-SyntaxHighlighter.defaults.toolbar = false;
-SyntaxHighlighter.all();
 {% include js/modernizr.min.js %}
 {% include js/bootstrap.min.js %}
 {% include js/jquery.autocomplete.js %}
