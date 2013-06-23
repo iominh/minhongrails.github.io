@@ -34,7 +34,7 @@ didn't see this issue.
 
 
 <div class="mSpotlight">The Solarized theme is brilliant</div>
-
+   
 <pre>
 <code class="ruby">class Float
   def number_decimal_places
