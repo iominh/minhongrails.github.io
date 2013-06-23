@@ -316,6 +316,10 @@ body {
     font-size: 2em;
 }
 
+.table-hover tbody tr:hover>td, .table-hover tbody tr:hover>td {
+    background: #cbe2ff;;
+}
+
 @media (min-width: 1200px) {
     .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
         width: 940px;
