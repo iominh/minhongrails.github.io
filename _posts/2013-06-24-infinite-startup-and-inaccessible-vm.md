@@ -11,19 +11,36 @@ In this post I wanted to document some issues I recently encountered.
 
 <div class="mSpotlight">VMware Fusion guest inaccessible from host</div>
 
-For some reason when I use VMWare Fusion with bridged networking I
-need to manually set an IP address on the VM that's on the same subnet
-as my host machine or else I cannot ping my VM from my host.
+Sometimes when I get a VM I need to change its network settings so that
+it's visible to the internet as well as other machines on the network. 
+Typically I set my VM to use bridged networking and then configure it to use
+DHCP so that it's assigned an IP by my network.
 
-For instance, if my host machine has an IP address of 192.168.50.100 then
-my VM would need to be 192.168.50.X but if it was 192.168.51.X then I wouldn't
-get a response. 
+It depends on the operating system and VM but for <a href="http://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-dhcp-configuring-client.html">CentOS6.4</a>, in order to enable DHCP on a bridged VM:
 
-The steps I took to resolve this issue on my CentOS VM were:
+* Modify <b>/etc/sysconfig/network-scripts/ifcfg-eth0</b> to have the following
+settings:
 
-* Change the IP address in /etc/sysconfig/network-scripts/ifcfg-eth0 
-* Change the IP address in /etc/sysconfig/network
-* Run "service network restart"
+<pre>
+<code class="bash">DEVICE=eth0
+BOOTPROTO=dhcp
+ONBOOT=yes
+</code></pre>
+
+* Modify  <b>/etc/sysconfig/network</b> to have the following settings:
+
+<pre>
+<code class="bash">NETWORKING=yes
+</code></pre>
+
+* Also, don't forget to restart the network for the changes to take effect:
+
+<pre>
+<code class="bash">service network restart
+</code></pre>
+
+* Additionally, <b>/etc/hosts</b> may need to be updated with the new IP address,
+or else you may encounter the next issue...
 
 <div class="mSpotlight">Linux Startup Script Loops Forever</div>
 
