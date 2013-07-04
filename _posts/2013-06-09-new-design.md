@@ -3,7 +3,7 @@ layout: post
 title: "New design"
 description: ""
 category: tech
-tags: [medium, typography]
+tags: [medium, typography, design]
 ---
 {% include JB/setup %}
 
