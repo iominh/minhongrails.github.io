@@ -10,12 +10,11 @@ tags: [tutorial,java,iText,PDF,images]
 In my effort to give back to open source, I'm going to start writing tutorials
 and sample code on GitHub for snippets of code that I've written or used. 
 This particular tutorial will cover how to extract images from a PDF, store
-them to a file, and execute everything from the command line.
+them to a folder, and execute everything from the command line.
 
 <div class="mSpotlight">Background</div>
 
-Recently I had to extract images from a PDF and since I was using Java
-I looked at [Apache PDFBox](http://pdfbox.apache.org/), which looked great because
+Initially I looked at [Apache PDFBox](http://pdfbox.apache.org/), which looked great because
 of its Apache license. Unfortunately, it didn't meet my rule of "must work in
 under 15 minutes." Next I looked at [iTextPDF](http://itextpdf.com/), which
 unfortunately has an [AGPL license](http://itextpdf.com/terms-of-use/agpl.php) 
@@ -28,7 +27,7 @@ A quick Google search for "iText extract images" gave several results such as
 I initially tried the Stackoverflow example because its code was concise but
 found an issue where it would sometimes output files in the wrong format (not
 every image is a jpeg) or not extract certain images correctly. Therefore I tried
-the official ExtractImages tutorial and that mostly worked:
+the official ExtractImages tutorial and that mostly worked.
 
 However, there was a few modifications I needed to add:
 
@@ -64,7 +63,7 @@ files set up with all of the dependencies so that you're ready to start coding:
 
 <div class="mSpotlight">Code</div>
 
-All of the code is available on GitHub but this section will show
+Everything is available on GitHub but this section will show
 the code if you don't like GitHub or Maven for some reason:
 
 First, add the dependency to your Maven pom:
