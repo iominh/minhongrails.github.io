@@ -15,5 +15,3 @@ it I needed to uninstall PIL, install libjpeg, and then reinstall PIL:
 <code class="bash">pip uninstall PIL
 brew install libjpeg
 pip install PIL</code></pre>
-
-Stay tuned for more insightful posts like this...

@@ -25,6 +25,7 @@ very thankful for:
 * [Jekyll Bootstrap](http://jekyllbootstrap.com/) - MIT License
 * [Robot favicon](http://findicons.com/icon/40514/robot?id=415175) by Rodrgo Tejero, Freeware Non-commercial
 * Jekyll search (http://alexpearce.me/2012/04/simple-jekyll-searching, http://alexpearce.me)
+* [CSS3 snow effect](<a href="http://pixelunion.net/">Pixel Union</a>) - Taken from Pixel Union
 
 If you do end up using any of the code please let me know though since I'll
 be interested to see what others create (minhongrails@gmail.com).

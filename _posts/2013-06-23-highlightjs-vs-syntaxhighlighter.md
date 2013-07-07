@@ -26,14 +26,14 @@ a couple lines to start using it.
 
 <div class="mSpotlight">Syntax Highlighter is noticeably slower</div>
 
-I tried organizing my JS code so that
-it would be the first JavaScript invoked but for whatever reason, whenever
-loading the page I would first briefly see the unhighlighted code before it
-was highlighted. Highlight.js, however, worked great out of the box and I
-didn't see this issue.
+For whatever reason, despite my best efforts, Syntax Highlighter always
+seems to take a moment after loading the page before it applies styling, which
+means that a user will briefly see the unhighlighted code. I noticed this
+both in official examples as well as other sites.
 
+Highlight.js, however, worked out of the box and I didn't notice anything similar.
 
-<div class="mSpotlight">The Solarized theme is brilliant</div>
+<div class="mSpotlight">Highlight.js' Solarized theme is brilliant</div>
    
 <pre>
 <code class="ruby">class Float
