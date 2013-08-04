@@ -27,6 +27,10 @@ it to a directory.</li>
 
 <li>Set an environment variable YWORKS_HOME to point to the extracted directory.</li>
 
+<li>Clone the sample GitHub repo:
+<div><pre><code class="bash">git clone https://github.com/minhongrails/multimoduleJavadocUML</code></pre></div>
+</li>
+
 <li>Build the project and execute
 <div><pre><code class="bash">mvn clean install site</code></pre></div>
 </li>
