@@ -58,7 +58,7 @@ Alternatively, run integration tests as well:
 </li>
 
 <li>Load the <a href="http://localhost:9000" target="_blank">Sonar GUI</a> in your browser and you should see
-a project called "parent" and clicking that should show the following:
+a project called "parent." Clicking that should show the following:
 <br><br>
 <a href="/assets/img/sonar/sonar_screen.png" target="_blank"><img src="/assets/img/sonar/sonar_screen.png" alt="sonar_screen.png"/></a>
 </li>
