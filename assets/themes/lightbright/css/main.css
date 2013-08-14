@@ -295,7 +295,8 @@ li {
     line-height: 160%;
 }
 a {
-    color : #307EA9;
+    /*color : #15317E;*/
+    color : #334F9C;
 }
 
 body {
@@ -344,7 +345,7 @@ body {
 .mSpotlight {
     margin: 1.5em 0em 1.5em 0em;
     padding: 0px 0px 0px 0.5em;
-    border-left: 7px solid #eee;
+    border-left: 4px solid #333;
     /*color: #444;*/
     font-weight:bold;
     /*font-size: 0.8em;*/
