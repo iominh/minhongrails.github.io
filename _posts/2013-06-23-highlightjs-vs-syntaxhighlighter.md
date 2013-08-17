@@ -60,3 +60,5 @@ end
 </pre>
 
 Next up, I'll work on figuring out how to add line numbers...
+
+* Update 8/17/13: [I figured out the line numbers](/tech/2013/08/17/highlightjs-line-numbers/).
