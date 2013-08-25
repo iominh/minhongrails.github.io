@@ -15,7 +15,7 @@ deterministic code where you can control the exact sequence/interweaving of oper
 threads. In other words, it allows you to precisely create and test a race condition.
 
 The only downside to the framework was that it used Ant. This meant it took
-a little bit of extra work to set it up since I had to download the jars
+a little bit of extra work to set up since I had to download the jars
 and figure out the project structure. Considering all of this,
 I took some time to "Mavenize" the project and put a version
 on Github: [https://github.com/minhongrails/ThreadWeaver](https://github.com/minhongrails/ThreadWeaver). 
