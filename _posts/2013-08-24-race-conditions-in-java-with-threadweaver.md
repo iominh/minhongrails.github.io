@@ -18,7 +18,7 @@ The only downside to the framework was that it used Ant. This meant it took
 a little bit of extra work to set up since I had to download the jars
 and figure out the project structure. Considering all of this,
 I took some time to "Mavenize" the project and put a version
-on Github: [https://github.com/minhongrails/ThreadWeaver](https://github.com/minhongrails/ThreadWeaver). 
+on <a href="https://github.com/minhongrails/ThreadWeaver">Github</a>. 
 I'm currently working with another developer to possibly publish 0.20 to
 Maven Central.
 
