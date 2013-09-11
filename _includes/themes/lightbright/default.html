@@ -33,13 +33,10 @@
             <!--<a class="brand" id="brand" href="{{ HOME_PATH }}">Minh Nguyen</a>-->
 
             <ul class="clearfix no-bullet">
-                <li><a href="{{ HOME_PATH }}">Minh Nguyen</a></li>
+                <li><a href="{{ HOME_PATH }}">{% if page.title == "Minh Nguyen" %}Home{% else %}Minh Nguyen{% endif %}</a></li>
 
                 <li class="sideBorders pull-right"><a href="/about.html">About</a> <a href="/projects.html">Projects</a></li>
 
-            </ul>
-
-            <ul class="navright no-bullet clearfix">
             </ul>
         </div>
 
