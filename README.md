@@ -23,6 +23,7 @@ very thankful for:
 * [Twitter bootstrap 2.3.1](http://twitter.github.io/bootstrap) - Apache V2 License
 * [Jekyll](https://github.com/mojombo/jekyll) - MIT License
 * [Jekyll Bootstrap](http://jekyllbootstrap.com/) - MIT License
+* [Robot icon] (https://www.iconfinder.com/icons/84049/robot_icon#size=32) by Momentum Design Lab, Creative Commons
 * [Robot favicon](http://findicons.com/icon/40514/robot?id=415175) by Rodrgo Tejero, Freeware Non-commercial
 * Jekyll search (http://alexpearce.me/2012/04/simple-jekyll-searching, http://alexpearce.me)
 * [CSS3 snow effect](<a href="http://pixelunion.net/">Pixel Union</a>) - Taken from Pixel Union
