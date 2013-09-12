@@ -9,4 +9,5 @@
 {% when "custom" %}
   {% include custom/analytics %}
 {% endcase %}
+  {% include JB/analytics-providers/statcounter %}
 
