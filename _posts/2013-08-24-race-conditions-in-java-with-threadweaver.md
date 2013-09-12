@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Race Conditions in Java with ThreadWeaver"
+title: "Race conditions in java with ThreadWeaver"
 description: ""
 category: tech
 tags: [java, threadweaver, multithreading]

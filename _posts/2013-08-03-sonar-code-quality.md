@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Measuring Code Quality"
+title: "Measuring code quality"
 description: ""
 category: tech 
 tags: [sonar, sonarQube, jacoco, testNG, junit, java, cobertura]

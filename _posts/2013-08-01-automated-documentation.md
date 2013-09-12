@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Automated Documentation"
+title: "Automated documentation"
 description: ""
 category: tech
 tags: [javadoc, documentation, java, maven]
