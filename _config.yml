@@ -9,16 +9,16 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : minh.io
-tagline: Tech and stuff
+title : Minh Nguyen
+tagline: Software, web development, and design
 author :
   name : Minh Nguyen
-  email : hello@minh.io
+  email : minhongrails@gmail.com
   github : minhongrails
   twitter : minhongrails
   feedburner : NA
   
-description : A blog about software, startups, and technology
+description : Minh Nguyen is a software engineer, web developer, and designer
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

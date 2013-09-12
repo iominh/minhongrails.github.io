@@ -6,6 +6,10 @@
         {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
         <meta name="author" content="{{ site.author.name }}">
         <meta name="description" content="{{ site.description }}" />
+        <meta property="og:title" content="Home of Feross Aboukhadijeh &raquo; Feross.org" />
+        <meta property="og:description" content="{{ site.description }}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="{{ site.production_url }}/assets/img/favicon/robot.png" />
 
         <!-- Enable responsive viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +20,8 @@
         <![endif]-->
 
         <!-- Le styles -->
+        <link rel="canonical" href="{{ site.production_url }}" />
+
         <link rel="icon" type="image/ico" href="{{ BASE_PATH }}/assets/img/favicon/robot.png">
         <!--<link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
