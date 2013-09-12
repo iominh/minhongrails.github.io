@@ -17,11 +17,13 @@
 
         <!-- Le styles -->
         <link rel="icon" type="image/ico" href="{{ BASE_PATH }}/assets/img/favicon/robot.png">
-        <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!--<link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link rel="stylesheet" href="{{ ASSET_PATH }}/css/solarized_dark.css">
         <link href="{{ ASSET_PATH }}/css/main.css" rel="stylesheet" type="text/css" media="all">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">
+        <!--<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">-->
         <!-- atom & rss feed -->
         <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
         <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
@@ -42,13 +44,18 @@
 
         <div class="container">
 
+            <div class="page-header">
+
+                <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+            </div>
             <div class="content">
                 {{ content }}
                 <hr>
                 <footer>
-                    <p>&copy; {{ site.time | date: '%Y' }} 
-                        <a href="https://github.com/minhongrails/blog" target="_blank" title="Open Source Theme">{{ site.author.name }}</a>
+                    <p class='pull-left'>&copy; {{ site.time | date: '%Y' }} 
+                        <a href="https://github.com/minhongrails/blog" target="_blank" title="Open Source Theme">{{ site.author.name }}</a> 
                     </p>
+                    <p class='pull-right'><a href="mailto:minhongrails@gmail.com"><i class="icon-envelope"></i></a>  <a href="https://www.linkedin.com/in/minhnguyen9"><i class="icon-linkedin-sign"></i></a> <a href="https://twitter.com/MinhOnGrails"><i class="icon-twitter-sign"></i></a> <a href="https://github.com/minhongrails"><i class="icon-github-sign"></i> <a href="/rss.xml"><i class="icon-rss-sign"></i></a></p>
                 </footer>
             </div>
 

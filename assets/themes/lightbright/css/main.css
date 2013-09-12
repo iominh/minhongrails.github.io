@@ -321,7 +321,15 @@ li {
 }
 a {
     /*color : #15317E;*/
-    color : #334F9C;
+    color : #307EA9;
+}
+
+a [class^="icon-"], a [class*=" icon-"] {
+    color: #33333;
+}
+
+a [class^="icon-"]:hover, a [class*=" icon-"]:hover {
+    color: #307EA9;
 }
 
 a:hover {
@@ -330,6 +338,19 @@ a:hover {
 
 body {
     /*-webkit-font-smoothing: antialiased;*/
+}
+
+footer {
+    border-bottom: 4px solid #333333;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.verticalAlign {
+    vertical-align: middle;
 }
 
 .marginTop {
@@ -412,7 +433,7 @@ body {
 /* iphone */
 @media (max-width: 767px) {
     body {
-        padding: 0 0 0 0;
+        padding: 0 1em 0 1em;
     }
     .navigation {
         margin-top: 0em;
@@ -421,8 +442,13 @@ body {
         margin: 0;
     }
 
+    ul, ol {
+        padding: 0;
+        margin: 0 0 10px 25px;
+    }
+
     .navigation li a{
-        padding: 0.5em;
+        padding: 0.25em;
     }
 }
 
