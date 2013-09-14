@@ -439,6 +439,14 @@ footer a {
     }
 }
 
+@media (min-width: 768px) and (max-width: 979px) { 
+    #searchInput {
+        margin-left: 1em;
+        width: 70%;
+    }
+}
+
+
 /* iphone */
 @media (max-width: 767px) {
     body {
@@ -457,11 +465,11 @@ footer a {
     }
 
     .navigation li a{
-        padding: 0.25em;
+        padding: 0.75em;
     }
 
     #searchInput {
         margin-left: 1em;
-        width: 80%;
+        width: 50%;
     }
 }
