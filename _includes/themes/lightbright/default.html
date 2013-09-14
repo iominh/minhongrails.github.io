@@ -37,23 +37,48 @@
     </head>
 
     <body>
-        <div class="navigation container content">
+        <div class="navbar navbar-inverse navigation container">
             <!--<a class="brand" id="brand" href="{{ HOME_PATH }}">Minh Nguyen</a>-->
 
-            <ul class="clearfix no-bullet">
-                <li><a href="{{ HOME_PATH }}">{% if page.title == "Minh Nguyen" %}Home{% else %}Minh Nguyen{% endif %}</a></li>
+            <!--            <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>-->
 
-                <li class="sideBorders pull-right"><a href="/about.html">About</a> <a href="/projects.html">Projects</a></li>
+            <ul class="clearfix no-bullet ">
+                <li><a href="{{ HOME_PATH }}">Home</a></li>
+
+                <li class="sideBorders pull-right"><a href="/about.html">About</a> <a href="/projects.html">Projects</a> <a id="searchButton"><i class="icon-search"></i></a></li>
 
             </ul>
         </div>
 
-        <div class="container">
+        <div id="searchContent" class="container">
+
+            <div class="page-header">
+
+                <div class="form-inline">
+                    <label><h2>Search</h2></label>
+
+                    <input id="searchInput" type="text" class="input-large search-query"/>
+                    <div id="cancelSearch" class="btn"><i class="icon-remove"></i></div>
+                </div>
+
+                <div id="searchResults">
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="mainContent" class="container">
 
             <div class="page-header">
 
                 <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
             </div>
+
             <div class="content">
                 {{ content }}
                 <br>
