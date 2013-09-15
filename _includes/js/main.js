@@ -130,6 +130,10 @@ $(document).ready(function() {
         }
     });
 
+    $("#showAnswer").click(function() {
+        $("#hidden").slideToggle();
+    });
+
     // highlight code
     hljs.initHighlightingOnLoad();
 

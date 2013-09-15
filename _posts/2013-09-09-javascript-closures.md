@@ -7,8 +7,8 @@ tags: [javascript, closure]
 ---
 {% include JB/setup %}
 
-JavaScript closures can be a tricky to understand. 
-Take a look at the following examples:
+JavaScript closures can be tricky to understand. 
+Look at the following examples:
 
 <pre>
 <code class="javascript">function logNumbers1(){
@@ -34,17 +34,28 @@ logNumbers2();
 </code>
 </pre>
 
-At first glance, it looks like both functions should log 0 through 9. The second 
-function, instead of logging immediately, sets a timeout with zero, which appears 
-to be equivalent.
+At first glance, it appears that both functions are equivalent. The only
+difference, it seems, is that the second function sets a timeout of zero. 
 
-Of course this wouldn't be much of a post if this wasn't true. As it turns
-out, logNumbers2 actually prints the number 10 ten times because of its closure. 
-The reason is because the last value assigned to x is 10 and when console.log(x)
-is executed, it only has access to the last value assigned to x within its scope/closure.
+So, what do you think will happen? 
 
-While closures can be confusing, they do provide a nice benefit for encapsulation.
-For example, [observe the following](http://stackoverflow.com/questions/4532407/general-javascript-syntax-question):
+<div id="showAnswer" class="btn btn-large">
+     Show answer  <i class="icon-chevron-down"> </i>
+</div>
+
+<div>
+    <br/>
+</div>
+
+<div id="hidden">
+
+<p>Initially, it appears that both functions should log 0 through 9.
+As it turns out, logNumbers2 actually prints the number 10 ten times because of its closure. 
+The reason is because the last value assigned to x is 10 so when console.log(x)
+is executed, it only has access to the last value assigned to x within its scope/closure.</p>
+
+<p>While closures can be confusing, they do provide a nice benefit for encapsulation.
+For example, <a href="http://stackoverflow.com/questions/4532407/general-javascript-syntax-question">observe the following</a>:</p>
 
 <pre>
 <code class="javascript">function Counter() {
@@ -70,8 +81,7 @@ b.print(); // 0
 </pre>
 
 
-
-Here's another [example](http://stackoverflow.com/questions/947352/javascript-closure-and-data-visibility):
+<p>Here's another <a href="http://stackoverflow.com/questions/947352/javascript-closure-and-data-visibility">example</a>:</p>
 
 <pre>
 <code class="javascript">function create() {
@@ -90,5 +100,4 @@ console.log(c.counter); // undefined
 </code>
 </pre>
 
-
-
+</div>

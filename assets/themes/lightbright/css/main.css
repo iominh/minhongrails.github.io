@@ -423,6 +423,10 @@ pre {
     /*font-size: 0.8em;*/
 }
 
+#hidden {
+    display: none;
+}
+
 #searchContent {
     display: none;
 }

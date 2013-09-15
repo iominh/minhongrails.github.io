@@ -54,7 +54,7 @@ This is just an initial attempt but I'm actually quite happy with
 how it turned out, especially since I can copy the text and not have
 it also copy the numbers.
 
-<div class="mSpotlight">Wut?</div>
+<div class="mSpotlight">Huh?</div>
 
 So how does this work? Well, from looking at Ivan's branch, it appeared that 
 the line numbers were set through a global variable. Instead, I figured that
