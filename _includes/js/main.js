@@ -77,6 +77,10 @@ $(document).ready(function() {
             return $.get('/search.json', {query: query}, function(data) {
                 $("#searchResultsTable").empty();
 
+                if (typeof data !== 'object') {
+                    data = jQuery.parseJSON(data);
+                }
+
                 if (data) {
                     var text = $('#searchInput').val().toLowerCase();
                     var found = false;
