@@ -83,7 +83,7 @@ $(document).ready(function() {
                     for (var x = 0; x < data.length; x++) {
                         var result = data[x];
 
-                        if (result === null) {
+                        if (result === null || result.title === undefined) {
                             continue;
                         }
 
