@@ -66,6 +66,7 @@ $(document).ready(function() {
     $("#cancelSearch").click(function(e) {
         $("#searchContent").hide();
         $("#mainContent").fadeIn();
+        $("#searchResults").hide();
         $("#searchResultsTable").empty();
         $('#searchInput').val("");
         e.preventDefault();
@@ -94,10 +95,11 @@ $(document).ready(function() {
                                     '</a></td><td>';
 
                             // print tags
+                            var tags = result.tags.sort();
                             for (y in result.tags) {
                                 var tag = result.tags[y];
                                 if (tag !== null) {
-                                    row += tag + ' ';
+                                    row += tag.toLowerCase() + '<br>';
                                 }
                             }
 
