@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+    // global vars
+    isSearching = false;
+
     // set up navigation
     $('#boxNav').click(function() {
         window.location = "/";
@@ -55,20 +58,35 @@ $(document).ready(function() {
         });
     });
 
-    $("#searchButton").click(function(e) {
-        e.preventDefault();
-        $("#mainContent").hide();
-        $("#searchContent").fadeIn();
-        $("#searchInput").focus();
-
-    });
-
-    $("#cancelSearch").click(function(e) {
+    function resetSearch() {
         $("#searchContent").hide();
         $("#mainContent").fadeIn();
         $("#searchResults").hide();
         $("#searchResultsTable").empty();
         $('#searchInput').val("");
+        isSearching = false;
+    }
+
+    function startSearch() {
+        $("#mainContent").hide();
+        $("#searchContent").fadeIn();
+        $("#searchInput").focus();
+        isSearching = true;
+    }
+
+    $("#searchButton").click(function(e) {
+
+        if (isSearching) {
+            resetSearch();
+        } else {
+            startSearch();
+        }
+
+        e.preventDefault();
+    });
+
+    $("#cancelSearch").click(function(e) {
+        resetSearch();
         e.preventDefault();
     });
 

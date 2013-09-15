@@ -7,7 +7,7 @@ tags: [javascript, closure]
 ---
 {% include JB/setup %}
 
-JavaScript closures can be tricky to understand. 
+JavaScript can be tricky to understand. 
 Look at the following examples:
 
 <pre>
@@ -52,7 +52,11 @@ So, what do you think will happen?
 <p>Initially, it appears that both functions should log 0 through 9.
 As it turns out, logNumbers2 actually prints the number 10 ten times because of its closure. 
 The reason is because the last value assigned to x is 10 so when console.log(x)
-is executed, it only has access to the last value assigned to x within its scope/closure.</p>
+is executed, it only has access to the last value assigned to x within its scope/closure,
+so it outputs 10 ten times.
+It might be helpful to run this code through a debugger like the Chrome developer
+tool and in particular observe the "closure" section which shows what variables
+are accessible within a particular execution stack.</p>
 
 <p>While closures can be confusing, they do provide a nice benefit for encapsulation.
 For example, <a href="http://stackoverflow.com/questions/4532407/general-javascript-syntax-question">observe the following</a>:</p>

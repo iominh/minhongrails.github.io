@@ -18,5 +18,8 @@ that and I also liked the cleanness and readability of [Christoph Oro's portfoli
 so I took lots of design elements from that. 
 
 I also added some [Font Awesome icons](http://fortawesome.github.io/Font-Awesome) and
-a robot Favicon. Next up, I plan to add a search engine, rethink how to display
+a robot Favicon. There's also a search button in the menu where you can search posts
+by title (still working on this).
+
+Next up, I plan to add a search engine, rethink how to display
 all of my posts since there's so many (infinite scroll maybe?), and add a tag cloud.
