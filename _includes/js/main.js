@@ -66,26 +66,64 @@ $(document).ready(function() {
     $("#cancelSearch").click(function(e) {
         $("#searchContent").hide();
         $("#mainContent").fadeIn();
+        $("#searchResultsTable").empty();
+        $('#searchInput').val("");
         e.preventDefault();
     });
 
     $('#searchInput').typeahead({
         source: function(query, process) {
             return $.get('/search.json', {query: query}, function(data) {
+                $("#searchResultsTable").empty();
 
                 if (data) {
-                    var text = $('#searchInput').val();
+                    var text = $('#searchInput').val().toLowerCase();
+                    var found = false;
                     for (var x = 0; x < data.length; x++) {
                         var result = data[x];
-                        if (result && result.title.indexOf(text) !== null) {
-                            $("#searchResults").append("<p>" + result.title + "</p>");
+
+                        if (result === null) {
+                            continue;
+                        }
+
+                        var title = result.title.toLowerCase();
+                        if (title.indexOf(text) !== -1) {
+
+                            var row = '<tr><td><a href='
+                                    + result.href + '>' + title +
+                                    '</a></td><td>';
+
+                            // print tags
+                            for (y in result.tags) {
+                                var tag = result.tags[y];
+                                if (tag !== null) {
+                                    row += tag + ' ';
+                                }
+                            }
+
+                            // print date
+//                            row += result.date.month + ' ' + result.date.day
+//                                    + ' ' + result.date.year;
+
+//                            if (found === false) {
+//                                $("#searchResultsTable").append('<tr><td>Result</td><td>Tags</td></tr>');
+//                            }
+
+                            row += '</td></tr>'
+
+                            // display table for first time
+                            if (found === false) {
+                                $("#searchResults").show();
+                            }
+                            $("#searchResultsTable").append(row);
+                            found = true;
                         }
                     }
-                    console.log(data);
+
+                    if (found === false) {
+                        $("#searchResultsTable").append('<tr><td>No results found.</td></tr>');
+                    }
                 }
-
-
-//                return process(data.options);
             });
         }
     });

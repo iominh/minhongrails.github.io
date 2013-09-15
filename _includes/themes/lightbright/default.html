@@ -59,40 +59,52 @@
             <div class="page-header">
 
                 <div class="form-inline">
-                    <label><h2>Search</h2></label>
 
+                    <label><h2>Search</h2></label>
                     <input id="searchInput" type="text" class="input-large search-query"/>
                     <div id="cancelSearch" class="btn"><i class="icon-remove"></i></div>
+
+                    <div id="searchResults">
+                        <table id="searchResultsTable" class="table table-bordered">
+                            <!--                        <tr>
+                                                        <td>Results</td>
+                                                        <td>Tags</td>
+                                                    </tr>-->
+                        </table>
+                    </div>
+
+
+
                 </div>
-
-            </div>
-
-            <div id="searchResults">
-            </div>
-        </div>
-
-
-        <div id="mainContent" class="container">
-
-            <div class="page-header">
-
-                <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
-            </div>
-
-            <div class="content">
-                {{ content }}
-                <br>
-                <footer>
-                    <p class='pull-left'>&copy; {{ site.time | date: '%Y' }} 
-                        <a href="https://github.com/minhongrails/blog" target="_blank" title="Open Source Theme">{{ site.author.name }}</a> 
-                    </p>
-                    <p class='pull-right'><a href="mailto:minhongrails@gmail.com"><i class="icon-envelope"></i></a>  <a href="https://www.linkedin.com/in/minhnguyen9"><i class="icon-linkedin-sign"></i></a> <a href="https://twitter.com/MinhOnGrails"><i class="icon-twitter-sign"></i></a> <a href="https://github.com/minhongrails"><i class="icon-github-sign"></i> <a href="/rss.xml"><i class="icon-rss-sign"></i></a></p>
-                </footer>
             </div>
 
         </div>
 
-        {% include JB/javascript %}
-        {% include JB/analytics %}
-    </body>
+
+    </div>
+
+
+    <div id="mainContent" class="container">
+
+        <div class="page-header">
+
+            <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+        </div>
+
+        <div class="content">
+            {{ content }}
+            <br>
+            <footer>
+                <p class='pull-left'>&copy; {{ site.time | date: '%Y' }} 
+                    <a href="https://github.com/minhongrails/blog" target="_blank" title="Open Source Theme">{{ site.author.name }}</a> 
+                </p>
+                <p class='pull-right'><a href="mailto:minhongrails@gmail.com"><i class="icon-envelope"></i></a>  <a href="https://www.linkedin.com/in/minhnguyen9"><i class="icon-linkedin-sign"></i></a> <a href="https://twitter.com/MinhOnGrails"><i class="icon-twitter-sign"></i></a> <a href="https://github.com/minhongrails"><i class="icon-github-sign"></i> <a href="/rss.xml"><i class="icon-rss-sign"></i></a></p>
+            </footer>
+        </div>
+
+    </div>
+
+    {% include JB/javascript %}
+    {% include JB/analytics %}
+</body>
 </html>
