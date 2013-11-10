@@ -7,8 +7,8 @@ tags: [javascript, closure]
 ---
 {% include JB/setup %}
 
-JavaScript can be tricky to understand. 
-Look at the following examples:
+JavaScript can be tricky to understand. For example,
+look at the following functions:
 
 <pre>
 <code class="javascript">function logNumbers1(){
