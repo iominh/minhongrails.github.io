@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "DC Tech D&B Hackathon Honorable Mention"
+title: "DC Tech D&amp;B Hackathon Honorable Mention"
 description: ""
 category: tech
 tags: [hackathon, D&B]
 ---
 {% include JB/setup %}
 
-This weekend I attended the DC Tech <a href="http://www.istrategylabs.com/" target="_blank">iStrategyLabs</a> / <a href="https://dnbdctech.eventbrite.com/" target="_blank">DB Hackathon</a> and won an 
+This weekend I attended the DC Tech <a href="http://www.istrategylabs.com/" target="_blank">iStrategyLabs</a> / <a href="https://dnbdctech.eventbrite.com/" target="_blank">D&amp;B Hackathon</a> and won an 
 honorable mention prize for $1,000 out of ~13 teams. Woohoo! I'll admit
 that the prizes are nice but I actually attend hackathons (this was my second)
 because they're fun. You learn valuable skills, work in great coworking
