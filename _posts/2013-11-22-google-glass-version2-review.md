@@ -10,7 +10,7 @@ tags: [glass, reviews]
 In this post I wanted to describe my experiences with the Google Glass Explorer
 Version2 edition. Please note that I am not a professional reviewer and this post
 will continuously change as I spend more time with it. I'll be keeping
-a changelog though.
+a [changelog](https://github.com/minhongrails/blog/commits/master/_posts/2013-11-22-google-glass-version2-review.md) though.
 
 <div class="mSpotlight">Photos</div>
 
