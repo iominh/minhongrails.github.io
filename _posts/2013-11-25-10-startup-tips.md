@@ -3,7 +3,7 @@ layout: post
 title: "6 Startup Venture Capital Tips"
 description: ""
 category:  tech
-tags: []
+tags: [startup, VC, venture capital]
 ---
 {% include JB/setup %}
 
