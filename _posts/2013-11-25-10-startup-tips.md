@@ -21,8 +21,7 @@ video games quite a bit but I've cut back, which gives me time to work on my ide
 <div class="mSpotlight">Focus on an idea you're passionate about</div>
 
 One member of the audience mentioned how he was an "idea factory" and didn't know how to select an idea. The panel advised
-him to select an idea he would be passionate about and something that he would be excited
-to work on after waking up every morning for 5+ years.
+him to select an idea he would be excited to work on after waking up every morning for 5+ years.
 
 Another panelist even mentioned that "idea factory" founders are not ideal personalities for entrepreneurship since
 VCs look for people with focus; he suggested this person should find a cofounder to provide balance. This conflicted
@@ -31,7 +30,7 @@ to experiment and do things differently; echoing Facebook's famous "move fast an
 
 Personally I love change and believe that "idea factory" personalities are essential for innovation. However, I can see how
 this may be a turn off for VCs especially if a company has too many unfocused, unspecialized products. For example, Apple
-has had great success with its focused product lines of very high quality products.
+has had great success with its very high quality, yet focused product lines.
 
 Overall, maybe the lesson is that there should be balance between focus and exploring ideas but the end result needs to
 be a great focused product.
