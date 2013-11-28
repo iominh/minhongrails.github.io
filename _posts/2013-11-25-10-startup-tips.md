@@ -46,8 +46,10 @@ isn't enough data for teams > 3 and solo founders are rare.
 
 An audience member asked how a startup should be valued. One VC panelist mentioned that there are valuations
 based on numerous metrics but generally if a number is pitched by the founder it creates an anchor / floor valuation; even
-better: if a startup has other VCs interested in it, VCs tend to be more afraid of missing out on a great deals than
+better: if a startup has other VCs interested in it, VCs tend to be more afraid of missing out on great deals than
 possibly overpaying.
+
+However, a VC also cautioned that if an initial VC does not do a follow-up round then it can be a red flag.
 
 <div class="mSpotlight">Find balance</div>
 
