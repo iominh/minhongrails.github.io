@@ -20,7 +20,7 @@ video games quite a bit but I've cut back, which gives me time to work on my ide
 
 <div class="mSpotlight">Focus on an idea you're passionate about</div>
 
-One member of the audience mentioned how he was an "idea factory" and didn't know how to select an idea. The panel advised
+One member of the audience mentioned he was an "idea factory" and didn't know how to select an idea. The panel advised
 him to select an idea he would be excited to work on after waking up every morning for 5+ years.
 
 Another panelist even mentioned that "idea factory" founders are not ideal personalities for entrepreneurship since
