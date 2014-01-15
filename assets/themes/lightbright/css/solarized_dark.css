@@ -3,10 +3,22 @@
 Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
 
 */
+pre {
+    -webkit-box-shadow: rgba(0,0,0,0.06) 0 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.06) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.06) 0 0 10px;
+    background: none;
+    padding: 0;
+    border: 1px solid #dfdfdf;
+}
 
 pre code {
-    display: block; padding: 0.5em;
-    background: #002b36; color: #839496;
+    font-family: Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace !important;
+    display: block;
+    padding: .8em;
+    line-height: 1.45em;
+    background: #fbfbfb url('/assets/img/noise.png?1388886466') top left !important;
+    color: #93a1a1 !important;
 }
 
 pre .comment,
@@ -100,5 +112,5 @@ pre .line::before {
     content: counter(lines); text-align: right;
     display: inline-block; width: 2em;
     padding-right: 0.5em; margin-right: 0.5em;
-    color: #839496; border-right: solid 1px;
+    color: #839496; border-right: 1px solid #e0e0e0 !important;
 }

@@ -91,10 +91,9 @@ code {
 
 pre {
     background-color: #fff;
-    border: 0px;
+    border: 1px solid #e1e1e8;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
-    border-radius:0 px;
 }
 
 /*a {

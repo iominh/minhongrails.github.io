@@ -17,9 +17,7 @@ look at the following functions:
     }
 }
 
-logNumbers1();
-</code>
-</pre>
+logNumbers1();</code></pre>
 
 <pre>
 <code class="javascript">function logNumbers2(){
@@ -30,9 +28,7 @@ logNumbers1();
     }
 }
 
-logNumbers2();
-</code>
-</pre>
+logNumbers2();</code></pre>
 
 At first glance, it appears that both functions are equivalent. The only
 difference, it seems, is that the second function sets a timeout of zero. 
@@ -81,8 +77,7 @@ console.log(a.counter); // undefined
 a.print(); // 2
 var b = Counter();
 b.print(); // 0
-</code>
-</pre>
+</code></pre>
 
 
 <p>Here's another <a href="http://stackoverflow.com/questions/947352/javascript-closure-and-data-visibility">example</a>:</p>
@@ -101,7 +96,6 @@ var c = new create();
 c.increment();
 c.print(); // 1
 console.log(c.counter); // undefined
-</code>
-</pre>
+</code></pre>
 
 </div>
