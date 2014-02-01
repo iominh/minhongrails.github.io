@@ -7,6 +7,12 @@ tags: []
 ---
 {% include JB/setup %}
 
+<div class="mSpotlight">Update 2/1/14</div>
+
+I've [changed syntax highlighters](/tech/2014/01/30/prettyprint-syntax-highlighting/), so see [this version](http://design7.minh.io/tech/2013/08/17/highlightjs-line-numbers/), which uses Highlight.js
+
+<div class="mSpotlight">Summary</div>
+
 In this post I will show how to add line numbers with syntax highlighting
 provided through <a href="http://softwaremaniacs.org/soft/highlight/en/" target="_blank">Highlight.js</a>. 
 I decided to give this a whirl after getting a [comment](/tech/2013/06/23/highlightjs-vs-syntaxhighlighter/) from the author

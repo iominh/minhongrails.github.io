@@ -27,7 +27,7 @@ Unfortunately this didn't work for me but bsilvereagle from the Meteor IRC chann
 create a [tmux](http://tmux.sourceforge.net/) session, start my Meteor server in it, and detach
 the session. So, you would roughly run the following commands:
 
-<pre class="prettyprint">
+<pre>
 <code class="no-highlight">tmux
 [a new tmux session will be created and you'll notice a green bar at the bottom of the terminal]
 [start your Meteor app: (e.g. "meteor &amp;")]

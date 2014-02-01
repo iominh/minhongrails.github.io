@@ -89,12 +89,13 @@ code {
     line-height: 20px;
 }
 
-/*pre {*/
+pre {
     /*background-color: #fff;*/
     /*border: 1px solid #e1e1e8;*/
     /*-webkit-border-radius: 0px;*/
     /*-moz-border-radius: 0px;*/
-/*}*/
+    font-size: 15px;
+}
 
 /*a {
     color : #000;

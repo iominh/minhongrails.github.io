@@ -7,6 +7,13 @@ tags: [SyntaxHighlighter, highlightJS, highlight, octopress]
 ---
 {% include JB/setup %}
 
+<div class="mSpotlight">Update 2/1/14</div>
+
+I've [changed syntax highlighters](/tech/2014/01/30/prettyprint-syntax-highlighting/), so see [this version](http://design7.minh.io/tech/2013/06/23/highlightjs-vs-syntaxhighlighter/), which uses Highlight.js
+
+<div class="mSpotlight">Summary</div>
+
+
 In this post I want to compare two syntax highlighters: <a href="http://softwaremaniacs.org/soft/highlight/en/" target="_blank">Highlight.js</a> and  <a href="http://alexgorbatchev.com/SyntaxHighlighter/" target="_blank">Syntax Highlighter</a>.
 
 For whatever reason I cannot understand at the moment, even though I already had Highlight.js in
