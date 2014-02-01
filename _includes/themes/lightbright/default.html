@@ -27,7 +27,8 @@
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="{{ ASSET_PATH }}/css/solarized_dark.css">
+        <link rel="stylesheet" href="{{ ASSET_PATH }}/google-code-prettify/prettify.css">
+        <!--<link rel="stylesheet" href="{{ ASSET_PATH }}/css/solarized_dark.css">-->
         <!--<link rel="stylesheet" href="{{ ASSET_PATH }}/css/highlight_default.css">-->
 
         <link href="{{ ASSET_PATH }}/css/main.css" rel="stylesheet" type="text/css" media="all">
@@ -38,7 +39,7 @@
 
     </head>
 
-    <body>
+    <body onload="prettyPrint()">
         <div class="navbar navbar-inverse navigation container">
             <ul class="clearfix no-bullet ">
                 <li><a href="{{ HOME_PATH }}">Home</a></li>
@@ -86,7 +87,7 @@
         </div>
 
     </div>
-
+    <script src="{{ ASSET_PATH }}/google-code-prettify/run_prettify.js"></script>
     {% include JB/javascript %}
     {% include JB/analytics %}
 </body>

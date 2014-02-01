@@ -35,7 +35,7 @@ li {
 }
 a {
     /*color : #15317E;*/
-    color : #307EA9;
+    color : #2b6cc2;
 }
 
 a [class^="icon-"], a [class*=" icon-"] {
@@ -43,7 +43,7 @@ a [class^="icon-"], a [class*=" icon-"] {
 }
 
 a [class^="icon-"]:hover, a [class*=" icon-"]:hover {
-    color: #307EA9;
+    color: #2b6cc2;
 }
 
 a:hover {
@@ -89,12 +89,12 @@ code {
     line-height: 20px;
 }
 
-pre {
-    background-color: #fff;
-    border: 1px solid #e1e1e8;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-}
+/*pre {*/
+    /*background-color: #fff;*/
+    /*border: 1px solid #e1e1e8;*/
+    /*-webkit-border-radius: 0px;*/
+    /*-moz-border-radius: 0px;*/
+/*}*/
 
 /*a {
     color : #000;

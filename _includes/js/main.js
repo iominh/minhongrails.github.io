@@ -117,6 +117,6 @@ $(document).ready(function() {
     });
 
     // highlight code
-    hljs.initHighlightingOnLoad();
+//    hljs.initHighlightingOnLoad();
 
 });
