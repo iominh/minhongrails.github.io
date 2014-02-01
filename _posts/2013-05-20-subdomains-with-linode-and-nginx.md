@@ -38,7 +38,7 @@ new changes until eventualy I saw the subdomain.
 <br>
 **In nginx, here's a sample configuration showing how you could add a subdomain**
 
-<pre><code class="no-highlight">server {
+<pre class="prettyprint"><code class="no-highlight">server {
         listen          80;
         server_name     mysite.io;
         location / {

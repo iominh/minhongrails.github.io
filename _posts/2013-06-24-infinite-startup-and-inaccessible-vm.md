@@ -21,7 +21,7 @@ It depends on the operating system and VM but for <a href="http://www.centos.org
 * Modify <b>/etc/sysconfig/network-scripts/ifcfg-eth0</b> to have the following
 settings:
 
-<pre>
+<pre class="prettyprint">
 <code class="bash">DEVICE=eth0
 BOOTPROTO=dhcp
 ONBOOT=yes
@@ -29,13 +29,13 @@ ONBOOT=yes
 
 * Modify  <b>/etc/sysconfig/network</b> to have the following settings:
 
-<pre>
+<pre class="prettyprint">
 <code class="bash">NETWORKING=yes
 </code></pre>
 
 * Also, don't forget to restart the network for the changes to take effect:
 
-<pre>
+<pre class="prettyprint">
 <code class="bash">service network restart
 </code></pre>
 

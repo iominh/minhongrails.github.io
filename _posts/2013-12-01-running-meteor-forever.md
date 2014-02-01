@@ -17,7 +17,7 @@ server using "meteor &" I noticed the application would die after I exited the t
 for running a Meteor bundle even when you exit the terminal session. One [StackOverflow post](http://stackoverflow.com/questions/14529677/what-is-the-proper-syntax-for-running-a-meteor-generated-node-bundle-using-forev)
  showed the following commands:
 
-<pre>
+<pre class="prettyprint">
 <code class="bash">export MONGO_URL=mongodb://localhost:27017/&lt;dbname&gt;
 export PORT=&lt;server_port&gt;
 export ROOT_URL=http://sub.example.com/
@@ -27,7 +27,7 @@ Unfortunately this didn't work for me but bsilvereagle from the Meteor IRC chann
 create a [tmux](http://tmux.sourceforge.net/) session, start my Meteor server in it, and detach
 the session. So, you would roughly run the following commands:
 
-<pre>
+<pre class="prettyprint">
 <code class="no-highlight">tmux
 [a new tmux session will be created and you'll notice a green bar at the bottom of the terminal]
 [start your Meteor app: (e.g. "meteor &amp;")]

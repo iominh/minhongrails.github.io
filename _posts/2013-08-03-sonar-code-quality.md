@@ -31,7 +31,7 @@ and unzip the SonarQube distribution (ex: "/etc/sonar" or "C:\sonar"). I used 3.
 but it seems that multi-module support was implemented <a href="http://docs.codehaus.org/display/SONAR/Analyzing+with+Maven" target="_blank">since 3.3</a>.</li>
 
 <li> Start the SonarQube server 
-<div><pre><code class="bash"># On Windows, execute:
+<div><pre class="prettyprint"><code class="bash"># On Windows, execute:
 C:\sonar\bin\windows-x86-xx\StartSonar.bat
  
 # On other operating system, execute:
@@ -47,14 +47,14 @@ that widget on your dashboard. Here's a <a href="http://docs.codehaus.org/displa
 </li>
 
 <li>Checkout a sample multimoduleSonar project on <a href="https://github.com/minhongrails/multimoduleSonar" target="_blank">github</a>
-<div><pre><code class="bash">git clone https://github.com/minhongrails/multimoduleSonar</code></pre></div>
+<div><pre class="prettyprint"><code class="bash">git clone https://github.com/minhongrails/multimoduleSonar</code></pre></div>
 </li>
 
 <li> Run unit tests and archive results in sonar
-<div><pre><code class="bash">mvn install sonar:sonar</code></pre></div>
+<div><pre class="prettyprint"><code class="bash">mvn install sonar:sonar</code></pre></div>
 
 Alternatively, run integration tests as well:
-<div><pre><code class="bash">mvn install sonar:sonar -DskipIT=false</code></pre></div>
+<div><pre class="prettyprint"><code class="bash">mvn install sonar:sonar -DskipIT=false</code></pre></div>
 </li>
 
 <li>Load the <a href="http://localhost:9000" target="_blank">Sonar GUI</a> in your browser and you should see

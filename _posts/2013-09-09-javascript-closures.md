@@ -10,7 +10,7 @@ tags: [javascript, closure]
 JavaScript can be tricky to understand. For example,
 look at the following functions:
 
-<pre>
+<pre class="prettyprint">
 <code class="javascript">function logNumbers1(){
     for (var x = 0; x &lt;  10; x++) {
         console.log(x);
@@ -19,7 +19,7 @@ look at the following functions:
 
 logNumbers1();</code></pre>
 
-<pre>
+<pre class="prettyprint">
 <code class="javascript">function logNumbers2(){
     for (var x = 0; x &lt;  10; x++) {
         setTimeout(function() {
@@ -57,7 +57,7 @@ are accessible within a particular execution stack.</p>
 <p>While closures can be confusing, they do provide a nice benefit for encapsulation.
 For example, <a href="http://stackoverflow.com/questions/4532407/general-javascript-syntax-question">observe the following</a>:</p>
 
-<pre>
+<pre class="prettyprint">
 <code class="javascript">function Counter() {
     var counter = 0;
     return {
@@ -82,7 +82,7 @@ b.print(); // 0
 
 <p>Here's another <a href="http://stackoverflow.com/questions/947352/javascript-closure-and-data-visibility">example</a>:</p>
 
-<pre>
+<pre class="prettyprint">
 <code class="javascript">function create() {
     var counter = 0;
     this.increment = function() {

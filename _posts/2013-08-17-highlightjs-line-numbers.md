@@ -19,7 +19,7 @@ Hmm, I thought nobody read my random posts but I guess not :).
 
 So, without further ado, here's code with line numbers:
 
-<pre>
+<pre class="prettyprint">
 <code class="ruby lineNumbers">class Float
   def number_decimal_places
     self.to_s.length-2
@@ -35,7 +35,7 @@ So, without further ado, here's code with line numbers:
 
 And the same code without: 
 
-<pre>
+<pre class="prettyprint">
 <code class="ruby">class Float
   def number_decimal_places
     self.to_s.length-2
@@ -64,7 +64,7 @@ that class then it applies line numbering.
 
 For example, if I want code without line numbering I write my HTML like:
 
-<pre>
+<pre class="prettyprint">
 <code class="css">&lt;pre&gt;
 &lt;code class="java"&gt;
 System.out.println("hello");
@@ -73,7 +73,7 @@ System.out.println("hello");
 
 Otherwise, if I do want line numbering, I just add a "lineNumbers" class:
 
-<pre>
+<pre class="prettyprint">
 <code class="css">&lt;pre&gt;
 &lt;code class="java lineNumbers"&gt;
 System.out.println("hello");

@@ -42,7 +42,7 @@ to fix that later.
 I created a [sample Github project](https://github.com/minhongrails/iTextTutorials),
 which can be executed with the following steps assuming you have Maven and git installed:
 
-<div><pre><code class="bash">git clone https://github.com/minhongrails/iTextTutorials
+<div><pre class="prettyprint"><code class="bash">git clone https://github.com/minhongrails/iTextTutorials
 cd iTextTutorials
 mvn install exec:exec
 </code></pre></div>
@@ -52,13 +52,13 @@ NASA PDF to the "target" directory.
 
 Parameters can also be passed in through "src" and "dest":
 
-<div><pre><code class="bash">mvn exec:exec -Dsrc=/dir1/file.pdf -Ddest=/dir1/output
+<div><pre class="prettyprint"><code class="bash">mvn exec:exec -Dsrc=/dir1/file.pdf -Ddest=/dir1/output
 </code></pre></div>
 
 Additionally, if you use NetBeans or Eclipse, it's very simple to get the project
 files set up with all of the dependencies so that you're ready to start coding:
 
-<div><pre><code class="bash">mvn eclipse:eclipse
+<div><pre class="prettyprint"><code class="bash">mvn eclipse:eclipse
 </code></pre></div>
 
 <div class="mSpotlight">Code</div>
@@ -68,7 +68,7 @@ the code if you don't like GitHub or Maven for some reason:
 
 First, add the dependency to your Maven pom:
 
-<div><pre><code class="no-highlight">&lt;dependency&gt;
+<div><pre class="prettyprint"><code class="no-highlight">&lt;dependency&gt;
             &lt;groupId&gt;com.itextpdf&lt;/groupId&gt;
             &lt;artifactId&gt;itextpdf&lt;/artifactId&gt;
             &lt;version&gt;5.1.3&lt;/version&gt;
@@ -78,7 +78,7 @@ First, add the dependency to your Maven pom:
 
 Next, create an ImageRenderListener.java file:
 
-<div><pre><code class="java">package io.minh.iText.image;
+<div><pre class="prettyprint"><code class="java">package io.minh.iText.image;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -160,7 +160,7 @@ public class ImageRenderListener implements RenderListener {
 
 Next, create an ExtractImages.java file:
 
-<div><pre><code class="java">package io.minh.iText.image;
+<div><pre class="prettyprint"><code class="java">package io.minh.iText.image;
 
 import java.io.IOException;
 import com.itextpdf.text.DocumentException;

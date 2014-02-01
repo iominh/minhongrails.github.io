@@ -35,7 +35,7 @@ Highlight.js, however, worked out of the box and I didn't notice anything simila
 
 <div class="mSpotlight">Highlight.js' Solarized theme is brilliant</div>
    
-<pre>
+<pre class="prettyprint">
 <code class="ruby">class Float
   def number_decimal_places
     self.to_s.length-2

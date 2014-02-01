@@ -13,7 +13,7 @@ when using SourceTree and GitHub after rebooting since I forget to ssh-add my gi
 If anyone out there encounters ssh auth errors, the command to add
 your key is:
 
-<pre>
+<pre class="prettyprint">
 <code class="bash">ssh-add ~/.ssh/id_rsa</code>
 </pre>
 
