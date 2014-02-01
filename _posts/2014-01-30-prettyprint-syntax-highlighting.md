@@ -11,7 +11,7 @@ I've changed syntax highlighters yet again. This time I've decided to use [Googl
 In a [previous post](/tech/2013/06/23/highlightjs-vs-syntaxhighlighter/) I compared HighlightJS vs Syntax Highlighter
 and went with HighlightJS because of its easier setup, improved performance, and great themes (I liked the Solarized - Dark theme).
 It's still a great library and I may change my mind yet again and switch back. However, once I switched
-to a Macbook Retina, the Solarized Dark theme didn't look that great, I think perhaps because of its dark blue contrasted
+to a Macbook Retina, the [Solarized Dark theme](http://design4.minh.io/tech/2013/06/23/highlightjs-vs-syntaxhighlighter/) didn't look that great, I think perhaps because of its dark blue contrasted
 with my light background. I also tried the lighter Solarized theme from [Octopress](http://octopress.org/docs/plugins/codeblock/)
 but it still didn't feel right.
 
