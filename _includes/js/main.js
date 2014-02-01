@@ -118,5 +118,6 @@ $(document).ready(function() {
 
     // highlight code
 //    hljs.initHighlightingOnLoad();
+    prettyPrint();
 
 });
