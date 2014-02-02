@@ -23,16 +23,12 @@
         <link rel="canonical" href="{{ site.production_url }}" />
 
         <link rel="icon" type="image/ico" href="{{ BASE_PATH }}/assets/img/favicon/robot.png">
-        <!--<link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link rel="stylesheet" href="{{ ASSET_PATH }}/google-code-prettify/prettify.css">
-        <!--<link rel="stylesheet" href="{{ ASSET_PATH }}/css/solarized_dark.css">-->
-        <!--<link rel="stylesheet" href="{{ ASSET_PATH }}/css/highlight_default.css">-->
 
         <link href="{{ ASSET_PATH }}/css/main.css" rel="stylesheet" type="text/css" media="all">
-        <!--<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">-->
         <!-- atom & rss feed -->
         <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
         <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
@@ -41,7 +37,7 @@
 
     <body>
         <div class="navbar navbar-inverse navigation container">
-            <ul class="clearfix no-bullet ">
+            <ul class="navbuttons clearfix no-bullet">
                 <li><a href="{{ HOME_PATH }}">Home</a></li>
 
                 <li class="sideBorders pull-right"><a href="/about.html">About</a> <a href="/projects.html">Projects</a> <a href="" id="searchButton"><i class="icon-search"></i></a> </li>
@@ -55,8 +51,8 @@
 
                 <div class="form-inline">
 
-                    <label><h3>Search</h3></label>
-                    <input id="searchInput" type="text" class="input-large search-query"/>
+                    <label><h3></h3></label>
+                    <input id="searchInput" type="text" class="input-large search-query" placeholder="Search..."/>
                     <div id="cancelSearch" class="btn"><i class="icon-remove"></i></div>
                     <div id="searchResults">
                         <table id="searchResultsTable" class="table table-bordered">

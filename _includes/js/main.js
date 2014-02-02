@@ -26,6 +26,7 @@ $(document).ready(function() {
         $("#searchContent").hide();
         $("#mainContent").fadeIn();
         $("#searchResults").hide();
+        $(".navbuttons li").fadeIn();
         $("#searchResultsTable").empty();
         $('#searchInput').val("");
         isSearching = false;
@@ -33,6 +34,7 @@ $(document).ready(function() {
 
     function startSearch() {
         $("#mainContent").hide();
+        $(".navbuttons li").hide();
         $("#searchContent").fadeIn();
         $("#searchInput").focus();
         isSearching = true;
@@ -73,8 +75,8 @@ $(document).ready(function() {
                         if (title.indexOf(text) !== -1) {
 
                             var row = '<tr><td><a href='
-                                    + result.href + '>' + title +
-                                    '</a></td><td>';
+                                + result.href + '>' + title +
+                                '</a></td><td>';
 
                             // print tags
                             var tags = result.tags.sort();

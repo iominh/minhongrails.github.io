@@ -16,6 +16,10 @@ body {
     line-height: 140%;
 }
 
+h1 {
+    font-size: 2em;
+}
+
 body a {
     font-color: #000;
 }
@@ -468,8 +472,7 @@ pre {
 }
 
 #searchInput {
-    margin-left: 1em;
-    width: 75%;
+    width: 90%;
 }
 
 .table th, .table td {
@@ -501,7 +504,7 @@ pre {
 
 @media (min-width: 1200px) {
     .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
-        width: 940px;
+        width: 800px;
         /*width: 1020px;*/
     }
 }
