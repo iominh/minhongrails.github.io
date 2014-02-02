@@ -23,7 +23,7 @@ in [another post](tech/2014/01/29/regex-and-scripting-ftw/), I updated all of my
 <pre class="prettyprint">
 def proc_file(fname)
 	text = File.read(fname)
-	newText = text.gsub(/&lt;pre>&gt;, '&lt;pre class="prettyprint"&gt;')
+	newText = text.gsub(/&lt;pre&gt;/, '&lt;pre class="prettyprint"&gt;')
 	File.open(fname, "w") {|file| file.puts newText}
 	puts "Processed " + fname
 end

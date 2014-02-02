@@ -25,7 +25,7 @@ body a {
 }
 
 body a:hover {
-    font-color: #08c;;
+    font-color: #08c;
     text-decoration:underline;
 }
 
@@ -37,17 +37,19 @@ p {
 li {
     line-height: 160%;
 }
-a {
+a, a:hover {
     /*color : #15317E;*/
     color : #2b6cc2;
 }
 
 a [class^="icon-"], a [class*=" icon-"] {
     color: #33333;
+    text-decoration: none;
 }
 
 a [class^="icon-"]:hover, a [class*=" icon-"]:hover {
     color: #2b6cc2;
+    text-decoration: none;
 }
 
 a:hover {
@@ -57,7 +59,7 @@ a:hover {
 a.prev, a.next {
     display: block;
     font-size: 1.1em;
-    opacity: 0.8;
+    opacity: 0.4;
     overflow: hidden;
     padding: 50px;
     position: fixed;
@@ -70,6 +72,11 @@ a.prev, a.next {
     z-index: 2;
 }
 
+a.prev:hover, a.next:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
 a.prev {
     left: -150px;
     -webkit-transform: rotate(-90deg);
@@ -77,6 +84,15 @@ a.prev {
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
+}
+
+a.next {
+    right: -150px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90);
 }
 
 footer {
@@ -126,7 +142,7 @@ pre {
 /* Custom container */
 .container-narrow {
     margin: 0 auto;
-    max-width: 700px; 
+    max-width: 700px;
 }
 
 .container-narrow > hr {
@@ -138,7 +154,7 @@ pre {
 }
 
 .navbar .nav {
-    float: right; 
+    float: right;
 }
 
 .imageSpotlight {
@@ -230,8 +246,8 @@ pre {
 }
 
 .arrow-right {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-left: 5px solid black;
@@ -544,8 +560,12 @@ pre {
 
     #searchInput {
         margin-left: 1em;
-        width: 80%;
+        width: 70%;
     }
+
+    /*.navbuttons li {*/
+        /*display: none;*/
+    /*}*/
 
     a.prev, a.next {
         display: none;
