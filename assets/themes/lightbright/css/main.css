@@ -508,6 +508,14 @@ pre {
     margin-bottom: 2em;
 }
 
+a.prev, a.next {
+    display: none;
+}
+
+.next_mobile {
+    float: right;
+}
+
 /*::selection {
     background: #0054E6;
     color: #fff;
@@ -525,14 +533,20 @@ pre {
     }
 }
 
+@media (min-width: 1100px) {
+    a.prev, a.next {
+        display: block;
+    }
+
+    .next_mobile, .prev_mobile, .mobile {
+        display: none;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 979px) { 
     #searchInput {
         margin-left: 1em;
         width: 70%;
-    }
-
-    a.prev, a.next {
-        display: none;
     }
 }
 
@@ -551,11 +565,11 @@ pre {
 
     ul, ol {
         padding: 0;
-        margin: 0 0 10px 25px;
+        margin: 5px 0 10px 25px;
     }
 
     .navigation li a{
-        padding: 0.25em;
+        padding: 0.5em 0.1em 0.5em 0.1em;
     }
 
     #searchInput {
@@ -563,11 +577,4 @@ pre {
         width: 70%;
     }
 
-    /*.navbuttons li {*/
-        /*display: none;*/
-    /*}*/
-
-    a.prev, a.next {
-        display: none;
-    }
 }

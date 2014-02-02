@@ -1,5 +1,24 @@
+<div class="page-header mobile">
+    {% if page.previous %}
+    <a class='prev_mobile' href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}"> <i class="icon-caret-left"></i> Previous </a>
+    {% endif %}
+
+    {% if page.next %}
+    <a class='next_mobile' href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next <i class="icon-caret-right"></i></a>
+    {% endif %}
+</div>
+
 <div class="row-fluid post-full">
     <div class="span12">
+
+        {% if page.previous %}
+        <a class='prev' href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}"> <i class="icon-caret-up"></i><br> {{ page.previous.title }}</a>
+        {% endif %}
+
+        {% if page.next %}
+        <a class='next' href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}"> <i class="icon-caret-up"></i><br> {{ page.next.title }}</a>
+        {% endif %}
+
         <div class="date">
             <span>{{ page.date | date: "%B %d %Y" }}</span>
         </div>
@@ -40,14 +59,6 @@
                     {% endif %}
             </ul>
         </div>
-
-        {% if page.previous %}
-        <a class='prev' href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}"> <i class="icon-caret-up"></i><br> {{ page.previous.title }}</a>
-        {% endif %}
-
-        {% if page.next %}
-        <a class='next' href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}"> <i class="icon-caret-up"></i><br> {{ page.next.title }}</a>
-        {% endif %}
 
         <hr>
         {% include JB/comments %}
