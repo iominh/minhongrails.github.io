@@ -11,12 +11,12 @@ I've changed syntax highlighters yet again. This time I've decided to use [Googl
 In a [previous post](/tech/2013/06/23/highlightjs-vs-syntaxhighlighter/) I compared HighlightJS vs Syntax Highlighter
 and went with HighlightJS because of its easier setup, improved performance, and great themes (I liked the Solarized - Dark theme).
 It's still a great library and I may change my mind yet again and switch back. However, once I switched
-to a Macbook Retina, the [Solarized Dark theme](http://design4.minh.io/tech/2013/06/23/highlightjs-vs-syntaxhighlighter/) didn't look that great, I think perhaps because of its dark blue contrasted
+to a Macbook Retina, the [Solarized Dark theme](http://design4.minh.io/tech/2013/06/23/highlightjs-vs-syntaxhighlighter/) didn't look that great, I think because its dark blue contrasted
 with my light background. I also tried the lighter Solarized theme from [Octopress](http://octopress.org/docs/plugins/codeblock/)
 but it still didn't feel right.
 
 Anyway, long story short, I've decided that most readers/users are familiar with the syntax highlighting from Stack
-Overflow and Github, so I adopted Google Code Prettyify, which has a similar look and good performance. The one issue
+Overflow and Github, so I adopted Google Code Prettify, which has a similar look and good performance. The one issue
 I encountered was that all of my &lt;pre&gt; tags needed to have a classname of "prettyprint." However, as explained
 in [another post](tech/2014/01/29/regex-and-scripting-ftw/), I updated all of my posts through a simple Ruby script:
 

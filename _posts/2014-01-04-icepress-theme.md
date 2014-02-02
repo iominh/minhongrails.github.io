@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IcePress theme"
+title: "IcePress Octopress theme"
 description: ""
 category: tech
 tags: [blog]
@@ -21,7 +21,7 @@ Here are the theme goals:
 * Better readability through better typography and layout
 * Easier maintenance (Octopress uses SASS and is better maintained than Jekyll Bootstrap)
 
-Overall, I hope to achieve the following overall goals:
+Overall, I hope to achieve the following goals:
 
 * Attract more visitors
 * Connect with more people

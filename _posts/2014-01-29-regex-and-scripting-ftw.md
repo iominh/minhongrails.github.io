@@ -8,7 +8,7 @@ tags: [regex]
 {% include JB/setup %}
 
 It's great being a programmer. Recently I had to modify and replace various matching strings in 26 files. I'm not sure how
-tedious, sucky, and error-prone this would be if I did this manually but luckily I'm a programmer and quickly wrote up
+tedious, sucky, and error-prone this would be if I did this manually but luckily I'm a programmer and quickly wrote
 a Ruby script. I also used Git and Sourcetree to review my changes and can roll back changes later.
 
 Anyway, here's the code I wrote, which reads all .md and .html files in a directory and replaces all scripts matching
