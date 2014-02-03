@@ -3,7 +3,7 @@ layout: post
 title: "Prettify vs Highlight.js vs SyntaxHighlighter"
 description: ""
 category: tech
-tags: [SyntaxHighlighter, highlightJS, highlight, octopress, prettyify]
+tags: [SyntaxHighlighter, highlightJS, highlight, octopress, prettify]
 ---
 {% include JB/setup %}
 
@@ -18,7 +18,7 @@ but it still didn't feel right.
 Anyway, long story short, I've decided that most readers/users are familiar with the syntax highlighting from Stack
 Overflow and Github, so I adopted Google Code Prettify, which has a similar look and good performance. The one issue
 I encountered was that all of my &lt;pre&gt; tags needed to have a classname of "prettyprint." However, as explained
-in [another post](tech/2014/01/29/regex-and-scripting-ftw/), I updated all of my posts through a simple Ruby script:
+in [another post](/tech/2014/01/29/regex-and-scripting-ftw/), I updated all of my posts through a simple Ruby script:
 
 <pre class="prettyprint">
 def proc_file(fname)
