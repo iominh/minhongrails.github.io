@@ -26,6 +26,8 @@ Google Analytics Opt-out add-on](https://tools.google.com/dlpage/gaoptout) so my
 
 <a href="/assets/img/metrics/referrals_june10_july10_2014.png"><img class='imageSpotlight' src="/assets/img/metrics/referrals_june10_july10_2014.png" alt="left.JPG" width="900px"/></a>
 
+<p>
+
 Apparently most of my traffic (424 sessions out of 517) comes from organic google searches and luckily I have some top 5 hits:
 
 <a href="/assets/img/metrics/seo_june10_july10_2014.png"><img class='imageSpotlight' src="/assets/img/metrics/seo_june10_july10_2014.png" alt="left.JPG" width="900px"/></a>
