@@ -12,6 +12,7 @@ title: Minh Nguyen
 
             <div id="container" class="clearfix">
                 <table class="listing table-hover">
+
                     {% for post in site.posts %}
                     <tr class="cursorHand" onclick='document.location = "{{ BASE_PATH }}{{ post.url }}";'>
                         <td><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></td>
