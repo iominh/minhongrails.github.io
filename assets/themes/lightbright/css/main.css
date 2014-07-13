@@ -14,7 +14,7 @@ body {
   line-height: 140%; }
 
 h1 {
-  font-size: 2em; }
+  font-size: 1.6em; }
 
 body a {
   font-color: #000; }
@@ -433,11 +433,6 @@ a.prev, a.next {
 .next_mobile {
   float: right; }
 
-/*::selection {
-    background: #0054E6;
-    color: #fff;
-    text-shadow: none;
-}*/
 .center {
   text-align: center; }
 
