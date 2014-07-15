@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Running Meteor Forever"
+title: "Running Meteor forever"
 description: ""
 category: tech
 tags: [meteor, nodejs]
@@ -31,7 +31,7 @@ the session. So, you would roughly run the following commands:
 <code class="no-highlight">tmux
 [a new tmux session will be created and you'll notice a green bar at the bottom of the terminal]
 [start your Meteor app: (e.g. "meteor &amp;")]
-[press CLTR-B, :, and "detach" to detach the session]</code></pre>
+[press CLTR and B, :, and "detach" to detach the session]</code></pre>
 
 Now Meteor will run even if I exit from my terminal. Yay!
 

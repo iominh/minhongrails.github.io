@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS List Effects"
+title: "CSS list add remove effects"
 description: ""
 category: tech
 tags: [css3, transforms, transitions, animations]

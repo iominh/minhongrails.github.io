@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Glass Version 2 Review"
+title: "Google Glass version 2 review"
 description: ""
 category: tech
 tags: [glass, reviews]

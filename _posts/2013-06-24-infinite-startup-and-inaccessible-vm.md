@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Infinite Startup and Inaccessible VM"
+title: "Infinite startup and inaccessible VM"
 description: ""
 category: tech
 tags: [VMWare, Linux]
