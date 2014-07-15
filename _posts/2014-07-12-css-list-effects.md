@@ -24,4 +24,4 @@ duplicate animations. Whenever I figure out a solution, I'll update this post.
 
 Please note the above code is not mine. I only modified it and stuck it on a codepen. Please see the original author
 Steven Sanderson's ["Animating Lists with CSS3 transitions post"](http://blog.stevensanderson.com/2013/03/15/animating-lists-with-css-3-transitions/).
- I also drew inspiration from Sara Soueidan's great ["Creative Add/Remove Effects for List Items with CSS3 Animations"](http://sarasoueidan.com/blog/creative-list-effects/).
+ I also drew inspiration from Sara Soueidan's post ["Creative Add/Remove Effects for List Items with CSS3 Animations"](http://sarasoueidan.com/blog/creative-list-effects/).

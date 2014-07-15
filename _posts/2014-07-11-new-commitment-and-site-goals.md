@@ -17,7 +17,7 @@ while learning UX and new skills.
 
 So, what's my baseline and where can I improve from here? For starters, I rarely post more than once a month, which should be fairly
 easy to beat. For a good stretch last year I posted lots of posts about technical problems and solutions I encountered. This was mostly to
-get a "longest streak" open source contributions achievement on GitHub but they've since wised up on that so it only shows 2 days right now.
+get a "longest streak" open source contributions achievement on GitHub but they're since changed it so it only tracks recent contributions.
 
 Here's my google analytics summary, which shows roughly 730 page views from June 10, 2014 to July 10, 2014 (I use the [Chrome
 Google Analytics Opt-out add-on](https://tools.google.com/dlpage/gaoptout) so my views aren't included):
