@@ -56,19 +56,14 @@ a.prev, a.next {
   top: 45%;
   width: 250px;
   white-space: nowrap;
-  z-index: 2;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
+  z-index: 2; }
 
 a.prev:hover, a.next:hover {
   text-decoration: none;
   opacity: 0.8; }
 
 a.prev {
-  left: -150px;
+  left: -140px;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
@@ -76,7 +71,7 @@ a.prev {
   transform: rotate(-90deg); }
 
 a.next {
-  right: -150px;
+  right: -140px;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);

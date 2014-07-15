@@ -85,7 +85,6 @@ a.prev, a.next {
 	width: 250px;
 	white-space: nowrap;
 	z-index: 2;
-	@include transition(all, 0.2s, ease-in-out);
 }
 
 a.prev:hover, a.next:hover {
@@ -94,12 +93,12 @@ a.prev:hover, a.next:hover {
 }
 
 a.prev {
-	left: -150px;
+	left: -140px;
 	@include transform(rotate(-90deg));
 }
 
 a.next {
-	right: -150px;
+	right: -140px;
 	@include transform(rotate(90deg));
 }
 
