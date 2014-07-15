@@ -1,6 +1,19 @@
-/**
- * Standard styles
- */
+@mixin transition($transition-property, $transition-time, $method) {
+	-webkit-transition: $transition-property $transition-time $method;
+	-moz-transition: $transition-property $transition-time $method;
+	-ms-transition: $transition-property $transition-time $method;
+	-o-transition: $transition-property $transition-time $method;
+	transition: $transition-property $transition-time $method;
+}
+
+@mixin transform($transform) {
+	-webkit-transform: $transform;
+	-moz-transform: $transform;
+	-ms-transform: $transform;
+	-o-transform: $transform;
+	transform: $transform;
+}
+
 body {
 	/*background-color: #f7f7f7;*/
 	/*background: url("img/noise-new.png") repeat 0 0;*/
@@ -60,8 +73,8 @@ a:hover {
 
 a.prev, a.next {
 	display: block;
-	font-size: 1.1em;
-	opacity: 0.4;
+	font-size: 1em;
+	opacity: 0.3;
 	overflow: hidden;
 	padding: 50px;
 	position: fixed;
@@ -72,6 +85,7 @@ a.prev, a.next {
 	width: 250px;
 	white-space: nowrap;
 	z-index: 2;
+	@include transition(all, 0.2s, ease-in-out);
 }
 
 a.prev:hover, a.next:hover {
@@ -81,20 +95,12 @@ a.prev:hover, a.next:hover {
 
 a.prev {
 	left: -150px;
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	transform: rotate(-90deg);
+	@include transform(rotate(-90deg));
 }
 
 a.next {
 	right: -150px;
-	-webkit-transform: rotate(90deg);
-	-moz-transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
-	transform: rotate(90);
+	@include transform(rotate(90deg));
 }
 
 footer {
@@ -589,7 +595,7 @@ a.prev, a.next {
 	height: 300px;
 	margin: 0 auto;
 	width: 500px;
-	display:block;
+	display: block;
 }
 
 /**
@@ -603,10 +609,10 @@ a.prev, a.next {
 	}
 
 	.spotifyPlayer {
-//		height: 400px;
+		//		height: 400px;
 		margin: 0 auto;
 		width: 800px;
-		display:block;
+		display: block;
 	}
 
 }
@@ -666,7 +672,7 @@ a.prev, a.next {
 		height: 600px;
 		margin: 0 auto;
 		width: 600px;
-		display:block;
+		display: block;
 	}
 
 	h1 {
