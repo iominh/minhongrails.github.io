@@ -2,4 +2,4 @@
 
 sudo git fetch
 sudo git pull
-sudo jekyll
+sudo jekyll build
