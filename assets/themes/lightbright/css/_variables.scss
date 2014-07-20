@@ -18,7 +18,6 @@ $navigation-font-color: $primary-font-color;
 // old border color: #1f1f22 #e6e6e6
 
 @mixin transition($transition) {
-	-webkit-transform: translate3d(0, 0, 0);
 	-webkit-transition: $transition;
 	-moz-transition: $transition;
 	-ms-transition: $transition;
@@ -27,7 +26,6 @@ $navigation-font-color: $primary-font-color;
 }
 
 @mixin transform($transform) {
-	-webkit-transform: translate3d(0, 0, 0);
 	-webkit-transform: $transform;
 	-moz-transform: $transform;
 	-ms-transform: $transform;
@@ -37,14 +35,12 @@ $navigation-font-color: $primary-font-color;
 
 //0 1px 1px 0 rgba(0,0,0,0.25);
 @mixin boxshadow($shadow) {
-	-webkit-transform: translate3d(0, 0, 0);
 	-webkit-box-shadow: $shadow;
 	-moz-box-shadow: $shadow;
 	box-shadow:$shadow;
 }
 
 @mixin boxshadowMultiple($shadow1, $shadow2) {
-	-webkit-transform: translate3d(0, 0, 0);
 	-webkit-box-shadow: $shadow1, $shadow2;
 	-moz-box-shadow: $shadow1, $shadow2;
 	box-shadow: $shadow1, $shadow2;

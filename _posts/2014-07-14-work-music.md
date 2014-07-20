@@ -2,8 +2,8 @@
 layout: post
 title: "Work music"
 description: ""
-category: 
-tags: [tech]
+category: tech
+tags: [music, spotify, youtube, work]
 ---
 {% include JB/setup %}
 

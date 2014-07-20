@@ -1,0 +1,26 @@
+{
+  "name": "minh blog",
+  "version": "0.1.1",
+  "homepage": "www.minh.io",
+  "authors": [
+    "minhongrails@gmail.com"
+  ],
+  "description": "jekyll blog",
+  "main": "index.html",
+  "keywords": [
+    "blog"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "icomoon": "~0.0.1"
+  }
+}

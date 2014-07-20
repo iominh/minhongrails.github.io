@@ -16,6 +16,10 @@ body {
 	line-height: 140%;
 }
 
+.hidden {
+	visibility: none;
+}
+
 h1 {
 	font-size: 1.6em;
 }
@@ -215,12 +219,21 @@ pre {
 	color: #307EA9;
 }
 
+
 .arrow-right {
 	width: 0;
 	height: 0;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
 	border-left: 5px solid black;
+}
+
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-right:5px solid $gray;
 }
 
 .page-container {
@@ -279,17 +292,79 @@ pre {
 	border-radius: 6px 6px 6px 6px;*/
 }
 
+.accent-left {
+//	margin: 1.5em 0em 1.5em -0.7em;
+//	border-left: 4px solid #333;
+}
+
 .listing {
 	width: 100%;
-}
 
-.listing td {
-	border-bottom: 1px solid #eee;
-	padding-bottom: 0.2em;
-}
+	.left-accent {
+//		@include transition(all 10ms ease-in-out);
+//				border-left: 2px solid $gray;
+//		@include boxshadowMultiple(inset 0 -0px 0 $gray, inset 0 0 50px #ebebeb);
+	}
 
-.listing tr {
-	padding-bottom: 0.2em;
+	td {
+		border-bottom: 1px solid #eee;
+		padding-bottom: 0.2em;
+	}
+
+	tr {
+		@include transition(all 10ms ease-in-out);
+	}
+
+	tr:hover {
+	}
+
+	a:visited:before {
+		content:  "\2713 ";
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	a[title]:hover:before {
+//		content: '';
+//		padding: 4px 8px;
+//		color: #333;
+//		position: absolute;
+//		left: 0;
+//		top: 100%;
+//		white-space: nowrap;
+//		z-index: 20px;
+//		-moz-border-radius: 5px;
+//		-webkit-border-radius: 5px;
+//		border-radius: 5px;
+//		-moz-box-shadow: 0px 0px 4px #222;
+//		-webkit-box-shadow: 0px 0px 4px #222;
+//		box-shadow: 0px 0px 4px #222;
+//		background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+//		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+//		background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+//		background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+//		background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+//		background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+
+//		width: 0;
+//		height: 0;
+//		border-top: 5px solid transparent;
+//		border-bottom: 5px solid transparent;
+//		border-left: 5px solid black;
+
+//		content: '';
+//		position: absolute;
+//		left: 30px;
+//		top: -8px;
+//		width: 0;
+//		height: 0;
+//		border-left: 5px solid transparent;
+//		border-right: 5px solid transparent;
+//		border-bottom: 8px solid #028F41;
+	}
+
 }
 
 .quiet {
@@ -532,6 +607,7 @@ a.prev, a.next {
 	}
 }
 
+// tablet
 @media (min-width: 768px) and (max-width: 979px) {
 	#searchInput {
 		margin-left: 1em;
@@ -539,7 +615,7 @@ a.prev, a.next {
 	}
 }
 
-/* iphone */
+// iphone
 @media (max-width: 767px) {
 	body {
 		padding: 0 1em 0 1em;
@@ -557,19 +633,24 @@ a.prev, a.next {
 	}
 
 	.navigation li a {
-		padding: 0.5em 0.1em 0.5em 0.1em;
+		padding: 0.25em 0.25em 0.25em 0.25em;
+		margin: 0 0.25em 0 0.25em;
 	}
 
 	#searchInput {
 		margin-left: 1em;
-		width: 70%;
+		width: 80%;
 	}
 
 	.spotifyPlayer {
 		height: 600px;
 		margin: 0 auto;
-		width: 600px;
+		width: 400px;
 		display: block;
+	}
+
+	.youtubePlayer {
+		width: 400px;
 	}
 
 	h1 {

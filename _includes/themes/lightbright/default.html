@@ -25,7 +25,9 @@
         <link rel="icon" type="image/ico" href="{{ BASE_PATH }}/assets/img/favicon/robot.png">
         <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+        <link href="/assets/bower_components/icomoon/style.css" rel="stylesheet">
         <link href="{{ ASSET_PATH }}/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
         <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link rel="stylesheet" href="{{ ASSET_PATH }}/google-code-prettify/prettify.css">
 
@@ -41,8 +43,12 @@
     <div class="page-container container">
         <div class="navbar navbar-inverse navigation">
             <ul class="navbuttons clearfix no-bullet">
-                <li><a href="{{ HOME_PATH }}">Home</a></li>
-                <li class="sideBorders pull-right"><a href="/about.html">About</a> <a href="/projects.html">Projects</a> <a href="" id="searchButton"> <i class="icon-search"></i></a> </li>
+                <li><a href="{{ HOME_PATH }}"><span data-icon="&#xe002;"></span> Home</a></li>
+                <li class="sideBorders pull-right">
+                    <a href="/about.html"><span data-icon="&#xe016;"></span> About</a>
+                    <a href="/projects.html"><span data-icon="&#xe0a9;"></span> Projects</a>
+                    <a href="" id="searchButton"><span data-icon="&#xe07f;"></span> Search</a>
+                </li>
             </ul>
         </div>
 

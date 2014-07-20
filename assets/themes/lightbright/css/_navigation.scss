@@ -20,7 +20,6 @@
 }
 
 .navigation ul {
-	/*margin: 0 0 1em 1.5em;*/
 }
 
 .sideBorders a {
@@ -44,9 +43,10 @@
 
 .navigation li a:hover {
 	text-decoration: none;
+	font-size: 1.15em;
 //	color: $primary-link-color;
 //	background-color: #e5e5e5;
-	@include transition(all 150ms ease-in-out);
-	@include boxshadow(inset 0 0 100px #e5e5e5);
-//	@include boxshadowMultiple(inset 0 -2px 0 $gray, inset 0 0 4px #ebebeb);
+	@include transition(all 10ms ease-in-out);
+//	@include boxshadow(inset 0 0 100px #e5e5e5);
+	@include boxshadowMultiple(inset 0 -0px 0 $gray, inset 0 0 50px #ebebeb);
 }
