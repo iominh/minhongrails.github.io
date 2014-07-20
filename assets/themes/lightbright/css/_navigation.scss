@@ -1,0 +1,52 @@
+@import 'variables';
+
+.navbar {
+	background-color: $navigation-color;
+	padding: 0 20 0 20;
+}
+
+.navbar .nav {
+	float: right;
+}
+
+.navigation ul {
+	padding: 0;
+	margin: 0;
+}
+
+.navigation {
+	border-top: 4px solid #333333;
+	border-bottom: 1px solid $primary-border-color;
+}
+
+.navigation ul {
+	/*margin: 0 0 1em 1.5em;*/
+}
+
+.sideBorders a {
+//	border-left: 1px solid $primary-border-color;
+//	border-right: 1px solid $primary-border-color;
+}
+
+.navigation li a {
+	float: left;
+	font-family: "Bebas Neue";
+	font-size: 1.15em;
+	color: $navigation-font-color;
+	line-height: 1;
+	padding: 1em;
+	text-decoration: none;
+}
+
+.navright {
+	float: right;
+}
+
+.navigation li a:hover {
+	text-decoration: none;
+//	color: $primary-link-color;
+//	background-color: #e5e5e5;
+	@include transition(all 150ms ease-in-out);
+	@include boxshadow(inset 0 0 100px #e5e5e5);
+//	@include boxshadowMultiple(inset 0 -2px 0 $gray, inset 0 0 4px #ebebeb);
+}
