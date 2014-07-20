@@ -32,10 +32,26 @@
 }
 
 /* Put a border around prettyprinted code snippets. */
-pre.prettyprint { padding: 2px; border: 1px solid #888 }
+pre.prettyprint { padding: 9px; border: 1px solid rgba(0,0,0,0.15); }
+pre.prettyprint.linenums { padding: 2px; }
 
 /* Specify class=linenums on a pre to get line numbering */
-ol.linenums { margin-top: 0; margin-bottom: 0 } /* IE indents via margin-left */
+ol.linenums {
+    margin: 0;
+    padding: 2px;
+} /* IE indents via margin-left */
+.linenums li { display: block; counter-increment: lines; line-height: 20px;}
+.linenums li:before {
+    content: counter(lines);
+    text-align: right;
+    display: inline-block;
+    width: 2em;
+    padding-right: 10px;
+    margin-right: 10px;
+    color: rgba(0,0,0,0.3);
+    vertical-align: top;
+    border-right: 1px solid #e0e0e0;
+}
 li.L0,
 li.L1,
 li.L2,
@@ -43,10 +59,10 @@ li.L3,
 li.L5,
 li.L6,
 li.L7,
-li.L8 { list-style-type: none }
+li.L8 {  }
 /* Alternate shading for lines */
 li.L1,
 li.L3,
 li.L5,
 li.L7,
-li.L9 { background: #eee }
+li.L9 {  }

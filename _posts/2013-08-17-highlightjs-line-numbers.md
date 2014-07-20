@@ -25,7 +25,7 @@ Hmm, I thought nobody read my random posts but I guess not :).
 
 So, without further ado, here's code with line numbers:
 
-<pre class="prettyprint">
+<pre class="prettyprint linenums">
 <code class="ruby lineNumbers">class Float
   def number_decimal_places
     self.to_s.length-2
