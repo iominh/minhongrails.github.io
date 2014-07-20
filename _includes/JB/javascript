@@ -1,6 +1,6 @@
+<script src="/assets/bower_components/google-code-prettify/src/prettify.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script type="text/javascript">
-{% include js/highlightjs/lines/highlight.pack.js %}
 {% include js/modernizr.min.js %}
 {% include js/bootstrap.min.js %}
 {% include js/jquery.autocomplete.js %}
