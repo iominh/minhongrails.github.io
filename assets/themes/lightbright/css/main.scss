@@ -569,13 +569,6 @@ a.prev, a.next {
 	padding-bottom: 3px;
 }
 
-.youtubePlayer {
-	height: 300px;
-	margin: 0 auto;
-	width: 500px;
-	display: block;
-}
-
 /**
  * Media Queries
  */
@@ -588,6 +581,13 @@ a.prev, a.next {
 
 	.spotifyPlayer {
 		//		height: 400px;
+		margin: 0 auto;
+		width: 800px;
+		display: block;
+	}
+
+	.youtubePlayer {
+		height: 500px;
 		margin: 0 auto;
 		width: 800px;
 		display: block;
@@ -656,7 +656,8 @@ a.prev, a.next {
 	}
 
 	.youtubePlayer {
-		width: 400px;
+		height: 500px;
+		width: 600px;
 	}
 
 	h1 {
