@@ -13,7 +13,9 @@ It calculates lines of code, source quality, test quality, and numerous
 other metrics. Recently, I used Sonar to calculate unit and integration test coverage across multiple 
 Maven Java modules with TestNG and Jacoco:
 
-<img src="/assets/img/sonar/sonar_code_coverage.png" alt="sonar_screen.png"/>
+<a class="lightbox">
+  <img src="/assets/img/sonar/sonar_code_coverage.png" alt="sonar_screen.png"/>
+</a>
 
 It actually took quite a bit of effort to get this to work but 
 <a href="http://www.kubrynski.com/2013/03/measuring-overall-code-coverage-in.html" target="_blank">Jakub Kubrynski's post</a>
@@ -60,7 +62,7 @@ Alternatively, run integration tests as well:
 <li>Load the <a href="http://localhost:9000" target="_blank">Sonar GUI</a> in your browser and you should see
 a project called "parent." Clicking that should show the following:
 <br><br>
-<a href="/assets/img/sonar/sonar_screen.png" target="_blank"><img src="/assets/img/sonar/sonar_screen.png" alt="sonar_screen.png"/></a>
+<a class="lightbox" href="/assets/img/sonar/sonar_screen.png" target="_blank"><img src="/assets/img/sonar/sonar_screen.png" alt="sonar_screen.png"/></a>
 </li>
 
 </ol>
@@ -72,6 +74,7 @@ parent project which contains two submodules module1 and module2.
 
 Here's some class diagrams:
 
-<img src="/assets/img/sonar/sonar_uml.png" alt="sonar_uml.png"/>
-
+<a class="lightbox">
+  <img src="/assets/img/sonar/sonar_uml.png" alt="sonar_uml.png"/>
+</a>
 
