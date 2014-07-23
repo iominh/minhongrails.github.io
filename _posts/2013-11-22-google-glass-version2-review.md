@@ -14,11 +14,11 @@ a [changelog](https://github.com/minhongrails/blog/commits/master/_posts/2013-11
 
 <div class="mSpotlight">Photos</div>
 
-<a href="/assets/img/glass/left.JPG"><img class='imageSpotlight' src="/assets/img/glass/left.JPG" alt="left.JPG" width="900px"/></a>
+<a class="lightbox" href="/assets/img/glass/left.JPG"><img class='imageSpotlight' src="/assets/img/glass/left.JPG" alt="left.JPG" width="900px"/></a>
 
 Cotton color Glass. There's 5 colors now: Cotton, Charcoal, Tangerine, Shale, and Sky.
 
-<a href="/assets/img/glass/shades.JPG"><img class='imageSpotlight' src="/assets/img/glass/shades.JPG" alt="shades.JPG" width="900px"/></a>
+<a class="lightbox" href="/assets/img/glass/shades.JPG"><img class='imageSpotlight' src="/assets/img/glass/shades.JPG" alt="shades.JPG" width="900px"/></a>
 
 Shades are now available in version 2
 

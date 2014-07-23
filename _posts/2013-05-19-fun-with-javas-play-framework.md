@@ -39,7 +39,9 @@ samples running:
     </div>  
     <br>
     <div class="span9">
-        <img src="/assets/img/play/play_db1.jpg" alt="play_db1.jpg"/>
+        <a class="lightbox">
+          <img src="/assets/img/play/play_db1.jpg" alt="play_db1.jpg"/>
+        </a>
     </div>
 </div>
 <hr>
@@ -53,7 +55,9 @@ samples running:
     </div>
     <br>
     <div class="span9">
-        <img src="/assets/img/play/play_chat1.jpg" alt="play_chat1.jpg"/>
+        <a class="lightbox">
+          <img src="/assets/img/play/play_chat1.jpg" alt="play_chat1.jpg"/>
+        </a>
     </div>
 </div>
 <hr>
@@ -67,7 +71,9 @@ samples running:
     </div>
     <br>
     <div class="span9">
-        <img src="/assets/img/play/play_helloworld.jpg" alt="play_helloworld.jpg"/>
+        <a class="lightbox">
+          <img src="/assets/img/play/play_helloworld.jpg" alt="play_helloworld.jpg"/>
+        </a>
     </div>
 </div>
 <hr>
@@ -81,7 +87,11 @@ samples running:
     </div>
     <br>
     <div class="span9">
-        <img src="/assets/img/play/play_zentasks1.jpg" alt="play_zentasks1.jpg"/>
-        <img src="/assets/img/play/play_zentasks2.jpg" alt="play_zentasks2.jpg" title="Play Zentasks2"/>
+        <a class="lightbox">
+          <img src="/assets/img/play/play_zentasks1.jpg" alt="play_zentasks1.jpg"/>
+        </a>
+        <a class="lightbox">
+          <img src="/assets/img/play/play_zentasks2.jpg" alt="play_zentasks2.jpg" title="Play Zentasks2"/>
+        </a>
     </div>
 </div>

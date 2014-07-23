@@ -15,8 +15,7 @@ Anyway, here's the code I wrote, which reads all .md and .html files in a direct
  &lt;pre&gt; with &lt;pre class="prettyprint"&gt;. It's not exactly using a regular expression but one could
  be used if necessary.
 
-<pre class="prettyprint">
-def proc_file(fname)
+<pre class="prettyprint"><code>def proc_file(fname)
 	text = File.read(fname)
 	newText = text.gsub(/&lt;pre>&gt;, '&lt;pre class="prettyprint"&gt;')
 	File.open(fname, "w") {|file| file.puts newText}
@@ -31,5 +30,5 @@ def proc_dir(dir)
 	end
 end
 
-proc_dir("_posts/*")
+proc_dir("_posts/*")</code>
 </pre>

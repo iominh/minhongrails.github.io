@@ -22,15 +22,15 @@ get a "longest streak" open source contributions achievement on GitHub but they'
 Here's my google analytics summary, which shows roughly 730 page views from June 10, 2014 to July 10, 2014 (I use the [Chrome
 Google Analytics Opt-out add-on](https://tools.google.com/dlpage/gaoptout) so my views aren't included):
 
-<a href="/assets/img/metrics/june10_july10_2014.png"><img class='imageSpotlight' src="/assets/img/metrics/june10_july10_2014.png" alt="left.JPG" width="900px"/></a>
+<a class="lightbox" href="/assets/img/metrics/june10_july10_2014.png"><img class='imageSpotlight' src="/assets/img/metrics/june10_july10_2014.png" alt="left.JPG" width="900px"/></a>
 
-<a href="/assets/img/metrics/referrals_june10_july10_2014.png"><img class='imageSpotlight' src="/assets/img/metrics/referrals_june10_july10_2014.png" alt="left.JPG" width="900px"/></a>
+<a class="lightbox" href="/assets/img/metrics/referrals_june10_july10_2014.png"><img class='imageSpotlight' src="/assets/img/metrics/referrals_june10_july10_2014.png" alt="left.JPG" width="900px"/></a>
 
 <p/>
 
 Apparently most of my traffic (424 sessions out of 517) comes from organic google searches and luckily I have some top 5 hits:
 
-<a href="/assets/img/metrics/seo_june10_july10_2014.png"><img class='imageSpotlight' src="/assets/img/metrics/seo_june10_july10_2014.png" alt="left.JPG" width="900px"/></a>
+<a class="lightbox" href="/assets/img/metrics/seo_june10_july10_2014.png"><img class='imageSpotlight' src="/assets/img/metrics/seo_june10_july10_2014.png" alt="left.JPG" width="900px"/></a>
 
 
 <div class="mSpotlight">Strategy</div>
@@ -39,7 +39,7 @@ I'm not entirely sure how many of those 730 page views and 443 reported users ar
 from analyzing their incoming landing pages for users that actually spend time on more than one page, I've identified
 that my most visited posts appear to be:
 
-<a href="/assets/img/metrics/top_june10_july10_2014.png"><img class='imageSpotlight' src="/assets/img/metrics/top_june10_july10_2014.png" alt="left.JPG" width="900px"/></a>
+<a class="lightbox" href="/assets/img/metrics/top_june10_july10_2014.png"><img class='imageSpotlight' src="/assets/img/metrics/top_june10_july10_2014.png" alt="left.JPG" width="900px"/></a>
 
 So, clearly, if I want to improve traffic I need to write more useful tutorials. Overall, I'm still very impressed
 that I'm actually getting any traffic at all considering how little I write and how low quality my posts generally are (

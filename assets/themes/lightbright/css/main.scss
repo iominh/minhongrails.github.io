@@ -268,6 +268,12 @@ pre {
 	vertical-align: middle;
 }
 
+.lightbox {
+	cursor: pointer;
+	cursor: -webkit-zoom-in;
+	cursor: -moz-zoom-in;
+}
+
 .boxNavLarge {
 	display: none;
 	width: 7em;

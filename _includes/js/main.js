@@ -127,6 +127,8 @@ $(document).ready(function () {
 		$("#hidden").slideToggle();
 	});
 
+	$('.lightbox').fluidbox();
+
 	// highlight code
 //    hljs.initHighlightingOnLoad();
 	prettyPrint();
