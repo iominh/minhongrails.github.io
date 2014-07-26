@@ -52,8 +52,7 @@ And the same code without:
     gcden = greatest_common_divisor(higher, lower)
 
     return (lower/gcden).round, (higher/gcden).round
-  end
-</code>
+  end</code>
 </pre>
 
 This is just an initial attempt but I'm actually quite happy with

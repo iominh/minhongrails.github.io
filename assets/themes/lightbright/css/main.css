@@ -14,13 +14,13 @@
   border-bottom: 1px solid #e6e6e6; }
 
 .navigation li a {
-  float: left;
   font-family: "Bebas Neue";
   font-size: 1.15em;
   color: #333333;
   line-height: 1;
-  padding: 1em;
-  text-decoration: none; }
+  padding: 1.1em;
+  text-decoration: none;
+  float: left; }
 
 .navright {
   float: right; }
@@ -37,6 +37,23 @@
   -moz-box-shadow: inset 0 0px 0 #27262b, inset 0 0 50px #ebebeb;
   box-shadow: inset 0 0px 0 #27262b, inset 0 0 50px #ebebeb; }
 
+.right-buttons {
+  float: right; }
+
+@media (max-width: 540px) {
+  .navigation ul li {
+    text-align: center; }
+  .navigation #wrapper {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100px; }
+  .navigation #wrapper div {
+    display: table-cell;
+    height: 100px; }
+
+  .right-buttons {
+    float: none; } }
 body {
   background-color: #eeeeee;
   font-size: 1.2em;
@@ -280,13 +297,7 @@ pre {
   margin: 0.3em; }
 
 .content {
-  background-color: #fff;
-  /*padding: 20px;*/
-  /*margin: 0 -20px;*/
-  /* rounded edges */
-  /*    -webkit-border-radius: 6px 6px 6px 6px;
-  -moz-border-radius: 6px 6px 6px 6px;
-  border-radius: 6px 6px 6px 6px;*/ }
+  background-color: #fff; }
 
 .listing {
   width: 100%; }
@@ -321,7 +332,6 @@ pre {
   border-left: 7px solid #eee; }
 
 .table-hover tbody tr:hover > td, .table-hover tbody tr:hover > td {
-  /*background: #cbe2ff;*/
   background: #f2f2f2; }
 
 .table {
@@ -350,13 +360,7 @@ pre {
 .sideShadows {
   -webkit-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
-  /*    box-shadow: 0px 0px 1em rgba(0,0,0,0.20);
-  -webkit-box-shadow: 0px 0px 1em rgba(0,0,0,0.20);
-  -moz-box-shadow: 0px 0px 1em rgba(0,0,0,0.20);*/
-  /*    box-shadow:2px 2px 10px 10px rgba(0,0,0,0.20);
-  -webkit-box-shadow:2px 2px 10px 10px rgba(0,0,0,0.20);
-  -moz-box-shadow:2px 2px 10px 10px rgba(0,0,0,0.20);*/ }
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2); }
 
 .imgBright {
   display: block;
@@ -380,9 +384,7 @@ pre {
   margin: 1.5em 0em 1.5em -0.7em;
   padding: 0px 0px 0px 0.5em;
   border-left: 4px solid #333;
-  /*color: #444;*/
-  font-weight: bold;
-  /*font-size: 0.8em;*/ }
+  font-weight: bold; }
 
 #hidden {
   display: none; }
@@ -418,8 +420,6 @@ a.prev, a.next {
 .center {
   text-align: center; }
 
-/* Project styles
- */
 .project_content {
   /*color: #FFFFFF;*/
   background-color: #E2E2E2;
@@ -453,9 +453,6 @@ a.prev, a.next {
   padding-left: 20px;
   padding-bottom: 3px; }
 
-/**
- * Media Queries
- */
 @media (min-width: 1200px) {
   .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
     width: 850px;
@@ -485,23 +482,16 @@ a.prev, a.next {
   #searchInput {
     margin-left: 1em;
     width: 70%; } }
-@media (max-width: 767px) {
+@media (max-width: 540px) {
   body {
-    padding: 0 1em 0 1em; }
+    padding: 0 0 0 0; }
 
-  .navigation {
-    margin-top: 0em; }
-
-  .navigation ul {
-    margin: 0; }
+  .page-content {
+    padding: 0px 10px 0px 10px; }
 
   ul, ol {
     padding: 0;
     margin: 5px 0 10px 25px; }
-
-  .navigation li a {
-    padding: 0.25em 0.25em 0.25em 0.25em;
-    margin: 0 0.25em 0 0.25em; }
 
   #searchInput {
     margin-left: 1em;

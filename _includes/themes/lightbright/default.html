@@ -44,11 +44,19 @@
     <div class="page-container container">
         <div class="navbar navbar-inverse navigation">
             <ul class="navbuttons clearfix no-bullet">
-                <li><a href="{{ HOME_PATH }}"><span data-icon="&#xe002;"></span> Home</a></li>
-                <li class="sideBorders pull-right">
-                    <a href="/about.html"><span data-icon="&#xe016;"></span> About</a>
-                    <a href="/projects.html"><span data-icon="&#xe0a9;"></span> Projects</a>
-                    <a href="" id="searchButton"><span data-icon="&#xe07f;"></span> Search</a>
+                <li id="wrapper">
+                        <div id="one">
+                            <a id="homenav" href="{{ HOME_PATH }}"><span data-icon="&#xe002;"></span> Home</a>
+                        </div>
+                        <div id="two">
+                            <a id="aboutnav" href="/about.html"><span data-icon="&#xe016;"></span> About</a>
+                        </div>
+                        <div id="three">
+                            <a id="projectnav" href="/projects.html"><span data-icon="&#xe0a9;"></span> Projects</a>
+                        </div>
+                        <div>
+                            <a href="" id="searchButton"><span data-icon="&#xe07f;"></span> Search</a>
+                        </div>
                 </li>
             </ul>
         </div>
