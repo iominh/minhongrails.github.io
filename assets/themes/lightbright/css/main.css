@@ -43,6 +43,8 @@
 @media (max-width: 540px) {
   .navigation ul li {
     text-align: center; }
+  .navigation li a {
+    padding: 0.8em; }
   .navigation #wrapper {
     display: table;
     table-layout: fixed;
@@ -63,6 +65,9 @@ body {
 
 .hidden {
   visibility: none; }
+
+.center {
+  text-align: center; }
 
 h1 {
   font-size: 1.6em; }
