@@ -558,6 +558,23 @@ a.prev, a.next {
 	padding-bottom: 3px;
 }
 
+
+.spotifyPlayer {
+	height: 400px;
+	margin: 0 auto;
+	width: 400px;
+	display: block;
+}
+
+.youtubePlayer {
+	height: 400px;
+	width: 400px;
+}
+
+#searchButton, #projectnav, #aboutnav  {
+	float: left;
+}
+
 // media queries
 @media (min-width: 1200px) {
 	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
@@ -566,17 +583,11 @@ a.prev, a.next {
 	}
 
 	.spotifyPlayer {
-		//		height: 400px;
-		margin: 0 auto;
 		width: 800px;
-		display: block;
 	}
 
 	.youtubePlayer {
-		height: 500px;
-		margin: 0 auto;
 		width: 800px;
-		display: block;
 	}
 
 }
@@ -597,6 +608,20 @@ a.prev, a.next {
 		width: 640px;
 		height: 360px;
 	}
+
+	.spotifyPlayer {
+		width: 650px;
+		height: 650px;
+	}
+
+	.youtubePlayer {
+		width: 650px;
+		height: 650px;
+	}
+
+	#searchButton, #projectnav, #aboutnav  {
+		float: right;
+	}
 }
 
 // tablet
@@ -605,6 +630,7 @@ a.prev, a.next {
 		margin-left: 1em;
 		width: 70%;
 	}
+
 }
 
 // iphone / smartphone
@@ -625,18 +651,6 @@ a.prev, a.next {
 	#searchInput {
 		margin-left: 1em;
 		width: 80%;
-	}
-
-	.spotifyPlayer {
-		height: 600px;
-		margin: 0 auto;
-		width: 400px;
-		display: block;
-	}
-
-	.youtubePlayer {
-		height: 500px;
-		width: 600px;
 	}
 
 	h1 {
