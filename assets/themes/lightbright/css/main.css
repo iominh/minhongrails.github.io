@@ -481,7 +481,7 @@ a.prev, a.next {
     width: 800px; }
 
   .youtubePlayer {
-    width: 800px; } }
+    width: 500px; } }
 @media (min-width: 1100px) {
   a.prev, a.next {
     display: block; }
@@ -498,8 +498,8 @@ a.prev, a.next {
     height: 650px; }
 
   .youtubePlayer {
-    width: 650px;
-    height: 650px; }
+    width: 450px;
+    height: 450px; }
 
   #searchButton, #projectnav, #aboutnav {
     float: right; } }
