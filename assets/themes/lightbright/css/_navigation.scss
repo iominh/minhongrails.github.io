@@ -1,106 +1,140 @@
 @import 'variables';
 
 .navbar {
-	background-color: $navigation-color;
-	padding: 0 20 0 20;
+  background-color: $navigation-color;
+  padding: 0 20 0 20;
 }
 
 .navbar .nav {
-	float: right;
+  float: right;
 }
 
 .navigation ul {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .navigation {
-	border-top: 4px solid #333333;
-	border-bottom: 1px solid $primary-border-color;
+  border-top: 4px solid #333333;
+  border-bottom: 1px solid $primary-border-color;
 }
 
 .navigation ul {
 }
 
 .sideBorders a {
-	//	border-left: 1px solid $primary-border-color;
-	//	border-right: 1px solid $primary-border-color;
+  //	border-left: 1px solid $primary-border-color;
+  //	border-right: 1px solid $primary-border-color;
 }
 
 .navigation li a {
-	font-family: "Bebas Neue";
-	font-size: 1.15em;
-	color: $navigation-font-color;
-	line-height: 1;
-	padding: 1.1em;
-	text-decoration: none;
-	float: left;
+  font-family: "Bebas Neue";
+  font-size: 1.15em;
+  color: $navigation-font-color;
+  line-height: 1;
+  padding: 1.1em;
+  text-decoration: none;
+  float: left;
+
+  @include bp(sm) {
+    padding: 0.75em;
+  }
 }
 
 .navright {
-	float: right;
+  float: right;
 }
 
 .navigation li a:hover {
-	text-decoration: none;
-	font-size: 1.15em;
-	//	color: $primary-link-color;
-	//	background-color: #e5e5e5;
-	@include transition(all 10ms ease-in-out);
-	//	@include boxshadow(inset 0 0 100px #e5e5e5);
-	@include boxshadowMultiple(inset 0 -0px 0 $gray, inset 0 0 50px #ebebeb);
+  text-decoration: none;
+  font-size: 1.15em;
+  //	color: $primary-link-color;
+  //	background-color: #e5e5e5;
+  @include transition(all 10ms ease-in-out);
+  //	@include boxshadow(inset 0 0 100px #e5e5e5);
+  @include boxshadowMultiple(inset 0 -0px 0 $gray, inset 0 0 50px #ebebeb);
 }
 
 .right-buttons {
-	float: right;
+  float: right;
 }
+
+//#wrapper {
+//  display: table;
+//  table-layout: fixed;
+//  width: 100%;
+//  height: 80px;
+//
+//  div {
+//    display: table-cell;
+//    height: 80px;
+//  }
+//
+//  @include bp(sm) {
+//    height: 50px;
+//
+//    div {
+//      height: 50px;
+//    }
+//  }
+//
+//  @include bp(xs) {
+//
+//    height: 50px;
+//
+//    div {
+//      height: 50px;
+//    }
+//  }
+//
+//}
 
 // iphone / smartphone
 @media (max-width: $small-width) {
-	.navigation {
+  .navigation {
 
-		ul {
-		}
+    ul {
+    }
 
-		ul li {
-			text-align: center;
-		}
+    ul li {
+      text-align: center;
+    }
 
-		li a {
-			padding: 0.8em;
-//			border: 1px solid #eeeeee;
-//			padding: 0.7em;
-			//			float: left;
-			//			padding: 0.5em;
-//			margin: 0 0.25em 0 0.25em;
-		}
+//    li a {
+//      padding: 0.8em;
+//      //			border: 1px solid #eeeeee;
+//      //			padding: 0.7em;
+//      //			float: left;
+//      //			padding: 0.5em;
+//      //			margin: 0 0.25em 0 0.25em;
+//    }
 
-		#wrapper {
-			display: table;
-			table-layout: fixed;
-			width:100%;
-			height:100px;
-		}
-		#wrapper div {
-			display: table-cell;
-			height:100px;
-		}
-	}
+    #wrapper {
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+      height: 80px;
+    }
+    #wrapper div {
+      display: table-cell;
+      height: 80px;
+    }
+  }
 
-	.right-buttons {
-		float: none;
-	}
+  .right-buttons {
+    float: none;
+  }
 
-	//	.navbar li {
-	//		top: auto;
-	//		width: 50%;
-	//		height: 45px;
-	//		line-height: 47px;
-	//		display: inline-block;
-	//		float: left;
-	//		padding: 0;
-	//		position: relative;
-	//		margin: 0;
-	//	}
+  //	.navbar li {
+  //		top: auto;
+  //		width: 50%;
+  //		height: 45px;
+  //		line-height: 47px;
+  //		display: inline-block;
+  //		float: left;
+  //		padding: 0;
+  //		position: relative;
+  //		margin: 0;
+  //	}
 
 }

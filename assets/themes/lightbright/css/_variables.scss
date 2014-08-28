@@ -15,35 +15,65 @@ $navigation-color: $white;
 $navigation-font-color: $primary-font-color;
 
 $small2-width: 767px;
-$small-width: 540px; // 480
+$small-width: 584px;
+// 480, 540
+
+$lg: 1200px;
+$md: 992px;
+$sm: 768px;
+$xs: 480px;
 
 // old border color: #1f1f22 #e6e6e6
 
 @mixin transition($transition) {
-	-webkit-transition: $transition;
-	-moz-transition: $transition;
-	-ms-transition: $transition;
-	-o-transition: $transition;
-	transition: $transition;
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
 }
 
 @mixin transform($transform) {
-	-webkit-transform: $transform;
-	-moz-transform: $transform;
-	-ms-transform: $transform;
-	-o-transform: $transform;
-	transform: $transform;
+  -webkit-transform: $transform;
+  -moz-transform: $transform;
+  -ms-transform: $transform;
+  -o-transform: $transform;
+  transform: $transform;
 }
 
 //0 1px 1px 0 rgba(0,0,0,0.25);
 @mixin boxshadow($shadow) {
-	-webkit-box-shadow: $shadow;
-	-moz-box-shadow: $shadow;
-	box-shadow:$shadow;
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
 }
 
 @mixin boxshadowMultiple($shadow1, $shadow2) {
-	-webkit-box-shadow: $shadow1, $shadow2;
-	-moz-box-shadow: $shadow1, $shadow2;
-	box-shadow: $shadow1, $shadow2;
+  -webkit-box-shadow: $shadow1, $shadow2;
+  -moz-box-shadow: $shadow1, $shadow2;
+  box-shadow: $shadow1, $shadow2;
+}
+
+@mixin bp($point) {
+  @if $point == lg {
+    @media (max-width: $lg) {
+      @content;
+    }
+  } @else if $point == md {
+    @media (max-width: $md) {
+      @content;
+    }
+  } @else if $point == sm {
+    @media (max-width: $sm) {
+      @content;
+    }
+  } @else if $point == xs {
+    @media (max-width: $xs) {
+      @content;
+    }
+  } @else {
+    @media (max-width: $point) {
+      @content
+    }
+  }
 }

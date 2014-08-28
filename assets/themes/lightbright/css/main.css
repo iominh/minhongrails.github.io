@@ -21,6 +21,9 @@
   padding: 1.1em;
   text-decoration: none;
   float: left; }
+  @media (max-width: 768px) {
+    .navigation li a {
+      padding: 0.75em; } }
 
 .navright {
   float: right; }
@@ -40,19 +43,17 @@
 .right-buttons {
   float: right; }
 
-@media (max-width: 540px) {
+@media (max-width: 584px) {
   .navigation ul li {
     text-align: center; }
-  .navigation li a {
-    padding: 0.8em; }
   .navigation #wrapper {
     display: table;
     table-layout: fixed;
     width: 100%;
-    height: 100px; }
+    height: 80px; }
   .navigation #wrapper div {
     display: table-cell;
-    height: 100px; }
+    height: 80px; }
 
   .right-buttons {
     float: none; } }
@@ -505,8 +506,8 @@ a.prev, a.next {
 @media (min-width: 768px) and (max-width: 979px) {
   #searchInput {
     margin-left: 1em;
-    width: 70%; } }
-@media (max-width: 540px) {
+    width: 85%; } }
+@media (max-width: 584px) {
   body {
     padding: 0 0 0 0; }
 
