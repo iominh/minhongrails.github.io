@@ -75,6 +75,9 @@ body {
 
 h1 {
   font: 1.6em NewRegular,Courier; }
+  @media (max-width: 480px) {
+    h1 {
+      font: 1.3em NewRegular,Courier; } }
 
 body a:hover {
   font-color: #307ea9;
@@ -158,6 +161,9 @@ pre {
   -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25); }
+  @media (max-width: 480px) {
+    .container .container {
+      /*width: 1020px;*/ } }
 
 .container-narrow {
   margin: 0 auto;
@@ -402,7 +408,7 @@ pre {
   display: none; }
 
 #searchInput {
-  width: 90%; }
+  width: 85%; }
 
 .tableLeft {
   width: 30%; }
@@ -476,9 +482,8 @@ a.prev, a.next {
   float: left; }
 
 @media (min-width: 1200px) {
-  .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
-    width: 850px;
-    /*width: 1020px;*/ }
+  .container {
+    width: 775px; }
 
   .spotifyPlayer {
     width: 800px; }
@@ -523,9 +528,6 @@ a.prev, a.next {
 
   #searchInput {
     margin-left: 1em;
-    width: 80%; }
-
-  h1 {
-    font-size: 1.75em; } }
+    width: 80%; } }
 i.icon-search:hover {
   color: #333333; }
