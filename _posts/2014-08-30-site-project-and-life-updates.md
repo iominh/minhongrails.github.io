@@ -32,7 +32,8 @@ that developing a site like [Timely](http://www.timely.es) will help me find mor
 
 For whatever reason, I've been really liking Attack on Titan recently, watching it multiple times (mostly in the
 background as I do other stuff); despite being quite dark and disturbing at times, it equally has some amazing scenes
-and interesting characters. I also really like its soundtrack:
+and interesting characters. I think I primarily like it because of its characters, visuals, and its setting in a medieval world
+ where humans are not at the top of the food chain. I also really like its soundtrack:
 
 <iframe class="youtubePlayer" src="//www.youtube.com/embed/XMXgHfHxKVM?list=PLYX-9Ms9JaMUYOSmIhjfveXrZjZioJUCs" frameborder="0" allowfullscreen></iframe>
 
