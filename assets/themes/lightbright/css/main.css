@@ -59,10 +59,13 @@
     float: none; } }
 body {
   background-color: #eeeeee;
-  font-size: 1.2em;
-  font-family: "ff-tisa-web-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.3em;
   font-weight: 400;
-  line-height: 140%; }
+  line-height: 140%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.02em; }
 
 .hidden {
   visibility: none; }
@@ -71,7 +74,7 @@ body {
   text-align: center; }
 
 h1 {
-  font-size: 1.6em; }
+  font: 1.6em NewRegular,Courier; }
 
 body a:hover {
   font-color: #307ea9;
