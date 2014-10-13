@@ -12,7 +12,7 @@ body {
   background-color: $background-color;
   //    background-image: url('/assets/img/binary.png');
 
-  font-size: 1.2em;
+  font-size: $font-size;
   //	font-family: "ff-tisa-web-pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: 400;
   line-height: 140%;
@@ -135,6 +135,11 @@ a.next {
 
 footer {
   border-bottom: 4px solid #333333;
+  font-size: 0.7em;
+
+  @include bp(sm) {
+    font-size: $font-size;
+  }
 }
 
 footer a {
