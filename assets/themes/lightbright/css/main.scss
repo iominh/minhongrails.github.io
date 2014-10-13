@@ -24,6 +24,10 @@ body {
   //  letter-spacing: -0.02em;
 }
 
+.float-right {
+  float: right;
+}
+
 .hidden {
   visibility: none;
 }
@@ -148,6 +152,16 @@ pre {
 
 .page-content {
   padding: 0px 30px 0px 30px;
+}
+
+.page-header {
+  h1 {
+    text-align: center;
+
+    @include bp(xs) {
+      text-align: left;
+    }
+  }
 }
 
 .container {
