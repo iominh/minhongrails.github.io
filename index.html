@@ -5,7 +5,7 @@ title: Minh Nguyen
 
 <div class="row-fluid">
     <div class="span12">
-            <p>I'm a full stack software developer and enthusiast of things.</p>
+            <p>I'm a software developer and enthusiast of things.</p>
         <h3>Posts</h3>
 
         <section id="content">
@@ -15,7 +15,7 @@ title: Minh Nguyen
 
                     {% for post in site.posts %}
                     <tr class="cursorHand" onclick='document.location = "{{ BASE_PATH }}{{ post.url }}";'>
-                        <td><a title="{{post.title}}" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></td>
+                        <td class=""><a title="{{post.title}}" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></td>
                         <td class="text-right quiet">{{ post.date | date: "%B %d %Y" }}</td>
                     </tr>
                     {% endfor %}

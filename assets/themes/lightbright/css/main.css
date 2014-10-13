@@ -1,5 +1,5 @@
 .navbar {
-  background-color: white;
+  background-color: #fff;
   padding: 0 20 0 20; }
 
 .navbar .nav {
@@ -16,12 +16,12 @@
 .navigation li a {
   font-family: "Bebas Neue";
   font-size: 1.15em;
-  color: #333333;
+  color: #333;
   line-height: 1;
   padding: 1.1em;
   text-decoration: none;
   float: left; }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     .navigation li a {
       padding: 0.75em; } }
 
@@ -58,14 +58,13 @@
   .right-buttons {
     float: none; } }
 body {
-  background-color: #eeeeee;
-  font-size: 1.3em;
+  background-color: #eee;
+  font-size: 1.2em;
   font-weight: 400;
   line-height: 140%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  letter-spacing: -0.02em; }
+  -moz-osx-font-smoothing: grayscale; }
 
 .hidden {
   visibility: none; }
@@ -73,14 +72,27 @@ body {
 .center {
   text-align: center; }
 
+.uncolor {
+  text-decoration: none;
+  color: #333333; }
+  .uncolor a {
+    color: #333333; }
+
+.truncate {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
 h1 {
-  font: 1.6em NewRegular,Courier; }
-  @media (max-width: 480px) {
+  font-weight: 700;
+  font: 1.3em NewRegular, Courier; }
+  @media (min-width: 768px) {
     h1 {
-      font: 1.3em NewRegular,Courier; } }
+      font: 1.5em NewRegular, Courier; } }
 
 body a:hover {
-  font-color: #307ea9;
+  font-color: #307EA9;
   text-decoration: underline; }
 
 p {
@@ -92,14 +104,14 @@ li {
   line-height: 160%; }
 
 a, a:hover {
-  color: #307ea9; }
+  color: #307EA9; }
 
 a [class^="icon-"], a [class*=" icon-"] {
   color: #33333;
   text-decoration: none; }
 
 a [class^="icon-"]:hover, a [class*=" icon-"]:hover {
-  color: #307ea9;
+  color: #307EA9;
   text-decoration: none; }
 
 a:hover {
@@ -161,7 +173,7 @@ pre {
   -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25); }
-  @media (max-width: 480px) {
+  @media (min-width: 480px) {
     .container .container {
       /*width: 1020px;*/ } }
 
@@ -184,7 +196,7 @@ pre {
   d-webkit-filter: contrast(101%) saturate(101%); }
 
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
-  color: #307ea9; }
+  color: #307EA9; }
 
 .post > h3.title {
   position: relative;
@@ -209,9 +221,6 @@ pre {
   margin: 0;
   overflow: hidden; }
 
-.tag_box li {
-  line-height: 28px; }
-
 .tag_box li i {
   opacity: 0.9; }
 
@@ -232,7 +241,8 @@ pre {
   font-size: 0.8em; }
 
 .tag_box a:hover {
-  background-color: #e5e5e5; }
+  background-color: #e5e5e5;
+  text-decoration: none; }
 
 .tag_box a.active {
   background: #57A957;
@@ -432,6 +442,10 @@ a.prev, a.next {
 .next_mobile {
   float: right; }
 
+::selection {
+  background-color: #2B2B2B;
+  color: #eee; }
+
 .center {
   text-align: center; }
 
@@ -469,27 +483,31 @@ a.prev, a.next {
   padding-bottom: 3px; }
 
 .spotifyPlayer {
-  height: 400px;
-  margin: 0 auto;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   display: block; }
+  @media (min-width: 480px) {
+    .spotifyPlayer {
+      height: 400px;
+      width: 400px; } }
+  @media (min-width: 768px) {
+    .spotifyPlayer {
+      height: 500px; } }
 
 .youtubePlayer {
-  height: 400px;
-  width: 400px; }
+  height: 250px;
+  width: 250px; }
+  @media (min-width: 480px) {
+    .youtubePlayer {
+      height: 350px;
+      width: 350px; } }
 
 #searchButton, #projectnav, #aboutnav {
   float: left; }
 
 @media (min-width: 1200px) {
   .container {
-    width: 775px; }
-
-  .spotifyPlayer {
-    width: 800px; }
-
-  .youtubePlayer {
-    width: 500px; } }
+    width: 775px; } }
 @media (min-width: 1100px) {
   a.prev, a.next {
     display: block; }
@@ -500,14 +518,6 @@ a.prev, a.next {
   .media_video {
     width: 640px;
     height: 360px; }
-
-  .spotifyPlayer {
-    width: 650px;
-    height: 650px; }
-
-  .youtubePlayer {
-    width: 450px;
-    height: 450px; }
 
   #searchButton, #projectnav, #aboutnav {
     float: right; } }
@@ -530,4 +540,6 @@ a.prev, a.next {
     margin-left: 1em;
     width: 80%; } }
 i.icon-search:hover {
-  color: #333333; }
+  color: #333; }
+
+/*# sourceMappingURL=main.css.map */

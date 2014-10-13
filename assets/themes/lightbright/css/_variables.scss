@@ -4,6 +4,7 @@ $lightgray: #e6e6e6;
 $green: #67AD7C;
 $blue: #307EA9;
 $blue2: #2b6cc2;
+$black: #2B2B2B;
 
 $inverse-font-color: #65646a;
 $primary-font-color: #333;
@@ -58,23 +59,23 @@ $xs: 480px;
 
 @mixin bp($point) {
   @if $point == lg {
-    @media (max-width: $lg) {
+    @media (min-width: $lg) {
       @content;
     }
   } @else if $point == md {
-    @media (max-width: $md) {
+    @media (min-width: $md) {
       @content;
     }
   } @else if $point == sm {
-    @media (max-width: $sm) {
+    @media (min-width: $sm) {
       @content;
     }
   } @else if $point == xs {
-    @media (max-width: $xs) {
+    @media (min-width: $xs) {
       @content;
     }
   } @else {
-    @media (max-width: $point) {
+    @media (min-width: $point) {
       @content
     }
   }
