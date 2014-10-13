@@ -8,7 +8,7 @@ tags: [tech]
 {% include JB/setup %}
 
 Recently I've been listening to the lectures from [Sam Altman's (yCombinator) startup classes](http://startupclass.samaltman.com/).
-This post is mostly for myself to re-iterate some of my favorite parts from each of the lectures:
+Here are some of my favorite parts from each of the lectures:
 
 <div class="mSpotlight">Lecture 1 </div>
 

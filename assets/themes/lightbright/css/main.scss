@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'navigation';
+@import 'animations';
 
 body {
   //	background-color: #f7f7f7;
@@ -355,6 +356,10 @@ pre {
 }
 
 .listing {
+
+  @include transition(all 1s ease-in-out);
+  @include transition-delay(1s);
+
   width: 100%;
 
   .left-accent {
@@ -515,10 +520,14 @@ pre {
 }
 
 .mSpotlight {
-  margin: 1.5em 0em 1.5em -0.7em;
+  margin: 1.5em 0em 1.5em -0.2em;
   padding: 0px 0px 0px 0.5em;
   border-left: 4px solid #333;
   font-weight: bold;
+
+  @include bp(xs) {
+    margin: 1.5em 0em 1.5em -0.7em;
+  }
 }
 
 #hidden {
@@ -714,4 +723,3 @@ a.prev, a.next {
 i.icon-search:hover {
   color: $primary-font-color;
 }
-
