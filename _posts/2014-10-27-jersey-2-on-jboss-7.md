@@ -8,8 +8,8 @@ tags: [jersey2, jboss7]
 {% include JB/setup %}
 
 Recently I got an email asking how I deployed Jersey2 on JBoss 7.x (specifically 7.1.1) while still being able to
-access the Jersey resources ([see my Stackoverflow post here](http://stackoverflow.com/questions/21173397/jersey-2-on-jboss-7)).
-The solution that eventually worked for me was to add a jboss-deployment-structure.xml in my
+access Jersey resources ([see my Stackoverflow post here](http://stackoverflow.com/questions/21173397/jersey-2-on-jboss-7)).
+The solution that worked for me was to add a jboss-deployment-structure.xml in my
 app's WEB-INF directory and manually register Jersey resources rather than rely on automatic package scanning:
 
 <br>
