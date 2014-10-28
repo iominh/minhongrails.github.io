@@ -2,8 +2,8 @@
 layout: post
 title: "Startup ideas"
 description: ""
-category: 
-tags: [tech]
+category: tech
+tags: [startup]
 ---
 {% include JB/setup %}
 
@@ -29,11 +29,12 @@ researched any existing solutions.
 For example, I may want to know that there's a meetup, hackathon, or conference near me. Or I may want to know that Y Combinator has an
 upcoming deadline. I don't want to go to 10 sites to keep track of all these events.
 1. There isn't a great solution for finding individual food items. Today I wanted to eat a fish taco and the best
-solution I found was Yelp, which yelped but was based on textual search of reviews. Another solution was [www.foodfinder.net](www.foodfinder.net)
+solution I found was Yelp, which yelped but was based on textual search of reviews. Another solution was [www.foodfinder.net](http://www.foodfinder.net)
 but the results it gave back weren't helpful.
 1. It would be great to have more friends. I mean sure I have some good friends but more friends is better, right?
 1. I wish there was a way to easily monitor my site's performance and appearance across all devices. Web development
 is tough.
+1. I wish there was a way to predict stock market movement to better improve investment returns.
 
 ....
 

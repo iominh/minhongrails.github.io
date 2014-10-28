@@ -2,8 +2,8 @@
 layout: post
 title: "iPhone6 vs HTC M8 vs S5"
 description: ""
-category: phone
-tags: [tech]
+category: tech
+tags: [phone]
 ---
 {% include JB/setup %}
 

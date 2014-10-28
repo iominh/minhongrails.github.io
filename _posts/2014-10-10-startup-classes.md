@@ -2,8 +2,8 @@
 layout: post
 title: "Startup classes"
 description: ""
-category: 
-tags: [tech]
+category: tech
+tags: [startup]
 ---
 {% include JB/setup %}
 
