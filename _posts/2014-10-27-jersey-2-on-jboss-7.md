@@ -12,6 +12,7 @@ access the Jersey resources ([see my Stackoverflow post here](http://stackoverfl
 The solution that eventually worked for me was to add a jboss-deployment-structure.xml in my
 app's WEB-INF directory and manually register Jersey resources rather than rely on automatic package scanning:
 
+<br>
 Here's the jboss-deployment-structure.xml:
 
 <pre class="prettyprint"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
@@ -30,7 +31,7 @@ Here's the jboss-deployment-structure.xml:
     &lt;/deployment&gt;
 &lt;/jboss-deployment-structure&gt;</code></pre>
 
-
+<br>
 Here's a simplified web.xml:
 
 <pre class="prettyprint"><code>&lt;web-app&gt;
@@ -75,8 +76,10 @@ Here's a simplified web.xml:
 &lt;/web-app&gt;
 </code></pre>
 
+<br>
 Here's an implementation of the [javax.ws.rs.Application / ResourceConfig](https://jersey.java.net/apidocs/2.0/jersey/org/glassfish/jersey/server/ResourceConfig.html)
- referenced in the web.xml above:
+ referenced in the web.xml above, where each Jersey resource needs to be manually registered (there's probably a way
+ to make this work automatically, but as shown below the automatic package scanning wasn't working in JBoss...):
 
 <pre class="prettyprint"><code>package io.minh;
 
@@ -86,15 +89,15 @@ public class ApplicationConfig extends ResourceConfig {
 
 	public ApplicationConfig() {
 
-		// package scanning doesn't in Jboss for some reason
-	  // packages( true, "io.minh" );
+		// package scanning doesn't work in Jboss for some reason
+		// packages( true, "io.minh" );
 		register(SomeResource.class);
 	}
 
 }
 </code></pre>
 
-
+<br>
 Lastly, here's the Jersey library I used in my Maven pom.xml:
 
 <pre class="prettyprint"><code>&lt;dependency&gt;
